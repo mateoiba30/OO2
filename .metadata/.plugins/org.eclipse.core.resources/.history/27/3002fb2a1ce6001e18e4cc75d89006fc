@@ -1,0 +1,8 @@
+package ar.edu.unlp.info.oo2.e1_twitter;
+
+public abstract class Posteo {
+	private Posteo origen;
+	
+	public abstract Posteo getOrigen();
+
+}

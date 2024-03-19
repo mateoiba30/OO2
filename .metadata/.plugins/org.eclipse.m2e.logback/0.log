@@ -1,0 +1,542 @@
+2024-03-19 11:19:59,917 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-03-19 11:22:08,134 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://github.com/unlp-info-objetos/oo2-2022/blob/main/oo2_archetype-archetype-0.0.2/oo2_archetype-archetype-0.0.2.jar?raw=true/ar/edu/unlp/info/oo2/objetos-dos/0.0.2/objetos-dos-0.0.2.pom
+2024-03-19 11:22:08,478 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://github.com/unlp-info-objetos/oo2-2022/blob/main/oo2_archetype-archetype-0.0.2/oo2_archetype-archetype-0.0.2.jar?raw=true/ar/edu/unlp/info/oo2/objetos-dos/0.0.2/objetos-dos-0.0.2.pom
+2024-03-19 11:22:09,020 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://github.com/unlp-info-objetos/oo2-2022/blob/main/oo2_archetype-archetype-0.0.2/oo2_archetype-archetype-0.0.2.jar?raw=true/ar/edu/unlp/info/oo2/objetos-dos/0.0.2/objetos-dos-0.0.2.jar
+2024-03-19 11:22:09,295 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://github.com/unlp-info-objetos/oo2-2022/blob/main/oo2_archetype-archetype-0.0.2/oo2_archetype-archetype-0.0.2.jar?raw=true/ar/edu/unlp/info/oo2/objetos-dos/0.0.2/objetos-dos-0.0.2.jar
+2024-03-19 11:23:55,706 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606 [271])
+2024-03-19 11:23:55,713 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606
+2024-03-19 11:23:55,714 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\aether-connector-okhttp-0.17.8.jar
+2024-03-19 11:23:55,715 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\commons-lang3-3.8.1.jar
+2024-03-19 11:23:55,715 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\guice-4.2.2-no_aop.jar
+2024-03-19 11:23:55,716 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\jansi-2.4.0.jar
+2024-03-19 11:23:55,716 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-artifact-3.8.7.jar
+2024-03-19 11:23:55,717 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-builder-support-3.8.7.jar
+2024-03-19 11:23:55,717 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-compat-3.8.7.jar
+2024-03-19 11:23:55,718 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-core-3.8.7.jar
+2024-03-19 11:23:55,718 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-embedder-3.8.7.jar
+2024-03-19 11:23:55,719 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-model-3.8.7.jar
+2024-03-19 11:23:55,719 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-model-builder-3.8.7.jar
+2024-03-19 11:23:55,720 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-plugin-api-3.8.7.jar
+2024-03-19 11:23:55,720 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-repository-metadata-3.8.7.jar
+2024-03-19 11:23:55,720 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-api-1.6.3.jar
+2024-03-19 11:23:55,721 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-connector-basic-1.6.3.jar
+2024-03-19 11:23:55,721 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-impl-1.6.3.jar
+2024-03-19 11:23:55,722 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-provider-3.8.7.jar
+2024-03-19 11:23:55,723 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-spi-1.6.3.jar
+2024-03-19 11:23:55,723 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-transport-wagon-1.6.3.jar
+2024-03-19 11:23:55,724 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-util-1.6.3.jar
+2024-03-19 11:23:55,724 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-settings-3.8.7.jar
+2024-03-19 11:23:55,725 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-settings-builder-3.8.7.jar
+2024-03-19 11:23:55,725 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-shared-utils-3.3.4.jar
+2024-03-19 11:23:55,726 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\okhttp-3.14.1.jar
+2024-03-19 11:23:55,726 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\okio-1.17.3.jar
+2024-03-19 11:23:55,727 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\org.eclipse.sisu.inject-0.3.5.jar
+2024-03-19 11:23:55,727 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2024-03-19 11:23:55,728 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-build-api-0.0.7.jar
+2024-03-19 11:23:55,728 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-cipher-2.0.jar
+2024-03-19 11:23:55,729 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-classworlds-2.6.0.jar
+2024-03-19 11:23:55,729 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-component-annotations-2.1.0.jar
+2024-03-19 11:23:55,730 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-interpolation-1.26.jar
+2024-03-19 11:23:55,730 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-sec-dispatcher-2.0.jar
+2024-03-19 11:23:55,731 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-utils-3.3.1.jar
+2024-03-19 11:23:55,732 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\wagon-file-3.5.3.jar
+2024-03-19 11:23:55,732 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\wagon-provider-api-3.5.3.jar
+2024-03-19 11:23:55,735 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_31.1.0.jre [9])
+2024-03-19 11:23:55,736 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\com.google.guava_31.1.0.jre.jar
+2024-03-19 11:23:55,737 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_1.7.36 [439])
+2024-03-19 11:23:55,739 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\slf4j.api_1.7.36.jar
+2024-03-19 11:23:55,739 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [21])
+2024-03-19 11:23:55,741 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2024-03-19 11:23:55,741 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20221203-1659 [19])
+2024-03-19 11:23:55,744 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\javax.annotation_1.3.5.v20221203-1659.jar
+2024-03-19 11:23:55,744 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.4.0.v20221112-0806 [41])
+2024-03-19 11:23:55,746 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\org.apache.commons.cli_1.4.0.v20221112-0806.jar
+2024-03-19 11:23:55,746 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.1 [11])
+2024-03-19 11:23:55,748 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Mateo\.p2\pool\plugins\com.google.guava.failureaccess_1.0.1.jar
+2024-03-19 11:23:55,758 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Mateo\AppData\Local\Temp\m2e-archetypeGenerator6009084560730611688":
+2024-03-19 11:23:55,764 [Worker-19: Launching mavenrun-1c87df9f-b40e-4a2d-b440-0d0d523c6ffe] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -DarchetypeGroupId=ar.edu.unlp.info.oo2 -DarchetypeArtifactId=objetos-dos -DarchetypeVersion=0.0.2 -DgroupId=ar.edu.unlp.info.oo2 -DartifactId=e1-twitter -Dversion=0.0.1-SNAPSHOT -Dpackage=ar.edu.unlp.info.oo2.e1_twitter -DoutputDirectory="C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2" -Dstyle.color=always -U archetype:generate
+2024-03-19 11:25:25,522 [Worker-15: Creating objetos-dos] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\pom.xml
+2024-03-19 11:25:26,762 [Worker-15: Creating objetos-dos] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ar.edu.unlp.info.oo2:e1-twitter:0.0.1-SNAPSHOT @ C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\pom.xml.
+2024-03-19 11:25:27,396 [Worker-15: Creating objetos-dos] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /e1-twitter/src/main/java
+2024-03-19 11:25:27,398 [Worker-15: Creating objetos-dos] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /e1-twitter/src/test/java
+2024-03-19 11:25:27,398 [Worker-15: Creating objetos-dos] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-11', falling back to workspace default
+2024-03-19 11:25:27,491 [Worker-15: Creating objetos-dos] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2024-03-19 11:25:28,512 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 11:25:28,513 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 11:25:28,519 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 11:25:28,519 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 11:26:23,389 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 11:26:23,390 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 11:26:23,393 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 11:26:23,393 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 11:26:26,818 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 11:26:26,819 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 11:26:26,823 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 11:26:26,823 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 14:57:26,005 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 14:57:26,006 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 14:57:26,009 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 14:57:26,010 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 14:58:51,677 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 14:58:51,678 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 14:58:51,680 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 14:58:51,680 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 14:59:03,863 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 14:59:03,865 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 14:59:03,868 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 14:59:03,869 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 15:07:05,195 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:07:05,195 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 15:07:05,197 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:07:05,198 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 15:07:17,398 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:07:17,398 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 15:07:17,401 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:07:17,401 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 15:08:02,183 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:08:02,184 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 15:08:02,188 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:08:02,188 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 15:08:15,652 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:08:15,652 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 15:08:15,654 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:08:15,654 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 15:11:55,152 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:11:55,152 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 15:11:55,155 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:11:55,155 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 15:12:59,526 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:12:59,527 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 15:12:59,530 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:12:59,530 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 15:13:25,630 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:13:25,630 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 15:13:25,634 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:13:25,634 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 15:13:41,920 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:13:41,921 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 15:13:41,923 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:13:41,923 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 15:13:55,663 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:13:55,664 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 15:13:55,668 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:13:55,668 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 15:15:59,120 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:15:59,120 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 15:15:59,122 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:15:59,123 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 15:16:12,862 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:16:12,863 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 15:16:12,865 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:16:12,866 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 15:17:51,512 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:17:51,512 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 15:17:51,514 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:17:51,515 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 15:18:18,306 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:18:18,307 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 15:18:18,309 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:18:18,309 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 15:19:44,463 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:19:44,463 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 15:19:44,466 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:19:44,466 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 15:20:42,093 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:20:42,093 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 15:20:42,096 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:20:42,097 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 15:20:49,667 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:20:49,668 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 15:20:49,670 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:20:49,670 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 15:21:53,032 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:21:53,032 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 15:21:53,034 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:21:53,035 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 15:24:14,635 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:24:14,636 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 15:24:14,638 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:24:14,638 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 15:30:02,524 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:30:02,525 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 15:30:02,527 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:30:02,527 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 15:31:02,429 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:31:02,430 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 15:31:02,432 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:31:02,432 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 15:45:11,463 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:45:11,463 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 15:45:11,465 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:45:11,466 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 15:46:40,350 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:46:40,350 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 15:46:40,352 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:46:40,353 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 15:52:55,529 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:52:55,529 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 15:52:55,531 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:52:55,531 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 15:58:34,871 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:58:34,871 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 15:58:34,873 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:58:34,874 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 15:59:29,897 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:59:29,898 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 15:59:29,901 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 15:59:29,901 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 16:02:55,599 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 16:02:55,600 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 16:02:55,603 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 16:02:55,603 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 16:03:10,984 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 16:03:10,984 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 16:03:10,987 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 16:03:10,988 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 16:49:54,661 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 16:49:54,662 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 16:49:54,665 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 16:49:54,666 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 16:50:28,328 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 16:50:28,329 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 16:50:28,332 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 16:50:28,333 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 16:51:18,583 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 16:51:18,584 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 16:51:18,587 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 16:51:18,587 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 16:51:31,774 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 16:51:31,774 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 16:51:31,777 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 16:51:31,777 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 16:56:35,794 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 16:56:35,794 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 16:56:35,796 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 16:56:35,797 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 16:57:53,690 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 16:57:53,691 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 16:57:53,693 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 16:57:53,694 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 16:59:40,628 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 16:59:40,629 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 16:59:40,631 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 16:59:40,631 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 17:00:57,838 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:00:57,839 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 17:00:57,841 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:00:57,841 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 17:08:50,544 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:08:50,545 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 17:08:50,547 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:08:50,547 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 17:11:14,727 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:11:14,727 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 17:11:14,729 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:11:14,729 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 17:12:30,889 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:12:30,889 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 17:12:30,892 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:12:30,892 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 17:17:21,119 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:17:21,119 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 17:17:21,121 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:17:21,121 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 17:17:28,029 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:17:28,029 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 17:17:28,031 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:17:28,032 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 17:18:59,348 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:18:59,349 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 17:18:59,352 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:18:59,352 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 17:19:13,164 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:19:13,164 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 17:19:13,166 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:19:13,167 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 17:20:52,439 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:20:52,440 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 17:20:52,443 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:20:52,443 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 17:21:36,525 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:21:36,525 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 17:21:36,527 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:21:36,527 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 17:22:15,116 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:22:15,116 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 17:22:15,119 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:22:15,119 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 17:33:58,553 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:33:58,553 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 17:33:58,556 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:33:58,556 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 17:37:41,498 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:37:41,499 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 17:37:41,501 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:37:41,501 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 17:37:49,693 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:37:49,693 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 17:37:49,695 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:37:49,695 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 17:38:46,308 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:38:46,309 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 17:38:46,311 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:38:46,311 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 17:38:58,359 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:38:58,359 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 17:38:58,361 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:38:58,361 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 17:39:23,581 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:39:23,582 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 17:39:23,584 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:39:23,584 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 17:41:47,482 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:41:47,483 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 17:41:47,484 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:41:47,485 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 17:42:43,275 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:42:43,276 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 17:42:43,278 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:42:43,278 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 17:56:03,841 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:56:03,841 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 17:56:03,843 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:56:03,843 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 17:56:38,088 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:56:38,089 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 17:56:38,091 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:56:38,091 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 17:57:33,148 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:57:33,148 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 17:57:33,150 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 17:57:33,150 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 18:00:48,894 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:00:48,894 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 18:00:48,896 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:00:48,896 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 18:00:59,682 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:00:59,682 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 18:00:59,684 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:00:59,685 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 18:04:05,512 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:04:05,512 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 18:04:05,514 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:04:05,515 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 18:05:14,057 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:05:14,057 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 18:05:14,059 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:05:14,059 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 18:20:42,952 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:20:42,952 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 18:20:42,954 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:20:42,954 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 18:21:06,719 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:21:06,719 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 18:21:06,722 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:21:06,722 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 18:22:16,883 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:22:16,883 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 18:22:16,885 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:22:16,885 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 18:22:22,011 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:22:22,012 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 18:22:22,013 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:22:22,014 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 18:23:04,795 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:23:04,795 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 18:23:04,797 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:23:04,798 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 18:30:24,460 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:30:24,461 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 18:30:24,463 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:30:24,463 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 18:31:40,037 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:31:40,037 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 18:31:40,039 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:31:40,039 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 18:34:20,972 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:34:20,972 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 18:34:20,974 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:34:20,974 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 18:34:25,171 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:34:25,171 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 18:34:25,173 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:34:25,173 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 18:37:46,885 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:37:46,885 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 18:37:46,887 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:37:46,887 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 18:37:57,834 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:37:57,834 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 18:37:57,836 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:37:57,836 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 18:41:29,592 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:41:29,593 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 18:41:29,595 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:41:29,595 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 18:41:58,183 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:41:58,183 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 18:41:58,186 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:41:58,186 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 18:42:29,339 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:42:29,339 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 18:42:29,341 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:42:29,342 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 18:42:56,587 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:42:56,588 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 18:42:56,590 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:42:56,590 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 18:43:36,335 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:43:36,335 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 18:43:36,337 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:43:36,337 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 18:43:57,266 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:43:57,267 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 18:43:57,268 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:43:57,269 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 18:44:06,206 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:44:06,207 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 18:44:06,208 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:44:06,208 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 18:55:21,163 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:55:21,164 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 18:55:21,166 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:55:21,166 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 18:55:59,949 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:55:59,949 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 18:55:59,951 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:55:59,952 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 18:57:07,277 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:57:07,277 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 18:57:07,279 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:57:07,279 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 18:59:08,467 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:59:08,467 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 18:59:08,469 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:59:08,469 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 18:59:49,945 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:59:49,945 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 18:59:49,947 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 18:59:49,947 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 19:00:14,568 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:00:14,568 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 19:00:14,570 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:00:14,570 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 19:00:57,671 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:00:57,672 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 19:00:57,674 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:00:57,674 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 19:03:16,458 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:03:16,459 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 19:03:16,461 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:03:16,461 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 19:03:17,544 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:03:17,545 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 19:03:17,546 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:03:17,547 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 19:04:34,959 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:04:34,959 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 19:04:34,961 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:04:34,962 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 19:04:42,780 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:04:42,780 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 19:04:42,782 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:04:42,782 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 19:05:19,258 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:05:19,258 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\main\resources
+2024-03-19 19:05:19,260 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:05:19,260 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e1-twitter\src\test\resources
+2024-03-19 19:26:45,456 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/ar/edu/unlp/info/oo2/objetos-dos/0.0.2/objetos-dos-0.0.2.pom
+2024-03-19 19:26:45,459 [ModalContext] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for ar.edu.unlp.info.oo2:objetos-dos:jar:0.0.2 is missing, no dependency information available
+2024-03-19 19:26:45,645 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/ar/edu/unlp/info/oo2/objetos-dos/0.0.2/objetos-dos-0.0.2.jar
+2024-03-19 19:27:00,746 [Worker-130: Launching mavenrun-b67b3f5f-8909-4f79-860a-8b62369a9369] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Mateo\AppData\Local\Temp\m2e-archetypeGenerator1117671752706971809":
+2024-03-19 19:27:00,747 [Worker-130: Launching mavenrun-b67b3f5f-8909-4f79-860a-8b62369a9369] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -DarchetypeGroupId=ar.edu.unlp.info.oo2 -DarchetypeArtifactId=objetos-dos -DarchetypeVersion=0.0.2 -DgroupId=ar.edu.unlp.info.oo2 -DartifactId=e2-PPTijera -Dversion=0.0.1-SNAPSHOT -Dpackage=ar.edu.unlp.info.oo2.e2_PPTijera -DoutputDirectory="C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2" -Dstyle.color=always -U archetype:generate
+2024-03-19 19:27:09,169 [Worker-136: Creating objetos-dos] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\pom.xml
+2024-03-19 19:27:09,284 [Worker-136: Creating objetos-dos] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ar.edu.unlp.info.oo2:e2-PPTijera:0.0.1-SNAPSHOT @ C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\pom.xml.
+2024-03-19 19:27:09,386 [Worker-136: Creating objetos-dos] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /e2-PPTijera/src/main/java
+2024-03-19 19:27:09,387 [Worker-136: Creating objetos-dos] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /e2-PPTijera/src/test/java
+2024-03-19 19:27:09,388 [Worker-136: Creating objetos-dos] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-11', falling back to workspace default
+2024-03-19 19:27:09,446 [Worker-136: Creating objetos-dos] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2024-03-19 19:27:09,656 [Worker-139: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:27:09,657 [Worker-139: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\main\resources
+2024-03-19 19:27:09,661 [Worker-139: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:27:09,662 [Worker-139: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\test\resources
+2024-03-19 19:27:10,789 [Worker-136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:27:10,789 [Worker-136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\main\resources
+2024-03-19 19:27:10,792 [Worker-136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:27:10,792 [Worker-136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\test\resources
+2024-03-19 19:27:24,293 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:27:24,293 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\main\resources
+2024-03-19 19:27:24,295 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:27:24,296 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\test\resources
+2024-03-19 19:27:27,384 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:27:27,384 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\main\resources
+2024-03-19 19:27:27,387 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:27:27,388 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\test\resources
+2024-03-19 19:29:24,035 [Worker-136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:29:24,036 [Worker-136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\main\resources
+2024-03-19 19:29:24,038 [Worker-136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:29:24,038 [Worker-136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\test\resources
+2024-03-19 19:30:09,905 [Worker-142: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:30:09,905 [Worker-142: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\main\resources
+2024-03-19 19:30:09,907 [Worker-142: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:30:09,907 [Worker-142: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\test\resources
+2024-03-19 19:30:21,055 [Worker-136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:30:21,056 [Worker-136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\main\resources
+2024-03-19 19:30:21,058 [Worker-136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:30:21,058 [Worker-136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\test\resources
+2024-03-19 19:31:10,970 [Worker-140: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:31:10,971 [Worker-140: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\main\resources
+2024-03-19 19:31:10,973 [Worker-140: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:31:10,973 [Worker-140: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\test\resources
+2024-03-19 19:31:24,865 [Worker-136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:31:24,865 [Worker-136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\main\resources
+2024-03-19 19:31:24,868 [Worker-136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:31:24,869 [Worker-136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\test\resources
+2024-03-19 19:31:42,394 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:31:42,395 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\main\resources
+2024-03-19 19:31:42,397 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:31:42,397 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\test\resources
+2024-03-19 19:31:53,440 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:31:53,440 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\main\resources
+2024-03-19 19:31:53,443 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:31:53,443 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\test\resources
+2024-03-19 19:33:14,741 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:33:14,741 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\main\resources
+2024-03-19 19:33:14,743 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:33:14,744 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\test\resources
+2024-03-19 19:34:17,530 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:34:17,530 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\main\resources
+2024-03-19 19:34:17,533 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:34:17,533 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\test\resources
+2024-03-19 19:35:19,447 [Worker-143: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:35:19,448 [Worker-143: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\main\resources
+2024-03-19 19:35:19,450 [Worker-143: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:35:19,450 [Worker-143: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\test\resources
+2024-03-19 19:35:31,128 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:35:31,129 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\main\resources
+2024-03-19 19:35:31,131 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:35:31,132 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\test\resources
+2024-03-19 19:36:02,790 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:36:02,790 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\main\resources
+2024-03-19 19:36:02,792 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:36:02,792 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\test\resources
+2024-03-19 19:36:19,445 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:36:19,446 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\main\resources
+2024-03-19 19:36:19,448 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:36:19,448 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\test\resources
+2024-03-19 19:36:36,397 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:36:36,398 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\main\resources
+2024-03-19 19:36:36,400 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:36:36,400 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\test\resources
+2024-03-19 19:37:26,867 [Worker-143: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:37:26,867 [Worker-143: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\main\resources
+2024-03-19 19:37:26,869 [Worker-143: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:37:26,869 [Worker-143: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\test\resources
+2024-03-19 19:37:33,715 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:37:33,715 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\main\resources
+2024-03-19 19:37:33,717 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:37:33,717 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\test\resources
+2024-03-19 19:38:11,392 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:38:11,392 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\main\resources
+2024-03-19 19:38:11,394 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 19:38:11,395 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera\src\test\resources

@@ -1,0 +1,22 @@
+package ar.edu.unlp.info.oo2.e1_twitter;
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import java.util.ArrayList;
+import java.util.List;
+
+public class TestTwitter {
+	Twitter twitter;
+	Usuario usuario1;
+	Usuario usuario2;
+	Usuario usuario3;
+	
+	@BeforeEach
+	void setup() {
+		this.twitter = new Twitter();
+		usuario1 = twitter.agregarUsuario("Mateo");
+		usuario2 = twitter.agregarUsuario("Juan");
+		usuario3 = twitter.agregarUsuario("Pepe");
+	}
+
+}

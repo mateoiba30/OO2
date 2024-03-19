@@ -1,0 +1,58 @@
+package ar.edu.unlp.info.oo2.e1_twitter;
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import java.util.ArrayList;
+import java.util.List;
+
+public class TestUsuario {
+	
+	Usuario usuario;
+	Usuario usuario2;
+	Posteo tweet;
+	Posteo retweet;
+	Posteo retweetAjeno1;
+	Posteo tweetAjeno1;
+	Posteo retweetAjeno2;
+	Posteo tweetAjeno2;
+	Posteo retweetAjeno3;
+	Posteo tweetAjeno3;
+	List<Posteo> listaPosteos;
+	
+	@BeforeEach
+	void setup() {
+		usuario = new Usuario("Mateo");
+		tweet = usuario.tweetear("1er tweet");
+		retweet = usuario.retweetear(tweet);
+		listaPosteos = new ArrayList<>();
+	}
+	
+	@Test
+	void testPostear() {
+		assertEquals(usuario.getPosteos().size(), 2);
+	}
+
+	@Test
+	void testEsIgual() {
+		assertTrue(usuario.esIgual("Mateo"));
+		assertFalse(usuario.esIgual("Mateo "));
+	}
+	
+	@Test
+	void testGetPosteosRelacionados() {
+		tweetAjeno1 = usuario2.tweetear("Este es nu tweet de otro usuario");
+		listaPosteos.add(tweetAjeno1);
+		retweetAjeno1 = usuario.retweetear(tweetAjeno1);
+		
+		tweetAjeno2 = usuario2.tweetear("Este es nu tweet de otro usuario");
+		listaPosteos.add(tweetAjeno2);
+		retweetAjeno2 = usuario.retweetear(tweetAjeno2);
+		
+		tweetAjeno3 = usuario2.tweetear("Este es nu tweet de otro usuario");
+		listaPosteos.add(tweetAjeno3);
+		retweetAjeno3 = usuario.retweetear(tweetAjeno3);
+		
+		
+		assertEquals(usuario.getPosteosRelacionados(listaPosteos).size(), 3);
+	}
+}

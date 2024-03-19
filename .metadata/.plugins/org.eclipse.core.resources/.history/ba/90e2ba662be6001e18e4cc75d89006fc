@@ -1,0 +1,24 @@
+package ar.edu.unlp.info.oo2.e1_twitter;
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+public class TestUsuario {
+	
+	Usuario usuario;
+	Posteo tweet;
+	Posteo retweet;
+	
+	@BeforeEach
+	void setup() {
+		usuario = new Usuario("Mateo");
+		tweet = usuario.tweetear("1er tweet");
+		retweet = usuario.retweetear(tweet);
+	}
+	
+	@Test
+	void testPostear() {
+		assertEquals(usuario.getPosteos().size(), 2);
+	}
+
+}
