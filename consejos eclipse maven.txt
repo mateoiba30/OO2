@@ -1,0 +1,18 @@
+ante errores raros googlear
+
+si hay error al llegar a una ruta en el pom: hacer click derecho en el proyecto, Maven, Update Maven
+
+en src se tienen los archivos con los códigos que me importan
+
+en pom tengo un archivo que me permite interactuar con maven
+
+si me anda mal una carpeta en eclipse, desde dosumentos crear una nueva carpeta y agregarle el pom + src, luego borrar la carpeta vieja, desde eclipse importar un proyecto maven existente y elegir la nueva carpeta que solo tiene src y pom
+(antes de crear el proyecto maven completo desde eclipse, esta nueva carpeta no debe el .settings ni .claspath ni el .project ni la carpeta target, esos son los que creo desde eclipse)
+
+cuando creo una carpeta de trabajo en eclipse estoy modificando el archivo .metadata, que es quien indica que abrir y que no al eclipse
+
+siempre crear proyectos maven en la misma carpeta (en este caso OO1), luego se va a crear una nueva carpeta dentro de esta misma
+
+siempre iniciar el eclipse desde OO1, que este va a ser el denominado workspace
+
+para crear los getters y setters hacer click derecho dentro de la clase, source, crear getters y setters, seleccionar las variables que quiero

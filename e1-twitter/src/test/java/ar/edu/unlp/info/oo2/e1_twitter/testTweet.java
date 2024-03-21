@@ -25,10 +25,10 @@ public class testTweet {
 	
 	@Test
 	void testRecortar() {
-		assertEquals(tweetLargo.getTexto().length(), 280);
-		assertEquals(tweet280.getTexto().length(), 280);
-		assertEquals(tweetNormal.getTexto().length(), 4);
-		assertEquals(tweetCorto.getTexto().length(), 1);
+		assertEquals(tweetLargo.getTextoLength(), 280);
+		assertEquals(tweet280.getTextoLength(), 280);
+		assertEquals(tweetNormal.getTextoLength(), 4);
+		assertEquals(tweetCorto.getTextoLength(), 1);
 	}
 	
 }

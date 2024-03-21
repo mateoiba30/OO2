@@ -40,24 +40,21 @@ public class Twitter {
 		this.usuarios.remove(usuarioAEliminar); 
 	}
 	
-	private void eliminarRecursivo(List<Posteo> posteos) {
-		for(Usuario usuario: usuarios) {
-			String nombre = usuario.getNombre();//pa debuguear
-			List<Posteo> posteosRelacionados = new ArrayList<>();
-			posteosRelacionados = usuario.getPosteosRelacionados(posteos);
-			int tamanio = posteosRelacionados.size();//lo declaro así pa debuguear
-			if(tamanio!=0)//hay que poner un caso base
-				eliminarRecursivo(posteosRelacionados); //en cada recursión solo avanzo 1 nivel de retweeteo
-			usuario.eliminarPosteosRelacionados(posteosRelacionados);
-		}
-		
+	private void eliminarRecursivo(List<Posteo> origenes) {
+		this.usuarios.forEach( usuario -> {
+			List<Posteo> posteosRelacionados = usuario.getPosteosRelacionados(origenes);
+			
+			if(usuario.getPosteosRelacionadosSize(origenes)!=0)
+				eliminarRecursivo(posteosRelacionados);
+			usuario.eliminarPosteosRelacionados(origenes); // elimina los relacionados de este nivel
+		});
 	}
 	
 	private Usuario buscarUsuario(String screenName) {
 		return this.usuarios.stream().filter(u -> u.esIgual(screenName)).findFirst().orElse(null);
 	}
 	
-	public List<Usuario> getUsuarios(){
-		return this.usuarios;
+	public int getUsuariosSize(){
+		return this.usuarios.size();
 	}
 }

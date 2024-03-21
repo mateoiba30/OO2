@@ -25,6 +25,7 @@ public class TestTwitter {
 	@BeforeEach
 	void setup() {
 		this.twitter = new Twitter();
+		
 		usuario1 = twitter.agregarUsuario("Mateo");
 		usuario2 = twitter.agregarUsuario("Juan");
 		usuario3 = twitter.agregarUsuario("Pepe");
@@ -46,18 +47,18 @@ public class TestTwitter {
 	@Test
 	void testAgregarUsuario() {
 		twitter.agregarUsuario("Mateo");
-		assertEquals(twitter.getUsuarios().size(), 3);
+		assertEquals(twitter.getUsuariosSize(), 3);
 		twitter.agregarUsuario("Mateo ");
-		assertEquals(twitter.getUsuarios().size(), 4);
+		assertEquals(twitter.getUsuariosSize(), 4);
 	}
 	
 	@Test
 	void testEliminarUsuarios() {
 		twitter.eliminarUsuario("Pepe");
-		assertEquals(twitter.getUsuarios().size(), 2);
-		assertEquals(usuario1.getPosteos().size(), 3);//no estoy eliminando nada
-		assertEquals(usuario2.getPosteos().size(), 2);
-		assertEquals(usuario3.getPosteos().size(), 0);
+		assertEquals(twitter.getUsuariosSize(), 2);
+		assertEquals(usuario1.getPosteosSize(), 3);//elimina lo justo y necesario
+		assertEquals(usuario2.getPosteosSize(), 1);
+		assertEquals(usuario3.getPosteosSize(), 0); //borra los de pepe
 		
 		
 	}

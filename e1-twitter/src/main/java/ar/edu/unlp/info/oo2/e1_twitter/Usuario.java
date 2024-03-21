@@ -33,6 +33,10 @@ public class Usuario {
 		return this.posteos;
 	} 
 	
+	public int getPosteosSize(){
+		return this.posteos.size();
+	} 
+	
 	public List<Posteo> getPosteosRelacionados(List<Posteo> origenes){
 //		List<Posteo> posteosRelacionados = new ArrayList<>();
 //		for(Posteo posteo: this.posteos) {
@@ -43,6 +47,11 @@ public class Usuario {
 //		return posteosRelacionados;
 		return this.posteos.stream().filter(posteo -> origenes.contains(posteo.getOrigen())).collect(Collectors.toList());
 	}
+	
+	public int getPosteosRelacionadosSize(List<Posteo> origenes){
+		return this.getPosteosRelacionados(origenes).size();
+	}
+	
 	
 	public void eliminarPosteosRelacionados(List<Posteo> origenes) {
 //		for(Posteo posteo: this.posteos) {

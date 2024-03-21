@@ -27,12 +27,14 @@ public class TestUsuario {
 	
 	@BeforeEach
 	void setup() {
+		listaPosteos = new ArrayList<>();
+		
 		usuario1 = new Usuario("Mateo");
 		usuario2 = new Usuario("Juan");
 		usuario3= new Usuario("Pepe");
+		
 		tweet = usuario1.tweetear("1er tweet");
 		retweet = usuario1.retweetear(tweet);
-		listaPosteos = new ArrayList<>();
 		
 		tweetAjeno2 = usuario2.tweetear("Este es nu tweet de otro usuario");
 		retweetAjeno2 = usuario1.retweetear(tweetAjeno2);
@@ -50,7 +52,8 @@ public class TestUsuario {
 		
 		listaPosteos.add(tweetAjeno2);
 		listaPosteos.add(tweetAjeno3);
-		listaPosteos.add(retweetDobleAjeno);
+		//listaPosteos.add(retweetDobleAjeno);
+		listaPosteos.add(tweetDobleAjeno);
 	}
 	
 	@Test
@@ -66,18 +69,18 @@ public class TestUsuario {
 	
 	@Test
 	void testGetPosteosRelacionados() {
-		assertEquals(usuario1.getPosteosRelacionados(listaPosteos).size(), 3);
+		assertEquals(usuario1.getPosteosRelacionadosSize(listaPosteos), 3);
 		assertEquals(usuario1.getPosteosRelacionados(usuario3.getPosteos()).size(), 1); //solo uno está directamente relacionado
 	}
 	
 	@Test
 	void testEliminarPosteosRelacionados() {
-//		usuario1.eliminarPosteosRelacionados(listaPosteos);
-//		assertEquals(usuario1.getPosteos().size(), 3);
-//		assertEquals(usuario1.getPosteosRelacionados(listaPosteos).size(), 0);
+		usuario1.eliminarPosteosRelacionados(listaPosteos);
+		assertEquals(usuario1.getPosteosSize(), 3);
+		assertEquals(usuario1.getPosteosRelacionadosSize(listaPosteos), 0);
 		
-		usuario1.eliminarPosteosRelacionados(usuario3.getPosteos());
-		assertEquals(usuario1.getPosteos().size(), 5);
-		assertEquals(usuario1.getPosteosRelacionados(usuario3.getPosteos()).size(), 0);
+//		usuario1.eliminarPosteosRelacionados(usuario3.getPosteos());
+//		assertEquals(usuario1.getPosteosSize(), 3);
+//		assertEquals(usuario1.getPosteosRelacionadosSize(usuario3.getPosteos()), 0);
 	}
 }

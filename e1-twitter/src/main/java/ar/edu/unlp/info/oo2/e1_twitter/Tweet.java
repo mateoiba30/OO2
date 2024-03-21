@@ -1,17 +1,17 @@
 package ar.edu.unlp.info.oo2.e1_twitter;
 
-public class Tweet extends Posteo{
+public class Tweet implements Posteo{
 	private String texto;
 	
 	public Tweet(String texto) {
-		this.texto = recortar(texto);
+		this.texto = recortarTexto(texto);
 	}
 	
 	public Posteo getOrigen() {
 		return null;
 	}
 
-	private String recortar(String texto) {
+	private String recortarTexto(String texto) {
 		if (texto.length() > 280) 
 			texto = texto.substring(0, 280);
 		else 
@@ -20,8 +20,8 @@ public class Tweet extends Posteo{
 		return texto;
 	}
 	
-	public String getTexto() {
-		return this.texto;
+	public int getTextoLength() {
+		return this.texto.length();
 	}
 	
 }
