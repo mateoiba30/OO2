@@ -1,6 +1,6 @@
 package ar.edu.unlp.info.oo2.e2_PPTijera;
 
-public class Piedra extends Jugada{
+public class Piedra implements Jugada{
 
 	public String jugar(Piedra piedra) {
 		return "empate";

@@ -1,20 +1,20 @@
 package ar.edu.unlp.info.oo2.e2_PPTijera;
 
-public class Lagarto implements Jugada{
-
-	public String contraPiedra() {
-		return "pierde";
+public class Lagarto extends Jugada{
+	
+	public String jugar(Piedra piedra) {
+		return "pierde jugador 1";
 	}
-	public String contraPapel() {
-		return "gana";
+	public String jugar(Papel papel) {
+		return "gana jugador 1";
 	}
-	public String contraTijera() {
-		return "pierde";
+	public String jugar(Tijera tijera) {
+		return "pierde jugador 1";
 	}
-	public String contraLagarto() {
-		return "empata";
+	public String jugar(Lagarto lagarto) {
+		return "empate";
 	}
-	public String contraSpock() {
-		return "gana";
+	public String jugar(Spock spock) {
+		return "gana jugador 1";
 	}
 }

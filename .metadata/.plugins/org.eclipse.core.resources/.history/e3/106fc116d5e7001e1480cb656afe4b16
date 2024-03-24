@@ -1,0 +1,17 @@
+package ar.edu.unlp.info.oo2.e2_PPTijera;
+
+public interface Jugada {
+	
+	public String jugar(Jugada jugada);
+	
+	public String jugar(Piedra piedra);
+
+	public String jugar(Papel papel);
+	
+	public String jugar(Tijera tijera);
+	
+	public String jugar(Lagarto lagarto);
+	
+	public String jugar(Spock spock);
+
+}

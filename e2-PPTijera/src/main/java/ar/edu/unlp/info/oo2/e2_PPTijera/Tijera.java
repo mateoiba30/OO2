@@ -1,6 +1,6 @@
 package ar.edu.unlp.info.oo2.e2_PPTijera;
 
-public class Tijera implements Jugada{
+public class Tijera extends Jugada{
 
 	public String contraPiedra() {
 		return "empate";
@@ -16,5 +16,21 @@ public class Tijera implements Jugada{
 	}
 	public String contraSpock() {
 		return "pierde";
+	}
+	
+	public String jugar(Piedra piedra) {
+		return "pierde jugador 1";
+	}
+	public String jugar(Papel papel) {
+		return "gana jugador 1";
+	}
+	public String jugar(Tijera tijera) {
+		return "empate";
+	}
+	public String jugar(Lagarto lagarto) {
+		return "gana jugador 1";
+	}
+	public String jugar(Spock spock) {
+		return "pierde jugador 1";
 	}
 }
