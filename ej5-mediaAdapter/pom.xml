@@ -3,10 +3,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>ar.edu.unlp.info.oo2</groupId>
-  <artifactId>e1-twitter</artifactId>
+  <artifactId>ej5-mediaAdapter</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>e1-twitter</name>
+  <name>ej5-mediaAdapter</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
