@@ -1,6 +1,6 @@
 package ar.edu.unlp.info.oo2.ej4_EmpleadoTemplateMethod;
 
-public class Pasante {
+public class Pasante extends Empleado {
 
 	private int cantidadExamenesRendidos;
 	

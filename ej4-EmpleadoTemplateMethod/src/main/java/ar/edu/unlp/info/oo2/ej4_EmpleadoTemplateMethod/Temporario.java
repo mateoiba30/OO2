@@ -18,7 +18,7 @@ public class Temporario extends Empleado {
 	
 	public double adicional() {
 		if (this.casado)
-			return 5000;
+			return 5000 + 2000*this.cantidadHijos;
 		else
 			return 2000*this.cantidadHijos;
 	}

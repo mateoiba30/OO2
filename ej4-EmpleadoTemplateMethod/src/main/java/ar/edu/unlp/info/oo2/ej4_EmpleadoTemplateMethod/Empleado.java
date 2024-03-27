@@ -10,6 +10,7 @@ public abstract class Empleado {
 		double basico = this.basico();
 		double adicional = this.adicional();
 		return this.basico() + this.adicional() - this.descuento(basico, adicional);
+		//return this.basico()*0.87 + this.adicional()*0.95;
 	}
 
 	public abstract double basico();

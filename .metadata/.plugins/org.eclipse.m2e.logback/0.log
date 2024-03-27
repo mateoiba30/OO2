@@ -1381,3 +1381,171 @@
 2024-03-26 16:24:27,360 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2024-03-26 16:24:27,361 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej5-mediaAdapter\src\main\resources
 2024-03-26 16:24:27,364 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 16:24:27,364 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej5-mediaAdapter\src\test\resources
+2024-03-26 21:12:24,342 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-03-26 21:13:55,653 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:13:55,656 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej3-bibliotecaJSONAdapter\src\main\resources
+2024-03-26 21:13:55,662 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:13:55,663 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej3-bibliotecaJSONAdapter\src\test\resources
+2024-03-26 21:32:28,821 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:32:28,821 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\main\resources
+2024-03-26 21:32:28,826 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:32:28,826 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\test\resources
+2024-03-26 21:32:50,303 [Worker-31: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-03-26 21:32:50,932 [Worker-31: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ar.edu.unlp.info.oo2:ej4-EmpleadoTemplateMethod:0.0.1-SNAPSHOT @ C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\pom.xml.
+2024-03-26 21:32:51,231 [Worker-31: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ej4-EmpleadoTemplateMethod/src/main/java
+2024-03-26 21:32:51,232 [Worker-31: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ej4-EmpleadoTemplateMethod/src/test/java
+2024-03-26 21:32:51,233 [Worker-31: Updating Maven Project] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-11', falling back to workspace default
+2024-03-26 21:32:51,388 [Worker-31: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2024-03-26 21:32:51,556 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:32:51,557 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\main\resources
+2024-03-26 21:32:51,561 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:32:51,562 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\test\resources
+2024-03-26 21:33:46,644 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:33:46,645 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\main\resources
+2024-03-26 21:33:46,648 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:33:46,649 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\test\resources
+2024-03-26 21:33:55,569 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:33:55,569 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\main\resources
+2024-03-26 21:33:55,571 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:33:55,572 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\test\resources
+2024-03-26 21:34:16,694 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:34:16,695 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\main\resources
+2024-03-26 21:34:16,699 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:34:16,699 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\test\resources
+2024-03-26 21:35:16,193 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:35:16,193 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\main\resources
+2024-03-26 21:35:16,196 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:35:16,196 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\test\resources
+2024-03-26 21:36:25,611 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:36:25,611 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\main\resources
+2024-03-26 21:36:25,613 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:36:25,614 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\test\resources
+2024-03-26 21:37:18,810 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:37:18,810 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\main\resources
+2024-03-26 21:37:18,813 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:37:18,814 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\test\resources
+2024-03-26 21:39:43,679 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:39:43,680 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\main\resources
+2024-03-26 21:39:43,683 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:39:43,683 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\test\resources
+2024-03-26 21:39:47,028 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:39:47,028 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\main\resources
+2024-03-26 21:39:47,030 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:39:47,030 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\test\resources
+2024-03-26 21:40:21,901 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:40:21,901 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\main\resources
+2024-03-26 21:40:21,904 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:40:21,905 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\test\resources
+2024-03-26 21:40:26,367 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-03-26 21:40:49,669 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:40:49,669 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\main\resources
+2024-03-26 21:40:49,671 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:40:49,672 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\test\resources
+2024-03-26 21:42:13,721 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:42:13,722 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\main\resources
+2024-03-26 21:42:13,725 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:42:13,725 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\test\resources
+2024-03-26 21:43:42,001 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:43:42,002 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\main\resources
+2024-03-26 21:43:42,005 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:43:42,005 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\test\resources
+2024-03-26 21:45:07,264 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:45:07,265 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\main\resources
+2024-03-26 21:45:07,267 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:45:07,267 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\test\resources
+2024-03-26 21:46:01,318 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:46:01,319 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\main\resources
+2024-03-26 21:46:01,321 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:46:01,321 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\test\resources
+2024-03-26 21:48:27,984 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:48:27,984 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\main\resources
+2024-03-26 21:48:27,986 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:48:27,987 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\test\resources
+2024-03-26 21:48:53,431 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:48:53,432 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\main\resources
+2024-03-26 21:48:53,435 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:48:53,435 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\test\resources
+2024-03-26 21:50:26,650 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:50:26,651 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\main\resources
+2024-03-26 21:50:26,654 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:50:26,654 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\test\resources
+2024-03-26 21:50:41,799 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:50:41,799 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\main\resources
+2024-03-26 21:50:41,803 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:50:41,803 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\test\resources
+2024-03-26 21:51:43,544 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:51:43,545 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\main\resources
+2024-03-26 21:51:43,548 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:51:43,548 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\test\resources
+2024-03-26 21:51:57,212 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:51:57,212 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\main\resources
+2024-03-26 21:51:57,215 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:51:57,215 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\test\resources
+2024-03-26 21:52:37,662 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:52:37,662 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\main\resources
+2024-03-26 21:52:37,664 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:52:37,664 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\test\resources
+2024-03-26 21:54:14,071 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:54:14,072 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\main\resources
+2024-03-26 21:54:14,074 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:54:14,074 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\test\resources
+2024-03-26 21:54:43,458 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:54:43,458 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\main\resources
+2024-03-26 21:54:43,460 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:54:43,461 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\test\resources
+2024-03-26 21:58:27,288 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:58:27,289 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\main\resources
+2024-03-26 21:58:27,291 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 21:58:27,291 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\test\resources
+2024-03-26 22:00:20,311 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 22:00:20,311 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\main\resources
+2024-03-26 22:00:20,314 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 22:00:20,314 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\test\resources
+2024-03-26 22:02:27,344 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 22:02:27,345 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\main\resources
+2024-03-26 22:02:27,347 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 22:02:27,347 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\test\resources
+2024-03-26 22:02:35,329 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2024-03-26 22:03:12,931 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 22:03:12,932 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\main\resources
+2024-03-26 22:03:12,934 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 22:03:12,934 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\test\resources
+2024-03-26 22:03:17,169 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 22:03:17,169 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\main\resources
+2024-03-26 22:03:17,171 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 22:03:17,172 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\test\resources
+2024-03-26 22:03:24,520 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 22:03:24,520 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\main\resources
+2024-03-26 22:03:24,522 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 22:03:24,523 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\test\resources
+2024-03-26 22:04:24,122 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 22:04:24,122 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\main\resources
+2024-03-26 22:04:24,125 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 22:04:24,125 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\test\resources
+2024-03-26 22:05:01,638 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-03-26 22:05:02,245 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ar.edu.unlp.info.oo2:ej4-EmpleadoTemplateMethod:0.0.1-SNAPSHOT @ C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\pom.xml.
+2024-03-26 22:05:02,380 [Worker-42: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ej4-EmpleadoTemplateMethod/src/main/java
+2024-03-26 22:05:02,381 [Worker-42: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ej4-EmpleadoTemplateMethod/src/test/java
+2024-03-26 22:05:02,382 [Worker-42: Updating Maven Project] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-11', falling back to workspace default
+2024-03-26 22:05:02,571 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2024-03-26 22:05:02,755 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 22:05:02,756 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\main\resources
+2024-03-26 22:05:02,759 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 22:05:02,759 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\test\resources
+2024-03-26 22:09:36,600 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 22:09:36,600 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\main\resources
+2024-03-26 22:09:36,603 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 22:09:36,603 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\test\resources
+2024-03-26 22:11:28,087 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 22:11:28,088 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\main\resources
+2024-03-26 22:11:28,090 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 22:11:28,090 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\test\resources
+2024-03-26 22:11:43,878 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 22:11:43,878 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\main\resources
+2024-03-26 22:11:43,880 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 22:11:43,881 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\test\resources
+2024-03-26 22:12:18,249 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 22:12:18,249 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\main\resources
+2024-03-26 22:12:18,253 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 22:12:18,253 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej4-EmpleadoTemplateMethod\src\test\resources
