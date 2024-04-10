@@ -14,6 +14,8 @@ public abstract class Topologia {
 	
 	public abstract boolean igual(Tierra tierra);
 	
+	public abstract boolean igual(Pantano pantano);
+	
 	public abstract double proporcionAgua();
 	
 	public abstract double proporcionTierra();

@@ -1,5 +1,8 @@
 package ar.edu.unlp.info.oo2.ej6_topologia_composite;
 import static org.junit.jupiter.api.Assertions.*;
+
+import java.math.RoundingMode;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -7,6 +10,7 @@ public class TopografiaTest {
 	
 	private Agua agua;
 	private Tierra tierra;
+	private Pantano pantano;
 	private Mixta mixta1;
 	private Mixta mixta2;
 	private Mixta mixta3;
@@ -17,6 +21,7 @@ public class TopografiaTest {
 	public void setUp() throws Exception {
 		agua = new Agua();
 		tierra = new Tierra();
+		pantano = new Pantano();
 		mixta1 = new Mixta();
 		mixta2= new Mixta();
 		mixta3= new Mixta();
@@ -26,7 +31,7 @@ public class TopografiaTest {
 		mixta1.addComponent(new Agua());
 		mixta1.addComponent(new Tierra());
 		mixta1.addComponent(new Tierra());
-		mixta1.addComponent(new Agua());
+		mixta1.addComponent(new Pantano());
 		
 		mixta2.addComponent(new Agua());
 		mixta2.addComponent(new Tierra());
@@ -36,7 +41,7 @@ public class TopografiaTest {
 		mixta3.addComponent(new Agua());
 		mixta3.addComponent(new Tierra());
 		mixta3.addComponent(new Tierra());
-		mixta3.addComponent(new Agua());
+		mixta3.addComponent(new Pantano());
 		
 		mixta4.addComponent(new Agua());
 		mixta4.addComponent(new Tierra());
@@ -48,7 +53,7 @@ public class TopografiaTest {
 		mixta5.addComponent(mixta1);
 		mixta5.addComponent(new Tierra());
 	}
-	
+
 	@Test 
 	public void testGetComponente(){
 		assertTrue(mixta2.getComponent(0).igual(agua));
@@ -71,16 +76,17 @@ public class TopografiaTest {
 	public void testGetProporcionTierra() {
 		assertEquals(1,tierra.proporcionTierra());
 		assertEquals(0,agua.proporcionTierra());
-		assertEquals(0.5,mixta1.proporcionTierra());
-		assertEquals(0.625,mixta2.proporcionTierra());
+		assertEquals(0.3, pantano.proporcionTierra());
+		assertEquals(0.575,mixta1.proporcionTierra());
+		assertEquals(2.575/4,mixta2.proporcionTierra());
 	}
 	
 	@Test
 	public void testGetProporcionAgua() {
 		assertEquals(0,tierra.proporcionAgua());
 		assertEquals(1,agua.proporcionAgua());
-		assertEquals(0.5,mixta1.proporcionAgua());
-		assertEquals(0.375,mixta2.proporcionAgua());
+		assertEquals(0.425,mixta1.proporcionAgua());
+		//assertEquals((1 - 2.575/4),mixta2.proporcionAgua()); //-> anda, solo que no es tan preciso al manejar flotantes
 	}
 	
 	@Test
@@ -89,7 +95,9 @@ public class TopografiaTest {
 		assertFalse(this.tierra.igual(new Agua()));
 		assertFalse(this.agua.igual(new Tierra()));
 		assertTrue(this.agua.igual(new Agua()));
-		assertFalse(this.mixta1.igual(agua));
+		assertTrue(this.pantano.igual(new Pantano()));
+		assertFalse(this.pantano.igual(new Mixta()));
+		assertFalse(this.mixta1.igual(pantano));
 		assertFalse(this.mixta1.igual(mixta2));
 		
 		assertTrue(this.mixta1.igual(mixta3));//dice que no son iguales

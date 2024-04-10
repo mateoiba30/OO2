@@ -1,8 +1,8 @@
 package ar.edu.unlp.info.oo2.ej6_topologia_composite;
 
-public class Tierra extends Topologia{
-	
-	public Tierra() {
+public class Pantano extends Topologia{
+
+	public Pantano() {
 		
 	}
 	
@@ -15,7 +15,7 @@ public class Tierra extends Topologia{
 	}
 	
 	public boolean igual(Tierra tierra) {
-		return true;
+		return false;
 	}
 	
 	public boolean igual(Mixta mixta) {
@@ -23,15 +23,14 @@ public class Tierra extends Topologia{
 	}
 	
 	public boolean igual(Pantano pantano) {
-		return false;
+		return true;
 	}
 	
 	public double proporcionAgua() {
-		return 0;
+		return 0.7;
 	}
 	
 	public double proporcionTierra() {
-		return 1;
+		return 0.3;
 	}
-
 }

@@ -22,6 +22,10 @@ public class Agua extends Topologia{
 		return false;
 	}
 	
+	public boolean igual(Pantano pantano) {
+		return false;
+	}
+	
 	public double proporcionAgua() {
 		return 1;
 	}

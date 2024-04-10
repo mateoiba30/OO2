@@ -23,6 +23,10 @@ public class Mixta extends Topologia{
 		return false;
 	}
 	
+	public boolean igual(Pantano pantano) {
+		return false;
+	}
+	
 	public boolean igual(Mixta mixta) {
 		return this.componentes.get(0).igual(mixta.getComponent(0)) && this.componentes.get(1).igual(mixta.getComponent(1)) && this.componentes.get(2).igual(mixta.getComponent(2)) && this.componentes.get(3).igual(mixta.getComponent(3));
 		//si en lugar de igual() hubiera redefinido equals() esto lo podría haber hecho con: return this.componentes.equals(mixta.getComponents());
