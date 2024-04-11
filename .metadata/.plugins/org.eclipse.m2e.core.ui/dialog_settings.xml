@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej5-mediaAdapter"/>
 			<item value="C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -26,6 +27,11 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="ar.edu.unlp.info.oo2.ej10_encriptador_strategy"/>
+			<item value="ar.edu.unlp.info.oo2.ej9_Excursiones_State"/>
+			<item value="ar.edu.unlp.info.oo2.ej8_toDoItem_State"/>
+			<item value="ar.edu.unlp.info.oo2.ej7_filesystem_composite"/>
+			<item value="ar.edu.unlp.info.oo2.ej6_topologia_composite"/>
 			<item value="ar.edu.unlp.info.oo2.ej5_mediaAdapter"/>
 			<item value="ar.edu.unlp.info.oo2.ej4_EmpleadoTemplateMethod"/>
 			<item value="ar.edu.unlp.info.oo2.ej3_JSONAdapter"/>
@@ -36,6 +42,11 @@
 			<item value="ar.edu.unlp.info.oo2"/>
 		</list>
 		<list key="artifactId">
+			<item value="ej10-encriptador-strategy"/>
+			<item value="ej9-Excursiones-State"/>
+			<item value="ej8-toDoItem-State"/>
+			<item value="ej7-filesystem-composite"/>
+			<item value="ej6-topologia-composite"/>
 			<item value="ej5-mediaAdapter"/>
 			<item value="ej4-EmpleadoTemplateMethod"/>
 			<item value="ej3-JSONAdapter"/>
