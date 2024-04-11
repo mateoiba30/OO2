@@ -32,15 +32,67 @@ public class Directorio extends FileSystem {
 		return this.elementos.stream().map(e -> e.archivoMasNuevo()).max((a1, a2)->a1.getFecha().compareTo(a2.getFecha())).orElse(null);
 	}
 	
-	public Optional<FileSystem> buscar(String nombre){
-		return this.elementos.stream().map(e -> e.buscar(nombre)).filter(Optional::isPresent).findFirst().orElse(null); //si no pongo el filter va a mandar el 1er optional aunque esté vacío
+	
+	
+	public FileSystem buscar(String nombre){
+		if (this.getNombre().equals(nombre) ) //esto hace que pueda devolver los directorios
+			return this;
+		else
+			return this.elementos.stream()
+				.map(e -> e.buscar(nombre))//primero asegurarme de tener un archivo
+				.filter(e -> e!=null)//despues me fijo que coincida
+				.findFirst().orElse(null); //si no pongo el filter va a mandar el 1er optional aunque esté vacío
 	}
 	
-	public List<Optional<FileSystem>> buscarTodos(String nombre){
-		return this.elementos.stream().map(e -> e.buscar(nombre)).collect(Collectors.toList()); //filtramos los nulos = los que no coinciden
+	public List<FileSystem> buscarTodos(String nombre){
+		List<FileSystem> lista = new ArrayList<>();
+		lista = this.elementos.stream()
+				.flatMap(e -> e.buscarTodos(nombre).stream())//primero asegurarme de tener un archivo
+				.filter(e -> e!=null)//despues me fijo que coincida
+				.collect(Collectors.toList());
+		if (this.getNombre().equals(nombre))
+			lista.add(this);
+		return lista;
+	}
+	
+	/*
+	public List<FileSystem> buscarTodos(String nombre){
+		return this.elementos.stream()
+				.map(e -> e.buscar(nombre))
+				.collect(Collectors.toList()); //filtramos los nulos = los que no coinciden
+	}
+	
+	
+	public String listadoDeContenido() {
+		//return this.getNombre() + "/" + this.elementos.stream().map(e -> e.listadoDeContenido()).collect(Collectors.joining("\n")); //se olvida muchos nombres de directorios en la recursión
+		return this.elementos.stream().map(e -> this.getNombre() + "/" + e.listadoDeContenido()).collect(Collectors.joining("\n"));  //se olvida pocos nombres de directorios en la recursión
+	}*/
+	
+	public boolean esDirectorio() {
+		return true;
 	}
 	
 	public String listadoDeContenido() {
-		return this.getNombre() + "/" + this.elementos.stream().map(e -> e.listadoDeContenido()).collect(Collectors.joining("\n")); //junto los resultados en un string separado en diferentes líneas
+	    return listadoDeContenido("");
+	}
+
+	private String listadoDeContenido(String parentPath) {
+	    StringBuilder result = new StringBuilder();
+	    String path;
+	    if (parentPath.equals(""))
+	    	path = this.getNombre();
+	    else
+	    	path = parentPath + "/" + this.getNombre();
+	    
+	    result.append(path).append("\n"); //para mostrar el nombre del directorio también
+
+	    for (FileSystem elemento : this.elementos) { //ahora avanzxo por cada archivo y carpetas que tenga dentro
+	        if (elemento.esDirectorio())
+	            result.append(((Directorio) elemento).listadoDeContenido(path)); //agrego el path del directorio sin saltar de línea para seguir avanzando
+	        else
+	            result.append(path).append("/").append(elemento.getNombre()).append("\n"); //llegué a una hoja del árbol, poner un salto de línea
+	    }
+
+	    return result.toString();
 	}
 }

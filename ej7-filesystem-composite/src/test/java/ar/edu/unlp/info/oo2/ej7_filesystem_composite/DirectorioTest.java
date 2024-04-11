@@ -35,7 +35,7 @@ class DirectorioTest {
         Directorio postgres = new Directorio("postgres", date);
         postgres.agregar(new Archivo("pg01.log", LocalDate.of(2015, 4, 12), 1400000));
         postgres.agregar(new Archivo("pg02.log", LocalDate.of(2016, 3, 8), 4000000));
-        postgres.agregar(new Archivo("pg03.log", LocalDate.of(2016, 2, 13), 4000000));
+        postgres.agregar(new Archivo("pg02.log", LocalDate.of(2016, 2, 13), 4000000));
         // Directorio vacío
         vacio = new Directorio("home", date);
         //"Directorio con un solo archivo"
@@ -79,17 +79,32 @@ class DirectorioTest {
         assertEquals(256690128, conSubdirectorios.tamanioTotalOcupado());
     }
 
-    
-    @Test
+    @Test //-> no me encuentra los datos dentro de otras carpetas
     void testBuscar() {//no recorre los niveles más bajos del árbol
     	String nombreNvl1 = "sys.log";
     	String nombreNvl2 = "mysql";
     	String nombreNvl3 = "pg01.log";
-    	assertTrue(nombreNvl1.equals(conSubdirectorios.buscar(nombreNvl1).get().getNombre()));
-    	assertTrue(nombreNvl2.equals(conSubdirectorios.buscar(nombreNvl2).get().getNombre()));
-    	assertTrue(nombreNvl3.equals(conSubdirectorios.buscar(nombreNvl3).get().getNombre()));
+    	assertEquals(nombreNvl1,conSubdirectorios.buscar(nombreNvl1).getNombre());
+    	assertEquals(nombreNvl2,conSubdirectorios.buscar(nombreNvl2).getNombre());
+    	assertEquals(nombreNvl3,conSubdirectorios.buscar(nombreNvl3).getNombre());
     	assertEquals(null, vacio.buscar(nombreNvl1));
-    	
+    }
+ 
+    ///NullPointerException -> no me encuentra los datos dentro de otras carpetas
+    @Test
+    void  testBuscarTodos() {//no recorre los niveles más bajos del árbol
+    	String nombreNvl1 = "sys.log";
+    	String nombreNvl2 = "mysql";
+    	String nombreNvl3 = "pg02.log";
+    	assertTrue(nombreNvl1.equals(conSubdirectorios.buscarTodos(nombreNvl1).get(0).getNombre()));
+    	assertTrue(nombreNvl2.equals(conSubdirectorios.buscarTodos(nombreNvl2).get(0).getNombre()));
+    	assertTrue(nombreNvl3.equals(conSubdirectorios.buscarTodos(nombreNvl3).get(0).getNombre()));
+    	assertEquals(null, vacio.buscar(nombreNvl1));
+    }
+    
+    @Test
+    void testListadoDeContenido() {
+    	System.out.println(conSubdirectorios.listadoDeContenido());
     }
 
 }

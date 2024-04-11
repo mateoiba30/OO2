@@ -56,7 +56,6 @@ public class Mixta extends Topologia{
 	public Topologia getComponent(int pos) {
 		if (pos <4)
 			return this.componentes.get(pos);
-		else 
-			return null;
+		return null;
 	}
 }

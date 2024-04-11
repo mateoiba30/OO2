@@ -6,7 +6,7 @@ import java.math.RoundingMode;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class TopografiaTest {
+public class MixtaTest {
 	
 	private Agua agua;
 	private Tierra tierra;
@@ -73,30 +73,31 @@ public class TopografiaTest {
 	}
 
 	@Test
-	public void testGetProporcionTierra() {
-		assertEquals(1,tierra.proporcionTierra());
+	public void testGetProporcionTierra() {/*
+		assertEquals(1,tierra.proporcionTierra()); //puedo asumir que andan, hacer una clase test por cada clase a testear
 		assertEquals(0,agua.proporcionTierra());
-		assertEquals(0.3, pantano.proporcionTierra());
+		assertEquals(0.3, pantano.proporcionTierra());*/
 		assertEquals(0.575,mixta1.proporcionTierra());
 		assertEquals(2.575/4,mixta2.proporcionTierra());
 	}
 	
 	@Test
-	public void testGetProporcionAgua() {
-		assertEquals(0,tierra.proporcionAgua());
-		assertEquals(1,agua.proporcionAgua());
+	public void testGetProporcionAgua() {/*
+		assertEquals(0,tierra.proporcionAgua()); //puedo asumir que andan, hacer una clase test por cada clase a testear
+		assertEquals(1,agua.proporcionAgua()); */
 		assertEquals(0.425,mixta1.proporcionAgua());
 		//assertEquals((1 - 2.575/4),mixta2.proporcionAgua()); //-> anda, solo que no es tan preciso al manejar flotantes
 	}
 	
 	@Test
-	public void testIsEquals() {//a las mixtas nunca dice que son iguales
+	public void testIsEquals() {//a las mixtas nunca dice que son iguales 
+		/* //puedo asumir que andan, hacer una clase test por cada clase a testear
 		assertTrue(this.tierra.igual(new Tierra()));
 		assertFalse(this.tierra.igual(new Agua()));
 		assertFalse(this.agua.igual(new Tierra()));
 		assertTrue(this.agua.igual(new Agua()));
 		assertTrue(this.pantano.igual(new Pantano()));
-		assertFalse(this.pantano.igual(new Mixta()));
+		assertFalse(this.pantano.igual(new Mixta())); */
 		assertFalse(this.mixta1.igual(pantano));
 		assertFalse(this.mixta1.igual(mixta2));
 		

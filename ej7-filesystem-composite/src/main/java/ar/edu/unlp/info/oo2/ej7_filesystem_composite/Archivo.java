@@ -27,10 +27,17 @@ public class Archivo extends FileSystem{
 		return this;
 	}
 	
-	public Optional<FileSystem> buscar(String nombre){
+	public FileSystem buscar(String nombre){
 		if (this.getNombre().equals(nombre))
-			return Optional.of(this);
-		return Optional.empty();
+			return this;
+		return null;
+	}
+	
+	public List<FileSystem> buscarTodos(String nombre){
+		List<FileSystem> lista = new ArrayList<>();
+		if (this.getNombre().equals(nombre))
+			lista.add(this);
+		return lista;
 	}
 	
 	/*
@@ -43,6 +50,10 @@ public class Archivo extends FileSystem{
 	
 	public String listadoDeContenido() {
 		return this.getNombre();
+	}
+	
+	public boolean esDirectorio() {
+		return false;
 	}
 	
 }

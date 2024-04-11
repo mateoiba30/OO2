@@ -20,9 +20,9 @@ public abstract class FileSystem {
 	
 	public abstract Archivo archivoMasNuevo();
 	
-	public abstract Optional<FileSystem> buscar(String nombre);
+	public abstract FileSystem buscar(String nombre);
 	
-//	public abstract List<FileSystem> buscarTodos(String nombre);
+	public abstract List<FileSystem> buscarTodos(String nombre);
 	
 	public abstract String listadoDeContenido();
 	
@@ -34,4 +34,5 @@ public abstract class FileSystem {
 		return this.fecha;
 	}
 	
+	public abstract boolean esDirectorio();
 }
