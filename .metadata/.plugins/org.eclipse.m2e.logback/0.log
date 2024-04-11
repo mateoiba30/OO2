@@ -3344,3 +3344,475 @@
 2024-04-11 16:32:23,970 [Worker-232: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej8-toDoItem-State\src\test\resources
 2024-04-11 16:32:32,015 [Worker-235: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
 2024-04-11 16:32:32,017 [Worker-235: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 16:32:32,017 [Worker-235: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej8-toDoItem-State\src\main\resources
+2024-04-11 16:32:32,019 [Worker-235: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 16:32:32,019 [Worker-235: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej8-toDoItem-State\src\test\resources
+2024-04-11 16:33:56,574 [ModalContext] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for ar.edu.unlp.info.oo2:objetos-dos:jar:0.0.2 is missing, no dependency information available
+2024-04-11 16:34:46,710 [Worker-238: Launching mavenrun-2fc71b4e-d761-4f4c-aaac-76be2364db12] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Mateo\AppData\Local\Temp\m2e-archetypeGenerator3384892289382081284":
+2024-04-11 16:34:46,711 [Worker-238: Launching mavenrun-2fc71b4e-d761-4f4c-aaac-76be2364db12] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -DarchetypeGroupId=ar.edu.unlp.info.oo2 -DarchetypeArtifactId=objetos-dos -DarchetypeVersion=0.0.2 -DgroupId=ar.edu.unlp.info.oo2 -DartifactId=ej9-Excursiones-State -Dversion=0.0.1-SNAPSHOT -Dpackage=ar.edu.unlp.info.oo2.ej9_Excursiones_State -DoutputDirectory="C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2" -Dstyle.color=always -U archetype:generate
+2024-04-11 16:34:55,155 [Worker-237: Creating objetos-dos] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\pom.xml
+2024-04-11 16:34:55,185 [Worker-237: Creating objetos-dos] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 16:34:55,258 [Worker-237: Creating objetos-dos] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ar.edu.unlp.info.oo2:ej9-Excursiones-State:0.0.1-SNAPSHOT @ C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\pom.xml.
+2024-04-11 16:34:55,346 [Worker-237: Creating objetos-dos] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 16:34:55,355 [Worker-237: Creating objetos-dos] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ej9-Excursiones-State/src/main/java
+2024-04-11 16:34:55,356 [Worker-237: Creating objetos-dos] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ej9-Excursiones-State/src/test/java
+2024-04-11 16:34:55,356 [Worker-237: Creating objetos-dos] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-11', falling back to workspace default
+2024-04-11 16:34:55,387 [Worker-237: Creating objetos-dos] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2024-04-11 16:34:55,703 [Worker-238: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 16:34:55,705 [Worker-238: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 16:34:55,705 [Worker-238: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 16:34:55,707 [Worker-238: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 16:34:55,707 [Worker-238: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 16:35:17,040 [Worker-235: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 16:35:17,043 [Worker-235: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 16:35:17,043 [Worker-235: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 16:35:17,045 [Worker-235: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 16:35:17,045 [Worker-235: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 16:35:20,514 [Worker-239: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 16:35:20,527 [Worker-239: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 16:35:20,527 [Worker-239: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 16:35:20,529 [Worker-239: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 16:35:20,529 [Worker-239: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 16:35:56,945 [Worker-239: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 16:35:56,948 [Worker-239: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 16:35:56,948 [Worker-239: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 16:35:56,950 [Worker-239: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 16:35:56,950 [Worker-239: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 16:36:50,430 [Worker-241: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 16:36:50,433 [Worker-241: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 16:36:50,434 [Worker-241: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 16:36:50,435 [Worker-241: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 16:36:50,435 [Worker-241: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 16:36:55,274 [Worker-238: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 16:36:55,276 [Worker-238: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 16:36:55,277 [Worker-238: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 16:36:55,278 [Worker-238: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 16:36:55,278 [Worker-238: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 16:37:06,648 [Worker-240: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 16:37:06,650 [Worker-240: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 16:37:06,650 [Worker-240: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 16:37:06,651 [Worker-240: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 16:37:06,652 [Worker-240: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 16:38:46,251 [Worker-241: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 16:38:46,253 [Worker-241: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 16:38:46,254 [Worker-241: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 16:38:46,255 [Worker-241: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 16:38:46,255 [Worker-241: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 16:40:18,953 [Worker-235: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 16:40:18,955 [Worker-235: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 16:40:18,956 [Worker-235: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 16:40:18,957 [Worker-235: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 16:40:18,957 [Worker-235: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 16:40:47,689 [Worker-240: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 16:40:47,691 [Worker-240: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 16:40:47,691 [Worker-240: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 16:40:47,692 [Worker-240: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 16:40:47,693 [Worker-240: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 17:30:20,704 [Worker-242: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 17:30:20,707 [Worker-242: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:30:20,707 [Worker-242: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 17:30:20,708 [Worker-242: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:30:20,708 [Worker-242: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 17:32:10,535 [Worker-242: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 17:32:10,538 [Worker-242: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:32:10,538 [Worker-242: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 17:32:10,539 [Worker-242: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:32:10,540 [Worker-242: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 17:32:25,962 [Worker-239: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 17:32:25,966 [Worker-239: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:32:25,966 [Worker-239: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 17:32:25,967 [Worker-239: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:32:25,968 [Worker-239: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 17:32:51,847 [Worker-242: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 17:32:51,850 [Worker-242: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:32:51,850 [Worker-242: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 17:32:51,851 [Worker-242: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:32:51,851 [Worker-242: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 17:34:32,056 [Worker-243: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 17:34:32,058 [Worker-243: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:34:32,059 [Worker-243: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 17:34:32,060 [Worker-243: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:34:32,060 [Worker-243: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 17:35:33,784 [Worker-243: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 17:35:33,787 [Worker-243: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:35:33,787 [Worker-243: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 17:35:33,788 [Worker-243: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:35:33,788 [Worker-243: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 17:35:39,935 [Worker-245: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 17:35:39,938 [Worker-245: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:35:39,938 [Worker-245: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 17:35:39,939 [Worker-245: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:35:39,940 [Worker-245: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 17:35:46,666 [Worker-242: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 17:35:46,668 [Worker-242: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:35:46,669 [Worker-242: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 17:35:46,670 [Worker-242: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:35:46,670 [Worker-242: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 17:36:02,224 [Worker-245: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 17:36:02,227 [Worker-245: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:36:02,227 [Worker-245: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 17:36:02,228 [Worker-245: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:36:02,228 [Worker-245: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 17:41:08,740 [Worker-247: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 17:41:08,743 [Worker-247: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:41:08,743 [Worker-247: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 17:41:08,745 [Worker-247: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:41:08,745 [Worker-247: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 17:41:16,047 [Worker-247: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 17:41:16,049 [Worker-247: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:41:16,049 [Worker-247: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 17:41:16,051 [Worker-247: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:41:16,051 [Worker-247: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 17:41:50,063 [Worker-244: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 17:41:50,066 [Worker-244: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:41:50,066 [Worker-244: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 17:41:50,067 [Worker-244: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:41:50,067 [Worker-244: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 17:44:30,130 [Worker-248: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 17:44:30,132 [Worker-248: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:44:30,132 [Worker-248: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 17:44:30,133 [Worker-248: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:44:30,134 [Worker-248: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 17:44:34,520 [Worker-249: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 17:44:34,522 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:44:34,522 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 17:44:34,524 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:44:34,524 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 17:44:49,319 [Worker-248: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 17:44:49,321 [Worker-248: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:44:49,321 [Worker-248: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 17:44:49,322 [Worker-248: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:44:49,323 [Worker-248: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 17:44:51,816 [Worker-248: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 17:44:51,818 [Worker-248: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:44:51,818 [Worker-248: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 17:44:51,819 [Worker-248: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:44:51,820 [Worker-248: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 17:45:02,787 [Worker-250: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 17:45:02,790 [Worker-250: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:45:02,790 [Worker-250: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 17:45:02,791 [Worker-250: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:45:02,791 [Worker-250: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 17:45:53,087 [Worker-249: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 17:45:53,090 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:45:53,090 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 17:45:53,091 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:45:53,091 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 17:46:01,430 [Worker-249: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 17:46:01,433 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:46:01,433 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 17:46:01,435 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:46:01,435 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 17:46:09,907 [Worker-244: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 17:46:09,909 [Worker-244: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:46:09,910 [Worker-244: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 17:46:09,911 [Worker-244: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:46:09,911 [Worker-244: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 17:49:18,465 [Worker-249: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 17:49:18,468 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:49:18,468 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 17:49:18,469 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:49:18,470 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 17:50:18,970 [Worker-244: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 17:50:18,972 [Worker-244: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:50:18,973 [Worker-244: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 17:50:18,974 [Worker-244: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:50:18,974 [Worker-244: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 17:50:59,309 [Worker-244: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 17:50:59,311 [Worker-244: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:50:59,312 [Worker-244: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 17:50:59,313 [Worker-244: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:50:59,314 [Worker-244: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 17:51:04,491 [Worker-249: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 17:51:04,494 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:51:04,494 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 17:51:04,497 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:51:04,497 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 17:51:28,449 [Worker-248: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 17:51:28,452 [Worker-248: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:51:28,453 [Worker-248: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 17:51:28,454 [Worker-248: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:51:28,454 [Worker-248: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 17:53:51,112 [Worker-249: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 17:53:51,116 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:53:51,117 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 17:53:51,118 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:53:51,118 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 17:57:45,790 [Worker-253: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 17:57:45,794 [Worker-253: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:57:45,794 [Worker-253: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 17:57:45,795 [Worker-253: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:57:45,795 [Worker-253: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 17:57:50,438 [Worker-249: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 17:57:50,440 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:57:50,441 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 17:57:50,442 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:57:50,443 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 17:58:47,184 [Worker-249: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 17:58:47,186 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:58:47,187 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 17:58:47,188 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 17:58:47,188 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 18:00:15,029 [Worker-249: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 18:00:15,031 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:00:15,032 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 18:00:15,033 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:00:15,033 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 18:00:53,079 [Worker-253: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 18:00:53,081 [Worker-253: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:00:53,082 [Worker-253: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 18:00:53,083 [Worker-253: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:00:53,083 [Worker-253: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 18:01:08,044 [Worker-253: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 18:01:08,046 [Worker-253: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:01:08,046 [Worker-253: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 18:01:08,047 [Worker-253: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:01:08,047 [Worker-253: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 18:01:35,094 [Worker-253: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 18:01:35,096 [Worker-253: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:01:35,096 [Worker-253: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 18:01:35,097 [Worker-253: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:01:35,098 [Worker-253: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 18:01:42,144 [Worker-248: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 18:01:42,147 [Worker-248: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:01:42,147 [Worker-248: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 18:01:42,148 [Worker-248: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:01:42,149 [Worker-248: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 18:01:47,848 [Worker-253: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 18:01:47,851 [Worker-253: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:01:47,851 [Worker-253: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 18:01:47,853 [Worker-253: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:01:47,853 [Worker-253: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 18:01:50,830 [Worker-249: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 18:01:50,833 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:01:50,833 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 18:01:50,834 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:01:50,834 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 18:02:03,238 [Worker-254: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 18:02:03,240 [Worker-254: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:02:03,240 [Worker-254: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 18:02:03,241 [Worker-254: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:02:03,241 [Worker-254: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 18:03:22,404 [Worker-248: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 18:03:22,406 [Worker-248: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:03:22,407 [Worker-248: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 18:03:22,408 [Worker-248: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:03:22,408 [Worker-248: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 18:53:25,619 [Worker-255: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 18:53:25,622 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:53:25,622 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 18:53:25,623 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:53:25,623 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 18:53:40,109 [Worker-255: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 18:53:40,112 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:53:40,113 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 18:53:40,114 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:53:40,114 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 18:54:05,111 [Worker-252: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 18:54:05,113 [Worker-252: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:54:05,114 [Worker-252: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 18:54:05,114 [Worker-252: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:54:05,115 [Worker-252: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 18:54:44,655 [Worker-252: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 18:54:44,657 [Worker-252: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:54:44,658 [Worker-252: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 18:54:44,659 [Worker-252: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:54:44,659 [Worker-252: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 18:55:36,197 [Worker-255: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 18:55:36,200 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:55:36,200 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 18:55:36,201 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:55:36,201 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 18:55:40,328 [Worker-257: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 18:55:40,330 [Worker-257: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:55:40,330 [Worker-257: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 18:55:40,331 [Worker-257: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:55:40,332 [Worker-257: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 18:55:51,919 [Worker-252: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 18:55:51,921 [Worker-252: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:55:51,921 [Worker-252: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 18:55:51,922 [Worker-252: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:55:51,922 [Worker-252: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 18:56:30,018 [Worker-257: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 18:56:30,020 [Worker-257: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:56:30,020 [Worker-257: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 18:56:30,021 [Worker-257: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:56:30,021 [Worker-257: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 18:56:39,240 [Worker-257: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 18:56:39,242 [Worker-257: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:56:39,242 [Worker-257: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 18:56:39,244 [Worker-257: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:56:39,244 [Worker-257: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 18:56:46,357 [Worker-255: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 18:56:46,358 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:56:46,359 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 18:56:46,360 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:56:46,360 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 18:57:19,697 [Worker-255: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 18:57:19,699 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:57:19,700 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 18:57:19,701 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:57:19,701 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 18:58:15,986 [Worker-249: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 18:58:15,989 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:58:15,989 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 18:58:15,990 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:58:15,991 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 18:59:06,134 [Worker-258: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 18:59:06,136 [Worker-258: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:59:06,136 [Worker-258: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 18:59:06,137 [Worker-258: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 18:59:06,138 [Worker-258: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 19:00:44,230 [Worker-255: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 19:00:44,233 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:00:44,234 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 19:00:44,235 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:00:44,235 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 19:01:22,094 [Worker-255: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 19:01:22,097 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:01:22,097 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 19:01:22,098 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:01:22,098 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 19:01:35,381 [Worker-249: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 19:01:35,384 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:01:35,384 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 19:01:35,385 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:01:35,386 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 19:02:12,151 [Worker-257: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 19:02:12,153 [Worker-257: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:02:12,153 [Worker-257: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 19:02:12,154 [Worker-257: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:02:12,155 [Worker-257: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 19:03:28,518 [Worker-252: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 19:03:28,520 [Worker-252: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:03:28,520 [Worker-252: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 19:03:28,521 [Worker-252: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:03:28,522 [Worker-252: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 19:03:50,276 [Worker-249: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 19:03:50,278 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:03:50,278 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 19:03:50,279 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:03:50,279 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 19:04:27,414 [Worker-259: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 19:04:27,417 [Worker-259: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:04:27,417 [Worker-259: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 19:04:27,419 [Worker-259: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:04:27,419 [Worker-259: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 19:04:41,948 [Worker-259: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 19:04:41,951 [Worker-259: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:04:41,951 [Worker-259: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 19:04:41,952 [Worker-259: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:04:41,952 [Worker-259: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 19:05:06,803 [Worker-249: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 19:05:06,806 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:05:06,806 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 19:05:06,807 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:05:06,808 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 19:05:47,356 [Worker-255: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 19:05:47,359 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:05:47,359 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 19:05:47,360 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:05:47,360 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 19:05:52,815 [Worker-252: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 19:05:52,817 [Worker-252: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:05:52,817 [Worker-252: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 19:05:52,818 [Worker-252: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:05:52,818 [Worker-252: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 19:07:50,691 [Worker-255: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 19:07:50,694 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:07:50,694 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 19:07:50,696 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:07:50,696 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 19:08:15,374 [Worker-255: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 19:08:15,378 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:08:15,379 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 19:08:15,380 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:08:15,380 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 19:09:03,055 [Worker-256: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 19:09:03,057 [Worker-256: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:09:03,058 [Worker-256: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 19:09:03,059 [Worker-256: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:09:03,059 [Worker-256: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 19:09:08,926 [Worker-256: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 19:09:08,928 [Worker-256: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:09:08,929 [Worker-256: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 19:09:08,930 [Worker-256: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:09:08,930 [Worker-256: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 19:13:36,586 [Worker-260: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 19:13:36,588 [Worker-260: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:13:36,589 [Worker-260: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 19:13:36,590 [Worker-260: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:13:36,590 [Worker-260: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 19:14:34,312 [Worker-252: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 19:14:34,315 [Worker-252: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:14:34,316 [Worker-252: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 19:14:34,317 [Worker-252: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:14:34,317 [Worker-252: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 19:15:37,588 [Worker-249: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 19:15:37,591 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:15:37,591 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 19:15:37,592 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:15:37,592 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 19:15:51,428 [Worker-252: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 19:15:51,431 [Worker-252: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:15:51,431 [Worker-252: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 19:15:51,432 [Worker-252: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:15:51,433 [Worker-252: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 19:16:02,754 [Worker-252: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 19:16:02,757 [Worker-252: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:16:02,757 [Worker-252: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 19:16:02,758 [Worker-252: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:16:02,758 [Worker-252: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 19:16:44,062 [Worker-263: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 19:16:44,064 [Worker-263: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:16:44,064 [Worker-263: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 19:16:44,065 [Worker-263: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:16:44,065 [Worker-263: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 19:18:03,012 [Worker-249: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 19:18:03,015 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:18:03,015 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 19:18:03,017 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:18:03,017 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 19:18:10,369 [Worker-249: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 19:18:10,371 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:18:10,372 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 19:18:10,373 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:18:10,373 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 19:18:18,345 [Worker-263: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 19:18:18,347 [Worker-263: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:18:18,347 [Worker-263: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 19:18:18,348 [Worker-263: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:18:18,348 [Worker-263: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 19:19:37,429 [Worker-262: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 19:19:37,432 [Worker-262: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:19:37,433 [Worker-262: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 19:19:37,434 [Worker-262: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:19:37,434 [Worker-262: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 19:19:40,123 [Worker-264: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 19:19:40,126 [Worker-264: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:19:40,126 [Worker-264: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 19:19:40,127 [Worker-264: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:19:40,127 [Worker-264: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 19:20:23,941 [Worker-265: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 19:20:23,943 [Worker-265: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:20:23,943 [Worker-265: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 19:20:23,944 [Worker-265: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:20:23,945 [Worker-265: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 19:20:57,161 [Worker-264: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 19:20:57,164 [Worker-264: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:20:57,164 [Worker-264: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 19:20:57,166 [Worker-264: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:20:57,166 [Worker-264: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 19:21:00,409 [Worker-267: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 19:21:00,412 [Worker-267: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:21:00,412 [Worker-267: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 19:21:00,413 [Worker-267: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:21:00,413 [Worker-267: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 19:21:07,111 [Worker-266: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 19:21:07,113 [Worker-266: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:21:07,113 [Worker-266: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
+2024-04-11 19:21:07,114 [Worker-266: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:21:07,114 [Worker-266: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\test\resources
+2024-04-11 19:21:14,705 [Worker-265: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-04-11 19:21:14,708 [Worker-265: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-11 19:21:14,708 [Worker-265: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej9-Excursiones-State\src\main\resources
