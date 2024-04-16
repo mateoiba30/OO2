@@ -1,8 +1,8 @@
 package ar.edu.unlp.info.oo2.ej11_Proyectos_State;
 
-public class Confirmado implements Estado {
+public class Cancelado implements Estado {
 	
-	public Confirmado() {
+	public Cancelado() {
 		
 	}
 	
@@ -15,7 +15,6 @@ public class Confirmado implements Estado {
 	}
 	
 	public void cancelarProyecto(Proyecto proyecto) {
-		proyecto.setEstado(new Cancelado());
-		proyecto.setObjetivo(" (Cancelado) ");
+		
 	}
 }

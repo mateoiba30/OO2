@@ -8,11 +8,13 @@ public abstract class Topologia {
 	
 	@Override
 	public  boolean equals(Object objeto) {
-		return this.isEquals((Topologia)objeto);  
+		if (objeto instanceof Topologia) //primero ponemos esto para evitar que tire error si le mando algo que no es una instancia de topologia
+			return this.isEquals((Topologia)objeto); //el instance of solo es válido practicamente cuando lo usamos al redefinir Equals()
+		return false;
 	}
 	
 	public  boolean isEquals(Topologia topografia) {
-		return (this.proporcionAgua() == topografia.proporcionAgua());
+		return this.igual(topografia);
 	}
 	
 	public abstract boolean igual(Topologia topologia);

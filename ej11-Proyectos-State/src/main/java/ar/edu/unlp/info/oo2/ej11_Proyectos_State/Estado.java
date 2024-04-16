@@ -4,7 +4,7 @@ public interface Estado {
 	
 	public abstract void aprobarEtapa(Proyecto proyecto);
 	
-	public abstract void modificarMargenGanancias(Proyecto proyecto);
+	public abstract boolean modificarMargenGanancias(Proyecto proyecto, double nuevoMargen);
 	
 	public abstract void cancelarProyecto(Proyecto proyecto);
 }

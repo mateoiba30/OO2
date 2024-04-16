@@ -7,14 +7,16 @@ public class Evaluando implements Estado {
 	}
 	
 	public void aprobarEtapa(Proyecto proyecto) {
-		
+		proyecto.setEstado(new Confirmado());
 	}
 	
-	public void modificarMargenGanancias(Proyecto proyecto) {
-		
+	public boolean modificarMargenGanancias(Proyecto proyecto, double nuevoMargen) {
+//		return proyecto.margenDeGananciaEntre(0.11, 0.15);
+		return (nuevoMargen > 0.11 && nuevoMargen < 0.15);
 	}
 	
 	public void cancelarProyecto(Proyecto proyecto) {
-		
+		proyecto.setEstado(new Cancelado());
+		proyecto.setObjetivo(" (Cancelado) ");
 	}
 }
