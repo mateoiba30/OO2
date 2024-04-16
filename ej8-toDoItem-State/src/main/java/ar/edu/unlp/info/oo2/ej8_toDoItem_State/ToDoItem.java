@@ -26,7 +26,7 @@ public class ToDoItem {
 		this.estado.start();
 	}
 	
-	public void togglePause() {
+	public void togglePause() { //public void togglePause(this) -> hacerlo así el estado no debe conocer al todoitem
 		this.estado.togglePause();
 	}
 	

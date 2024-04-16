@@ -4,7 +4,9 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDate;
-
+import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertFalse;
@@ -96,10 +98,28 @@ class DirectorioTest {
     	String nombreNvl1 = "sys.log";
     	String nombreNvl2 = "mysql";
     	String nombreNvl3 = "pg02.log";
-    	assertTrue(nombreNvl1.equals(conSubdirectorios.buscarTodos(nombreNvl1).get(0).getNombre()));
-    	assertTrue(nombreNvl2.equals(conSubdirectorios.buscarTodos(nombreNvl2).get(0).getNombre()));
-    	assertTrue(nombreNvl3.equals(conSubdirectorios.buscarTodos(nombreNvl3).get(0).getNombre()));
-    	assertEquals(null, vacio.buscar(nombreNvl1));
+//    	assertTrue(nombreNvl1.equals(conSubdirectorios.buscarTodos(nombreNvl1).get(0).getNombre()));
+//    	assertTrue(nombreNvl2.equals(conSubdirectorios.buscarTodos(nombreNvl2).get(0).getNombre()));
+//    	assertTrue(nombreNvl3.equals(conSubdirectorios.buscarTodos(nombreNvl3).get(1).getNombre()));
+//    	assertEquals(null, vacio.buscar(nombreNvl1));
+    	
+    	LocalDate date = LocalDate.of(2015, 1, 1);
+    	List<FileSystem> lista1 = new ArrayList<>();
+    	List<FileSystem> lista2 = new ArrayList<>();
+    	List<FileSystem> lista3 = new ArrayList<>();
+    	
+    	lista1.add(new Archivo(nombreNvl1, date, 5));
+    	assertEquals(conSubdirectorios.buscarTodos(nombreNvl1), lista1);
+    	
+    	lista2.add(new Directorio(nombreNvl2, date));
+    	assertEquals(conSubdirectorios.buscarTodos(nombreNvl2), lista2);
+    	
+    	lista3.add(new Archivo(nombreNvl3, date, 1));
+    	lista3.add(new Archivo(nombreNvl3, date, 3));
+    	assertEquals(conSubdirectorios.buscarTodos(nombreNvl3), lista3);
+    	
+
+    	
     }
     
     @Test

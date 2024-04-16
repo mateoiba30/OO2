@@ -6,6 +6,15 @@ public abstract class Topologia {
 		
 	}
 	
+	@Override
+	public  boolean equals(Object objeto) {
+		return this.isEquals((Topologia)objeto);  
+	}
+	
+	public  boolean isEquals(Topologia topografia) {
+		return (this.proporcionAgua() == topografia.proporcionAgua());
+	}
+	
 	public abstract boolean igual(Topologia topologia);
 	
 	public abstract boolean igual(Mixta mixta);

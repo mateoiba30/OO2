@@ -52,8 +52,11 @@ public class Archivo extends FileSystem{
 		return this.getNombre();
 	}
 	
-	public boolean esDirectorio() {
-		return false;
+//	public boolean esDirectorio() {
+//		return false;
+//	}
+//	
+	public String getContenido(String path) {
+		return path + "/" + this.getNombre() + "\n";
 	}
-	
 }

@@ -34,5 +34,16 @@ public abstract class FileSystem {
 		return this.fecha;
 	}
 	
-	public abstract boolean esDirectorio();
+	//public abstract boolean esDirectorio();
+	
+	public abstract String getContenido(String path);
+
+	public  boolean isEquals(FileSystem fileSystem) {
+		return (this.nombre == fileSystem.getNombre());
+	}
+	
+	@Override
+	public  boolean equals(Object objeto) {
+		return this.isEquals((FileSystem)objeto);
+	}
 }

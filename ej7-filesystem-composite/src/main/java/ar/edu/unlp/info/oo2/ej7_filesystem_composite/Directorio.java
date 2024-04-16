@@ -48,7 +48,7 @@ public class Directorio extends FileSystem {
 		List<FileSystem> lista = new ArrayList<>();
 		lista = this.elementos.stream()
 				.flatMap(e -> e.buscarTodos(nombre).stream())//primero asegurarme de tener un archivo
-				.filter(e -> e!=null)//despues me fijo que coincida
+//				.filter(e -> e!=null)//no necesario ya que  nunca se retorna null, solo listas vacias
 				.collect(Collectors.toList());
 		if (this.getNombre().equals(nombre))
 			lista.add(this);
@@ -68,31 +68,43 @@ public class Directorio extends FileSystem {
 		return this.elementos.stream().map(e -> this.getNombre() + "/" + e.listadoDeContenido()).collect(Collectors.joining("\n"));  //se olvida pocos nombres de directorios en la recursión
 	}*/
 	
-	public boolean esDirectorio() {
-		return true;
-	}
+//	public boolean esDirectorio() {
+//		return true;
+//	}
 	
 	public String listadoDeContenido() {
 	    return listadoDeContenido("");
 	}
 
+//	private String listadoDeContenido(String parentPath) {
+//	    StringBuilder result = new StringBuilder();
+//	    String path;
+//	    if (parentPath.equals(""))
+//	    	path = this.getNombre();
+//	    else
+//	    	path = parentPath + "/" + this.getNombre();
+//	    
+//	    result.append(path).append("\n"); //para mostrar el nombre del directorio también
+//
+//	    for (FileSystem elemento : this.elementos) { //ahora avanzxo por cada archivo y carpetas que tenga dentro
+//	        if (elemento.esDirectorio()) // sacar el switch
+//	            result.append(((Directorio) elemento).listadoDeContenido(path)); //agrego el path del directorio sin saltar de línea para seguir avanzando
+//	        else
+//	            result.append(path).append("/").append(elemento.getNombre()).append("\n"); //llegué a una hoja del árbol, poner un salto de línea
+//	    }
+//
+//	    return result.toString();
+//	}
+	
 	private String listadoDeContenido(String parentPath) {
-	    StringBuilder result = new StringBuilder();
-	    String path;
-	    if (parentPath.equals(""))
-	    	path = this.getNombre();
-	    else
-	    	path = parentPath + "/" + this.getNombre();
-	    
-	    result.append(path).append("\n"); //para mostrar el nombre del directorio también
-
-	    for (FileSystem elemento : this.elementos) { //ahora avanzxo por cada archivo y carpetas que tenga dentro
-	        if (elemento.esDirectorio())
-	            result.append(((Directorio) elemento).listadoDeContenido(path)); //agrego el path del directorio sin saltar de línea para seguir avanzando
-	        else
-	            result.append(path).append("/").append(elemento.getNombre()).append("\n"); //llegué a una hoja del árbol, poner un salto de línea
-	    }
-
-	    return result.toString();
+	    String result = "";
+	    String path = parentPath + "/" + this.getNombre();
+	    result += path + "\n"; //para mostrar el nombre del directorio también
+	    return result + this.elementos.stream().map(e -> e.getContenido(path)).collect(Collectors.joining());
 	}
+	
+	public String getContenido(String path) {
+		return this.listadoDeContenido(path); //agrego el path del directorio sin saltar de línea para seguir avanzando
+	}
+
 }
