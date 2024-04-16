@@ -4,57 +4,42 @@ import java.time.LocalDate;
 
 public abstract class Estado {
 	
-	private Excursion excursion;
-	
-	public Estado(Excursion excursion) {
-		this.excursion = excursion;
+	public Estado() {
+
 	}
 	
-	public abstract String obtenerInformacion();
-	
-	public abstract boolean inscribirUsuario();
-	
-	public void setEstado(Estado estado) {
-		this.excursion.setEstado(estado);
+	public String obtenerInformacion(Excursion excursion) {
+		String result = excursion.getNombre() + excursion.getCostoString() + excursion.getFechaInicioString() + excursion.getFechaFinString() + excursion.getEncuentro();
+		result += agregarInformacion(excursion);
+		return result;
 	}
 	
-	public boolean pasarADefinitiva() {
-		return this.excursion.pasarADefinitiva();
+	public abstract String agregarInformacion(Excursion excursion);
+	
+	public abstract boolean inscribirUsuario(Excursion excursion);
+	
+	public void setEstado(Excursion excursion, Estado estado) {
+		excursion.setEstado(estado);
+	}
+//	
+//	public boolean pasarADefinitiva(Excursion excursion) {
+//		return excursion.pasarADefinitiva();
+//	}
+//	
+//	public boolean pasarAOcupada(Excursion excursion) {
+//		return excursion.pasarAOcupada();
+//	}
+	
+	public String getNombre(Excursion excursion) {
+		return excursion.getNombre();
 	}
 	
-	public boolean pasarAOcupada() {
-		return this.excursion.pasarAOcupada();
+	public String getEncuentro(Excursion excursion) {
+		return excursion.getEncuentro();
 	}
 	
-	public String getNombre() {
-		return this.excursion.getNombre();
+	public Excursion getExcursion(Excursion excursion) {
+		return excursion;
 	}
-	
-	public String getCostoString() {
-		return String.valueOf(this.excursion.getCosto());
-	}
-	
-	public String getFechaInicioString() {
-		return String.valueOf(this.excursion.getFechaInicio());
-	}
-	
-	public String getFechaFinString() {
-		return String.valueOf(this.excursion.getFechaFin());
-	}
-	
-	public String getEncuentro() {
-		return this.excursion.getEncuentro();
-	}
-	
-	public String getUsuariosRestantesMinimosString() {
-		return String.valueOf(this.excursion.getUsuariosRestantesMinimos());
-	}
-	
-	public Excursion getExcursion() {
-		return this.excursion;
-	}
-	
-	public String getMailsString() {
-		return String.join(" ", this.excursion.getMails());
-	}
+
 }

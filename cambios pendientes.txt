@@ -1,8 +1,0 @@
-
-modificar el 6 -> redefinir el equals
-tener en cuenta que si queiro qgregar mas tipos de tierra es mejor tener topologia simple o mixta, y la mixta no le digo si es agua, tierra, pantano, etc, solo modifico susu proporciones de agua en el constructor
-en strategy es mejor tener el setStrategy, no mandar por parametro el objeto que quiero
-
-modificar ej 7 -> puedo mejorar el listadoDeContenido() ? -> si, en lugar de preguntar si es un directorio es mejro usar polimorfismo e intentar hacerlo en 2 métodos donde uno use stream() de java
-
-modificar test ej 7-> comparar una lista de buscarTodos() con una lista usando equals

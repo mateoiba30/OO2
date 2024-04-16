@@ -26,7 +26,7 @@ public class Excursion {
 		this.costo = costo;
 		this.cupoMin = cupoMin;
 		this.cupoMax = cupoMax;
-		this.estado = new Provisoria(this); //arranca con la lista de usuarios vacía
+		this.estado = new Provisoria(); //arranca con la lista de usuarios vacía
 		this.usuariosEspera = new ArrayList<>();
 		this.usuariosInscriptos = new ArrayList<>();
 	}
@@ -39,12 +39,16 @@ public class Excursion {
 		return cupoMin - this.usuariosInscriptos.size();
 	}
 	
+	public int getUsuariosRestantesMaximos(){
+		return cupoMax - this.usuariosInscriptos.size();
+	}
+	
 	public String obtenerInformacion() {
-		return this.estado.obtenerInformacion();
+		return this.estado.obtenerInformacion(this);
 	}
 	
 	public void inscribirUsuario(Usuario usuario) {
-		if (this.estado.inscribirUsuario())
+		if (this.estado.inscribirUsuario(this))
 			this.usuariosInscriptos.add(usuario);
 		else
 			this.usuariosEspera.add(usuario);
@@ -136,6 +140,31 @@ public class Excursion {
 
 	public Estado getEstado() {
 		return estado;
+	}
+	
+	
+	public String getCostoString() {
+		return String.valueOf(this.getCosto());
+	}
+	
+	public String getFechaInicioString() {
+		return String.valueOf(this.getFechaInicio());
+	}
+	
+	public String getFechaFinString() {
+		return String.valueOf(this.getFechaFin());
+	}
+	
+	public String getUsuariosRestantesMinimosString() {
+		return String.valueOf(this.getUsuariosRestantesMinimos());
+	}
+	
+	public String getUsuariosRestantesMaximosString() {
+		return String.valueOf(this.getUsuariosRestantesMaximos());
+	}
+	
+	public String getMailsString() {
+		return String.join(" ", this.getMails());
 	}
 	
 	

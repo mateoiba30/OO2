@@ -2,17 +2,17 @@ package ar.edu.unlp.info.oo2.ej9_Excursiones_State;
 
 public class Provisoria extends Estado {
 
-	public Provisoria(Excursion excursion) {
-		super(excursion);
+	public Provisoria() {
+
 	}
 	
-	public boolean inscribirUsuario() {
-		if(this.pasarADefinitiva())
-			this.setEstado(new Definitiva(this.getExcursion()));
+	public boolean inscribirUsuario(Excursion excursion) {
+		if(excursion.pasarADefinitiva())
+			excursion.setEstado(new Definitiva());
 		return true;
 	}
 	
-	public String obtenerInformacion() {
-		return this.getNombre() + this.getCostoString() + this.getFechaInicioString() + this.getFechaFinString() + this.getEncuentro() + this.getUsuariosRestantesMinimosString();
+	public String agregarInformacion(Excursion excursion) {
+		return excursion.getUsuariosRestantesMinimosString();
 	}
 }

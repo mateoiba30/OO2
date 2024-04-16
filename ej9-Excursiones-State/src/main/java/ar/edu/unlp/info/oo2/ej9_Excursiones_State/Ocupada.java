@@ -2,15 +2,15 @@ package ar.edu.unlp.info.oo2.ej9_Excursiones_State;
 
 public class Ocupada extends Estado {
 
-	public Ocupada(Excursion excursion) {
-		super(excursion);
+	public Ocupada() {
+		
 	}
 	
-	public boolean inscribirUsuario() {
+	public boolean inscribirUsuario(Excursion excursion) {
 		return false;
 	}
 	
-	public String obtenerInformacion() {
-		return this.getNombre() + this.getCostoString() + this.getFechaInicioString() + this.getFechaFinString() + this.getEncuentro();
+	public String agregarInformacion(Excursion excursion) {
+		return excursion.getUsuariosRestantesMaximosString()+ excursion.getMailsString();
 		}
 }
