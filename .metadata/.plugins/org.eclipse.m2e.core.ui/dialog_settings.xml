@@ -27,6 +27,9 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="ar.edu.unlp.info.oo2.ej12_"/>
+			<item value="ar.edu.unlp.info.oo2.ej11_Proyectos_State"/>
+			<item value="ar.edu.unlp.info.oo2"/>
 			<item value="ar.edu.unlp.info.oo2.ej10_encriptador_strategy"/>
 			<item value="ar.edu.unlp.info.oo2.ej9_Excursiones_State"/>
 			<item value="ar.edu.unlp.info.oo2.ej8_toDoItem_State"/>
@@ -42,6 +45,8 @@
 			<item value="ar.edu.unlp.info.oo2"/>
 		</list>
 		<list key="artifactId">
+			<item value="ej12-"/>
+			<item value="ej11-Proyectos-State"/>
 			<item value="ej10-encriptador-strategy"/>
 			<item value="ej9-Excursiones-State"/>
 			<item value="ej8-toDoItem-State"/>
