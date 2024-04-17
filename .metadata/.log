@@ -7453,3 +7453,9 @@ org.eclipse.core.runtime.CoreException: Launch configuration PersonaTest (10) re
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 !SUBENTRY 1 org.eclipse.jdt.launching 4 107 2024-04-17 17:27:33.454
 !MESSAGE Launch configuration PersonaTest (10) references non-existing project ej12-Dispositivo-Strategy.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-04-17 18:17:36.107
+!MESSAGE The POM for ar.edu.unlp.info.oo2:objetos-dos:jar:0.0.2 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2024-04-17 18:19:09.171
+!MESSAGE Failed to find a compatible VM for environment id 'JavaSE-11', falling back to workspace default
