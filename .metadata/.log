@@ -7459,3 +7459,9 @@ org.eclipse.core.runtime.CoreException: Launch configuration PersonaTest (10) re
 
 !ENTRY org.eclipse.m2e.logback.appender 4 0 2024-04-17 18:19:09.171
 !MESSAGE Failed to find a compatible VM for environment id 'JavaSE-11', falling back to workspace default
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-04-17 22:00:42.359
+!MESSAGE The POM for ar.edu.unlp.info.oo2:objetos-dos:jar:0.0.2 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2024-04-17 22:01:39.321
+!MESSAGE Failed to find a compatible VM for environment id 'JavaSE-11', falling back to workspace default
