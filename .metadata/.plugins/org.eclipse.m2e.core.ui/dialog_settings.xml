@@ -27,6 +27,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="ar.edu.unlp.info.oo2.ej17_Productos_Factory"/>
 			<item value="ar.edu.unlp.info.oo2.ej16_Meteorologia_Decorator"/>
 			<item value="ar.edu.unlp.info.oo2"/>
 			<item value="ar.edu.unlp.info.oo2.ej15_FileManager_Decorator"/>
@@ -41,12 +42,12 @@
 			<item value="ar.edu.unlp.info.oo2.ej7_filesystem_composite"/>
 			<item value="ar.edu.unlp.info.oo2.ej6_topologia_composite"/>
 			<item value="ar.edu.unlp.info.oo2.ej5_mediaAdapter"/>
-			<item value="ar.edu.unlp.info.oo2.ej4_EmpleadoTemplateMethod"/>
 		</list>
 		<list key="groupId">
 			<item value="ar.edu.unlp.info.oo2"/>
 		</list>
 		<list key="artifactId">
+			<item value="ej17-Productos-Factory"/>
 			<item value="ej16-Meteorologia-Decorator"/>
 			<item value="ej15-FileManager-Decorator"/>
 			<item value="ej14-DataBase-Proxy"/>
@@ -61,7 +62,6 @@
 			<item value="ej6-topologia-composite"/>
 			<item value="ej5-mediaAdapter"/>
 			<item value="ej4-EmpleadoTemplateMethod"/>
-			<item value="ej3-JSONAdapter"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
