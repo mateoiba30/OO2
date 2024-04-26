@@ -27,6 +27,8 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="ar.edu.unlp.info.oo2.ej21_Genealigia_NullObject"/>
+			<item value="ar.edu.unlp.info.oo2.ej19_Personajes_Factory"/>
 			<item value="ar.edu.unlp.info.oo2.ej17_Productos_Factory"/>
 			<item value="ar.edu.unlp.info.oo2.ej16_Meteorologia_Decorator"/>
 			<item value="ar.edu.unlp.info.oo2"/>
@@ -40,13 +42,13 @@
 			<item value="ar.edu.unlp.info.oo2.ej9_Excursiones_State"/>
 			<item value="ar.edu.unlp.info.oo2.ej8_toDoItem_State"/>
 			<item value="ar.edu.unlp.info.oo2.ej7_filesystem_composite"/>
-			<item value="ar.edu.unlp.info.oo2.ej6_topologia_composite"/>
-			<item value="ar.edu.unlp.info.oo2.ej5_mediaAdapter"/>
 		</list>
 		<list key="groupId">
 			<item value="ar.edu.unlp.info.oo2"/>
 		</list>
 		<list key="artifactId">
+			<item value="ej21-Genealigia-NullObject"/>
+			<item value="ej19-Personajes-Factory"/>
 			<item value="ej17-Productos-Factory"/>
 			<item value="ej16-Meteorologia-Decorator"/>
 			<item value="ej15-FileManager-Decorator"/>
@@ -60,8 +62,6 @@
 			<item value="ej8-toDoItem-State"/>
 			<item value="ej7-filesystem-composite"/>
 			<item value="ej6-topologia-composite"/>
-			<item value="ej5-mediaAdapter"/>
-			<item value="ej4-EmpleadoTemplateMethod"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
