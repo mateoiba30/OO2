@@ -9,11 +9,10 @@ public class Director {
 	}
 	
 	public Personaje crear() {
-		Personaje p = new Personaje();
-		p.setVida(100);
-		this.constructor.ponerArma(p);
-		this.constructor.ponerArmadura(p);
-		this.constructor.ponerHabilidad(p);
-		return p;
+		return this.constructor.vida().arma().armadura().habilidad().build();
+	}
+	
+	public void setConstructor(Constructor constructor) {
+		
 	}
 }

@@ -1,19 +1,21 @@
 package ar.edu.unlp.info.oo2.ej19_Personajes_Builder;
 
-public class CreadorGuerrero implements Constructor {
-
-	public Personaje ponerArma(Personaje p) {
-		p.setArma(new Espada());
-		return p;
-	}
+public class CreadorGuerrero extends Constructor {
 	
-	public Personaje ponerArmadura(Personaje p) {
-		p.setArmadura(new Acero());
-		return p;
+	public Constructor vida() {
+		this.setVida(100);
+		return this;
 	}
-	
-	public Personaje ponerHabilidad(Personaje p) {
-		p.setHabilidad(new Melee());
-		return p;
+	public Constructor arma() {
+		this.setArma(new Espada());
+		return this;
+	}
+	public Constructor armadura() {
+		this.setArmadura(new Acero());
+		return this;
+	}
+	public Constructor habilidad() {
+		this.setHabilidad(new Melee());
+		return this;
 	}
 }

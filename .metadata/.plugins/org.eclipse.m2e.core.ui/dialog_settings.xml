@@ -27,6 +27,9 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="ar.edu.unlp.info.oo2.ej22_SubteWay_Builder"/>
+			<item value="ar.edu.unlp.info.oo2.ej20c_ImageFilter_"/>
+			<item value="ar.edu.unlp.info.oo2.ej19_Personajes_Builder"/>
 			<item value="ar.edu.unlp.info.oo2.ej21_Genealigia_NullObject"/>
 			<item value="ar.edu.unlp.info.oo2.ej19_Personajes_Factory"/>
 			<item value="ar.edu.unlp.info.oo2.ej17_Productos_Factory"/>
@@ -39,14 +42,14 @@
 			<item value="ar.edu.unlp.info.oo2.ej12_"/>
 			<item value="ar.edu.unlp.info.oo2.ej11_Proyectos_State"/>
 			<item value="ar.edu.unlp.info.oo2.ej10_encriptador_strategy"/>
-			<item value="ar.edu.unlp.info.oo2.ej9_Excursiones_State"/>
-			<item value="ar.edu.unlp.info.oo2.ej8_toDoItem_State"/>
-			<item value="ar.edu.unlp.info.oo2.ej7_filesystem_composite"/>
 		</list>
 		<list key="groupId">
 			<item value="ar.edu.unlp.info.oo2"/>
 		</list>
 		<list key="artifactId">
+			<item value="ej22-SubteWay-Builder"/>
+			<item value="ej20c-ImageFilter-"/>
+			<item value="ej19-Personajes-Builder"/>
 			<item value="ej21-Genealigia-NullObject"/>
 			<item value="ej19-Personajes-Factory"/>
 			<item value="ej17-Productos-Factory"/>
@@ -59,9 +62,6 @@
 			<item value="ej11-Proyectos-State"/>
 			<item value="ej10-encriptador-strategy"/>
 			<item value="ej9-Excursiones-State"/>
-			<item value="ej8-toDoItem-State"/>
-			<item value="ej7-filesystem-composite"/>
-			<item value="ej6-topologia-composite"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -114,6 +114,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej20b-Image-Filters-Decorator"/>
+			<item value="C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej20a-ImageFilters-Decorator"/>
 			<item value="C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej20b-Image-Filters-"/>
 			<item value="C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej20-ImageFilters-\filtros"/>
 			<item value="C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej3-bibliotecaJSONAdapter"/>

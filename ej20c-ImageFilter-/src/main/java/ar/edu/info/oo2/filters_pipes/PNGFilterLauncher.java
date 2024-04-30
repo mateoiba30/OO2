@@ -15,6 +15,9 @@ import java.awt.image.BufferedImage;
 
 
 public class PNGFilterLauncher {
+	
+  private Constructor constructor;
+	
   private static Map<String, ImageFilter> filters = new HashMap<String, ImageFilter>();
   private static ArrayList<ImageFilter> activeFilters = new ArrayList<ImageFilter>();
   private static File inputFile;
@@ -96,6 +99,5 @@ public class PNGFilterLauncher {
     filters.put("--mono", new Monochrome());
     filters.put("--rain-arti", getRainbowArtifactPipe());
     filters.put("--mono-arti", getMonoArtifactPipe());
-    
   }
 }

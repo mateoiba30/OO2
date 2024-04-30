@@ -1,19 +1,21 @@
 package ar.edu.unlp.info.oo2.ej19_Personajes_Builder;
 
-public class CreadorThor implements Constructor {
+public class CreadorThor extends Constructor {
 
-	public Personaje ponerArma(Personaje p) {
-		p.setArma(new Martillo());
-		return p;
+	public Constructor vida() {
+		this.setVida(100);
+		return this;
 	}
-	
-	public Personaje ponerArmadura(Personaje p) {
-		p.setArmadura(new Hierro());
-		return p;
+	public Constructor arma() {
+		this.setArma(new Martillo());
+		return this;
 	}
-	
-	public Personaje ponerHabilidad(Personaje p) {
-		p.setHabilidad(new Rayos());
-		return p;
+	public Constructor armadura() {
+		this.setArmadura(new Hierro());
+		return this;
+	}
+	public Constructor habilidad() {
+		this.setHabilidad(new Rayos());
+		return this;
 	}
 }

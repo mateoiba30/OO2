@@ -1,19 +1,21 @@
 package ar.edu.unlp.info.oo2.ej19_Personajes_Builder;
 
-public class CreadorMago implements Constructor {
-
-	public Personaje ponerArma(Personaje p) {
-		p.setArma(new Baston());
-		return p;
-	}
+public class CreadorMago extends Constructor {
 	
-	public Personaje ponerArmadura(Personaje p) {
-		p.setArmadura(new Cuero());
-		return p;
+	public Constructor vida() {
+		this.setVida(100);
+		return this;
 	}
-	
-	public Personaje ponerHabilidad(Personaje p) {
-		p.setHabilidad(new Magia());
-		return p;
+	public Constructor arma() {
+		this.setArma(new Baston());
+		return this;
+	}
+	public Constructor armadura() {
+		this.setArmadura(new Cuero());
+		return this;
+	}
+	public Constructor habilidad() {
+		this.setHabilidad(new Magia());
+		return this;
 	}
 }

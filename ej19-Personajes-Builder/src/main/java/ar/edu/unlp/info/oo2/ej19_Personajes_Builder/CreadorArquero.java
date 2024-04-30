@@ -1,19 +1,21 @@
 package ar.edu.unlp.info.oo2.ej19_Personajes_Builder;
 
-public class CreadorArquero implements Constructor {
+public class CreadorArquero extends Constructor {
 
-	public Personaje ponerArma(Personaje p) {
-		p.setArma(new Arco());
-		return p;
+	public Constructor vida() {
+		this.setVida(100);
+		return this;
 	}
-	
-	public Personaje ponerArmadura(Personaje p) {
-		p.setArmadura(new Cuero());
-		return p;
+	public Constructor arma() {
+		this.setArma(new Arco());
+		return this;
 	}
-	
-	public Personaje ponerHabilidad(Personaje p) {
-		p.setHabilidad(new Distancia());
-		return p;
+	public Constructor armadura() {
+		this.setArmadura(new Cuero());
+		return this;
+	}
+	public Constructor habilidad() {
+		this.setHabilidad(new Distancia());
+		return this;
 	}
 }
