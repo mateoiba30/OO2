@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej23-Aerolinea-TypeObject"/>
 			<item value="C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\ej5-mediaAdapter"/>
 			<item value="C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\e2-PPTijera"/>
 		</list>
@@ -27,6 +28,9 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="ar.edu.unlp.info.oo2.ej24b_TestDouble_"/>
+			<item value="ar.edu.unlp.info.oo2.ej24_TestDouble_"/>
+			<item value="ar.edu.unlp.info.oo2.ej23_Aerolinea_TypeObject"/>
 			<item value="ar.edu.unlp.info.oo2.ej22_SubteWay_Builder"/>
 			<item value="ar.edu.unlp.info.oo2.ej20c_ImageFilter_"/>
 			<item value="ar.edu.unlp.info.oo2.ej19_Personajes_Builder"/>
@@ -39,14 +43,14 @@
 			<item value="ar.edu.unlp.info.oo2.ej14_DataBase_Proxy"/>
 			<item value="ar.edu.unlp.info.oo2.ej13_Decodificador_Strategy"/>
 			<item value="ar.edu.unlp.info.oo2.ej12_Dispositivo_Strategy"/>
-			<item value="ar.edu.unlp.info.oo2.ej12_"/>
-			<item value="ar.edu.unlp.info.oo2.ej11_Proyectos_State"/>
-			<item value="ar.edu.unlp.info.oo2.ej10_encriptador_strategy"/>
 		</list>
 		<list key="groupId">
 			<item value="ar.edu.unlp.info.oo2"/>
 		</list>
 		<list key="artifactId">
+			<item value="ej24b-TestDouble-"/>
+			<item value="ej24-TestDouble-"/>
+			<item value="ej23-Aerolinea-TypeObject"/>
 			<item value="ej22-SubteWay-Builder"/>
 			<item value="ej20c-ImageFilter-"/>
 			<item value="ej19-Personajes-Builder"/>
@@ -59,9 +63,6 @@
 			<item value="ej13-Decodificador-Strategy"/>
 			<item value="ej12-Dispositivo-Strategy"/>
 			<item value="ej12-"/>
-			<item value="ej11-Proyectos-State"/>
-			<item value="ej10-encriptador-strategy"/>
-			<item value="ej9-Excursiones-State"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
