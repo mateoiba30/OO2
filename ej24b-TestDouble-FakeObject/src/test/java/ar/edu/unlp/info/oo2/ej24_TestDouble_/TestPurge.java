@@ -5,20 +5,17 @@ import org.junit.jupiter.api.Test;
 
 public class TestPurge {
 
-	private MixingTank tank0;
-	private MixingTank tank15;
-	private ProcessStep lightMix;
+	private MixingTank tank;
+	private ProcessStep purge;
 	
 	@BeforeEach
 	public void setUp() {
-		this.tank0 = new MixingTank(0, 0);
-		this.tank15 = new MixingTank(15, 15);
-		this.lightMix = new LightMix(false);
+		this.tank = new MixingTank();
+		this.purge = new Purge(false);
 	}
 	
 	@Test
 	public void testBasicExecute() {
-		assertFalse(lightMix.basicExecute(tank0));
-		assertTrue(lightMix.basicExecute(tank15));
+		assertFalse(purge.basicExecute(tank));
 	}
 }

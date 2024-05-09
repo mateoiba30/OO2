@@ -3,16 +3,20 @@ package ar.edu.unlp.info.oo2.ej24_TestDouble_;
 public class MixingTank {
 	
 	private double temperature;
-	private double upTo;
+	//private double upTo;
 	
-	public MixingTank(double temperature, double upTo) {
-		this.temperature = temperature;
-		this.upTo = upTo;
+	public MixingTank(/*double temperature , double upTo*/) {
+		//this.temperature = temperature;
+		//this.upTo = upTo;
+		this.temperature = 0;
 	}
 
-	public boolean heatPower(int percentage, int delay) {
+	public boolean heatPower(int percentage) {
+		
 		/*if (percentage < 0 || percentage > 100)
 			return false;*/
+		
+		/*
 		switch (percentage) {
 			case 100: this.temperature = 5 * delay; break;
 			case 75: this.temperature = 4 * delay; break;
@@ -20,7 +24,13 @@ public class MixingTank {
 			case 25: this.temperature = 1 * delay; break;
 			case 0: this.temperature = 0 * delay; break;
 		}
-
+		*/
+		
+		if (percentage == 100)
+			this.temperature = 10;
+		else
+			this.temperature = 0;
+			
 		return true;
 	}
 	
@@ -31,6 +41,8 @@ public class MixingTank {
 	}
 	
 	public boolean purge() { //en ningún caso quiero simular que falle
+		
+		/*
 		try {
             Thread.sleep(4000);
         } catch (InterruptedException e) {
@@ -38,6 +50,8 @@ public class MixingTank {
         }
 		
 		this.upTo = 0;
+		
+		*/
 		
 		return true;
 	}
@@ -47,7 +61,8 @@ public class MixingTank {
 	}
 	
 	public double upTo() {
-		return this.upTo;
+		return 0;
+		//return this.upTo;
 	}
 	
 }

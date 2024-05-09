@@ -11,7 +11,7 @@ public class Purge extends ProcessStep {
 			return false;
 		}
 		else {
-			tank.heatPower(0, 0);
+			tank.heatPower(0);
 			tank.mixerPower(0);
 			tank.purge();
 
