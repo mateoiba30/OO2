@@ -8,12 +8,17 @@ public class Paquete {
 	private double peso;
 	
 	public Paquete(double ancho, double profundidad, double altura, double peso) {
-		super();
 		this.ancho = ancho;
 		this.profundidad = profundidad;
 		this.altura = altura;
 		this.peso = peso;
 	}
 	
+	public double getCostoBase() {
+		return this.peso * 3000;
+	}
 	
+	public double getPeso() {
+		return this.peso;
+	}
 }

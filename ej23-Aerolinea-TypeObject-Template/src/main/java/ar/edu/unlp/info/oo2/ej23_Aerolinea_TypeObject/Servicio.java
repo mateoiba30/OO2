@@ -3,18 +3,24 @@ import java.util.List;
 
 public abstract class Servicio {
 	
+	private int id;
 	private double rateMultihop = 0.93;
 	private Aerolinea aerolinea;
 	private List<ConjuntoTramoAsiento> conjuntosTramoAsiento;
 	
 	
-	public Servicio(Aerolinea aerolinea, List<ConjuntoTramoAsiento> conjuntoTramoAsientos) {
+	public Servicio(int id, Aerolinea aerolinea, List<ConjuntoTramoAsiento> conjuntoTramoAsientos) {
 		this.aerolinea = aerolinea;
 		this.conjuntosTramoAsiento = conjuntoTramoAsientos;
+		this.id = id;
+	}
+	
+	public double calcularPrecioFinal() {
+		return (this.costoBase() - this.descuentoTripHop()) * this.descuentoExtra();
 	}
 
-	public double calcularPrecio() {
-		return this.costoBase() * this.calcularRateDiario() * this.calcularRateMultihop() * this.descuentoExtra();
+	public double descuentoTripHop() {
+		return this.costoBase() - this.costoBase() * this.calcularRateDiario() * this.calcularRateMultihop(); //al hacerlo de esta forma me facilita el método montoDescuentosTripHop en la aerolinea
 	}
 	
 	public double calcularRateMultihop() {
@@ -33,5 +39,13 @@ public abstract class Servicio {
 	
 	public List<ConjuntoTramoAsiento> getConjuntosTramoAsiento(){
 		return this.conjuntosTramoAsiento;
+	}
+	
+	public boolean idIgualA(int id) {
+		return this.id == id;
+	}
+	
+	public void setConjuntosTramoAsiento(List<ConjuntoTramoAsiento> conjuntoTramoAsientos){
+		this.conjuntosTramoAsiento = conjuntoTramoAsientos;
 	}
 }

@@ -1,4 +1,5 @@
 package ar.edu.unlp.info.oo2.ej23_Aerolinea_TypeObject;
+import java.time.DayOfWeek;
 
 public class ConjuntoTramoAsiento {
 
@@ -10,7 +11,19 @@ public class ConjuntoTramoAsiento {
 		this.tramo = tramo;
 	}
 	
-	public String getDiaSalida() {
+	public DayOfWeek getDiaSalida() {
 		return this.tramo.getDiaSalida();
+	}
+	
+	public double getCostoBase() {
+		return this.tramo.getCostoBase();
+	}
+	
+	public String getOrigen() {
+		return this.tramo.getOrigen();
+	}
+	
+	public String getDestino() {
+		return this.tramo.getDestino();
 	}
 }
