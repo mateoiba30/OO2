@@ -1,0 +1,25 @@
+
+public class Supermercado {
+   public void notificarPedido(long nroPedido, Cliente cliente) {
+
+    String mensaje = “Estimado cliente, se le informa que hemos recibido su pedido con número {0}, el cual será enviado a la dirección {1}”
+    String notificacion = MessageFormat.format(mensaje, new Object[] { nroPedido, cliente.getDireccionFormateada() });
+    System.out.println(notificacion);
+  }
+}
+
+public class Cliente {
+    private String localidad;
+    private String calle;
+    private int numero;
+    private String departamento;
+
+   public String getDireccionFormateada() {
+	return 
+		this.localidad + “, ” + //esta información le corresponde al cliente, envidia de atributos (además Dirección no tiene métodos)-> mandar las variables en dirección en el cliente
+		this.calle + “, ” +
+		this.numero + “, ” +
+		this.departamento
+      ;
+   }
+}

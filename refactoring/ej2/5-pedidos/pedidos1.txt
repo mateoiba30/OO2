@@ -1,0 +1,22 @@
+
+public class Supermercado {
+   public void notificarPedido(long nroPedido, Cliente cliente) {
+
+    //instrucción poco legible -> la separamos en otro paso
+     String notificacion = MessageFormat.format(“Estimado cliente, se le informa que hemos recibido su pedido con número {0}, el cual será enviado a la dirección {1}”, new Object[] { nroPedido, cliente.getDireccionFormateada() });
+
+     // lo imprimimos en pantalla, podría ser un mail, SMS, etc..
+    System.out.println(notificacion);
+  }
+}
+
+public class Cliente {
+   public String getDireccionFormateada() { // "Inappropriate Intimacy" = dependencia excesiva de la clase Cliente para Direccion
+	return 
+		this.direccion.getLocalidad() + “, ” + //esta información le corresponde al cliente, envidia de atributos (además Dirección no tiene métodos)-> mandar las variables en dirección en el cliente
+		this.direccion.getCalle() + “, ” +
+		this.direccion.getNumero() + “, ” +
+		this.direccion.getDepartamento()
+      ;
+   }
+}

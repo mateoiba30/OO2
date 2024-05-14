@@ -1,0 +1,62 @@
+public abstract class Usuario {
+    private Strategy estrategia;
+
+    public void setEstrategia(Strategy estrategia) {
+   	 this.estrategia = estrategia;
+    }
+
+    //...
+    public double calcularCostoPelicula(Pelicula pelicula){
+        return this.estrategia.calcularCostoPelicula(Pelicula pelicula);
+    }
+}
+
+public interface class Strategy{
+    public double calcualrCostoPelicula();
+}
+
+public class Basico extens Strategy{
+    public double calcularCostoPelicula(Pelicula pelicula){
+        return pelicula.getCosto() + pelicula.calcularCargoExtraPorEstreno();
+    }
+}
+
+public class Familia extens Strategy{
+    private final DESCUENTO = 0.90;
+    public double calcularCostoPelicula(Pelicula pelicula){
+        return (pelicula.getCosto() + pelicula.calcularCargoExtraPorEstreno()) * DESCUENTO; 
+    }
+}
+
+public class Plus extens Strategy{
+    public double calcularCostoPelicula(Pelicula pelicula){
+        return pelicula.getCosto();
+    }
+}
+
+public class Premiun extens Strategy{
+    private final DESCUENTO = 0.75;
+    public double calcularCostoPelicula(Pelicula pelicula){
+        return pelicula.getCosto() * DESCUENTO;
+    }
+}
+
+
+public class Pelicula {
+    private LocalDate fechaEstreno;
+    private final DIAS_SIN_RECARGO = 30;
+    private final CARGO_EXTRA = 300;
+    // ...
+
+    public double getCosto() {
+   	 return this.costo;
+    }
+    
+    public double calcularCargoExtraPorEstreno(){
+        return (this.diasQuePasaron()) > DIAS_SIN_RECARGO ? 0 : CARGO_EXTRA; //magic number -> hacer constantes
+    }
+
+    private int diasQuePasaron(){
+        return ChronoUnit.DAYS.between(this.fechaEstreno, LocalDate.now());
+    }
+}

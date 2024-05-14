@@ -1,0 +1,17 @@
+public List<Post> ultimosPosts(Usuario user, int cantidad) {
+    List<Post> postsOtrosUsuarios = filtrarUsuario(user);
+    ordenarDescendentemente(postsOtrosUsuarios);
+    return obtenerPrimerosElementos(postsOtrosUsuarios, cantidad);
+}
+
+private List<Post> filtrarUsuario(User user){
+    return this.posts.stream().filter(p -> p.userNot(user)).collect(Collectors.toList()); 
+}
+
+private void ordenarDescendentemente(List<Post> lista){
+    lista.stream().sorted((post2, post1) -> post1.getFecha().compareTo(post2.getFecha())).collect(Collectors.toList);
+}
+
+public List<Post> obtenerPrimerosElementos(List<Post> lista, int n){
+    return lista.stream().limit(n).collect(Collectors.toList());
+}

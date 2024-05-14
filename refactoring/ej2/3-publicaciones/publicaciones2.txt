@@ -1,0 +1,10 @@
+//metodo con muchas tareas -> extract method o combinar todo en menos líneas
+
+public List<Post> ultimosPosts(Usuario user, int cantidad) {
+        
+    List<Post> postsOtrosUsuarios = this.posts.stream().filter(p -> p.userNot(user)).collect(Collectors.toList()); 
+    this.postsOtrosUsuarios.stream().sorted((post2, post1) -> post1.getFecha().compareTo(post2.getFecha())).collect(Collectors.toList);
+    List<Post> ultimosPosts = this.postsOtrosUsuarios.stream().limit(cantidad).collect(Collectors.toList());
+
+    return ultimosPosts;
+}

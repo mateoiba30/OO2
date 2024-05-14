@@ -1,0 +1,59 @@
+public abstract class Usuario {
+    private Strategy estrategia;
+
+    public void setEstrategia(Strategy estrategia) {
+   	 this.estrategia = estrategia;
+    }
+
+    //...
+    public double calcularCostoPelicula(Pelicula pelicula){
+        return this.estrategia.calcularCostoPelicula(Pelicula pelicula);
+    }
+}
+
+public interface class Strategy{
+    public double calcualrCostoPelicula();
+}
+
+public class Basico extens Strategy{
+    public double calcularCostoPelicula(Pelicula pelicula){
+        return pelicula.getCosto() + pelicula.calcularCargoExtraPorEstreno();
+    }
+}
+
+public class Familia extens Strategy{
+    public double calcularCostoPelicula(Pelicula pelicula){
+        return (pelicula.getCosto() + pelicula.calcularCargoExtraPorEstreno()) * 0.90; //magic number -> hacer constantes
+    }
+}
+
+public class Plus extens Strategy{
+    public double calcularCostoPelicula(Pelicula pelicula){
+        return pelicula.getCosto();
+    }
+}
+
+public class Premiun extens Strategy{
+    public double calcularCostoPelicula(Pelicula pelicula){
+        return pelicula.getCosto() * 0.75; //magic number -> hacer constantes
+    }
+}
+
+
+public class Pelicula {
+    private LocalDate fechaEstreno;
+    // ...
+
+    public double getCosto() {
+   	 return this.costo;
+    }
+    
+    public double calcularCargoExtraPorEstreno(){
+	    // Si la Película se estrenó 30 días antes de la fecha actual, retorna un cargo de 0$, caso contrario, retorna un cargo extra de 300$
+        return (this.diasQuePasaron()) > 30 ? 0 : 300; //magic number -> hacer constantes
+    }
+
+    private int diasQuePasaron(){
+        return ChronoUnit.DAYS.between(this.fechaEstreno, LocalDate.now());
+    }
+}

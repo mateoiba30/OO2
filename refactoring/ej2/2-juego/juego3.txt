@@ -13,10 +13,10 @@ public class Jugador{
         this.puntuacion = puntuacion;
     }
 
-    public void incrementar() { // nombre poco representativo -> rename method
+    public void incrementarPuntuacion() { // nombre poco representativo -> rename method
         this.puntuacion += 100;
     }
-    public void decrementar() { //nombre poco representativo -> rename method
+    public void decrementarPuntuacion() { //nombre poco representativo -> rename method
         this.puntuacion -= 50;
     }
 }

@@ -1,0 +1,42 @@
+public class Usuario {
+    String tipoSubscripcion;
+    // ...
+
+    public void setTipoSubscripcion(String unTipo) {
+   	 this.tipoSubscripcion = unTipo;
+    }
+    
+    public double calcularCostoPelicula(Pelicula pelicula) { //tener varios condicionales -> Replace Conditional Logic with Strategy (no se puede aplicar Replace Conditional Logic with Polymorphism porque no se pueden crear subclases ya que se puede cambiar de una subscripción a otra, usar Replace Conditional Logic with Polymorphism implicaría crear un objeto desde 0 si se cambia de subscripción).
+   	 double costo = 0;
+   	 if (tipoSubscripcion=="Basico") {
+   		 costo = pelicula.getCosto() + pelicula.calcularCargoExtraPorEstreno();
+   	 }
+   	 else if (tipoSubscripcion== "Familia") {
+   		 costo = (pelicula.getCosto() + pelicula.calcularCargoExtraPorEstreno()) * 0.90;
+   	 }
+   	 else if (tipoSubscripcion=="Plus") {
+   		 costo = pelicula.getCosto();
+   	 }
+   	 else if (tipoSubscripcion=="Premium") {
+   		 costo = pelicula.getCosto() * 0.75;
+   	 }
+   	 return costo;
+    }
+}
+
+
+
+public class Pelicula {
+    LocalDate fechaEstreno;
+    // ...
+
+    public double getCosto() {
+   	 return this.costo;
+    }
+    
+    public double calcularCargoExtraPorEstreno(){
+	// Si la Película se estrenó 30 días antes de la fecha actual, retorna un cargo de 0$, caso contrario, retorna un cargo extra de 300$
+   	
+    return (ChronoUnit.DAYS.between(this.fechaEstreno, LocalDate.now()) ) > 30 ? 0 : 300; //Varios pasos dentro del método -> separar en diferentes métodos = extract method
+    }
+}
