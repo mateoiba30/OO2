@@ -1,0 +1,16 @@
+
+public class Juego {
+    // ......
+    public void incrementar(Jugador j) { // envidia de atributos -> estas operaciones las debería hacer el jugador (move method)
+        j.puntuacion = j.puntuacion + 100;
+    }
+    public void decrementar(Jugador j) {
+        j.puntuacion = j.puntuacion - 50;
+    }
+}
+
+public class Jugador { // clase de datos -> añadirle funcionalidad
+    public String nombre;
+    public String apellido;
+    public int puntuacion = 0;//mal encapsulamiento -> privatizar variables y poner getter y setters solo si son necesarios (o con un constructor)
+}

@@ -1,0 +1,49 @@
+public class Empleado{
+    private Stirng nombre;
+    private String apellido;
+    private double sueldoBasico;
+    private double horasTrabajadas;
+    private int cantidadHijos; //no está mal que guarde la cantidad de hijos aunque no los use
+    private TipoEmpleado tipo;
+
+    //...
+
+    public double getSueldoBasico(){
+        return this.sueldoBasico;
+    }
+
+    public double sueldo(){
+        return this.sueldoBasico
+        + this.sueldoHoras()
+        + this.sueldoHijos()
+        - this.descuento()
+    }
+
+    private int sueldoHoras(){
+        return this.tipo.sueldoHoras(this.horasTrabajadas;);
+    }
+    private int sueldoHijos(){
+        return this.tipo.sueldoHijos(this.cantidadHijos);
+    }
+    private double descuento(){
+        return this.tipo.descuento(this.sueldoBasico);
+    }
+}
+
+public class TipoEmpleado{ //también podría hacer un constructor diferente para cada caso o una clase Constructor dentro del parámetro Factory
+    private int precioPorHijo;
+    private int precioPorHora;
+    private double proporcionDescuento;
+
+    //...
+
+    public int sueldoHoras(int horasTrabajadas){
+        return horasTrabajadas * precioPorHora;
+    }
+    public int sueldoHijos(cantidadHijos){
+        return cantidadHijos * precioPorHijo;
+    }
+    public double descuento(sueldoBasico){
+        return sueldoBasico * this.proporcionDescuento;
+    }
+}

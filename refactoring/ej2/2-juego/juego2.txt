@@ -1,0 +1,22 @@
+public class Juego{
+    //... hace solo lo que le corresponde
+}
+
+public class Jugador{
+    private String nombre;
+    private String apellido;
+    private int puntuacion;
+
+    public Jugador(String nombre, String apellido, int puntuacion){
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.puntuacion = puntuacion;
+    }
+
+    public void incrementar() { // envidia de atributos -> estas operaciones las debería hacer el jugador (move method)
+        this.puntuacion += 100;
+    }
+    public void decrementar(J) {
+        this.puntuacion -= 50;
+    }
+}

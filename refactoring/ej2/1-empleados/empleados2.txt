@@ -1,0 +1,73 @@
+public abstract class Empleado{
+    private Stirng nombre;
+    private String apellido;
+    private double sueldoBasico;
+
+    //...
+
+    public double getSueldoBasico(){
+        return this.sueldoBasico;
+    }
+
+    public double sueldo(){
+        return this.sueldoBasico
+        + this.sueldoHoras()
+        + this.sueldoHijos()
+        - this.descuento()
+    }
+
+    public abstract int sueldoHoras();
+    public abstract int sueldoHijos();
+    public abstract double descuento();
+}
+
+public class EmpleadoTemporario extends Empleado{
+    private double horasTrabajadas; //los valores se asignan en el constructor
+    private int cantidadHijos;
+    private int precioPorHora = 500;
+    private int precioPorHijo = 1000;//al asignar un valor a cada variable estoy inicializando en varios pasos, para esto conviene hacer un constructor
+    //...
+
+    public int sueldoHoras(){
+        return this.horasTrabajadas * precioPorHora;
+    }
+    public int sueldoHijos(){
+        return this.cantidadHijos * precioPorHijo;
+    }
+    public double descuento(){
+        return 0;
+    }
+}
+
+public class EmpleadoPlanta extends Empleado{
+    private double horasTrabajadas; //los valores se asignan en el constructor
+    private int cantidadHijos;
+    private int precioPorHijo = 2000; //variable repetida con EmpleadoTemporario
+    private double proporcionDescuento = 0.13;
+    //...
+
+    public int sueldoHoras(){
+        return 0;
+    }
+    public int sueldoHijos(){ //código repetido -> puedo fusionar clases e implementar TypeObject
+        return this.cantidadHijos * precioPorHijo;
+    }
+    public double descuento(){
+        return this.getSueldoBasico() * this.proporcionDescuento;
+    }
+}
+
+public class EmpleadoPasante extends Empleado{
+    private proporcionDescuento = 0.13; //variable repetida
+    //...
+
+    public int sueldoHoras(){
+        return 0;
+    }
+    public int sueldoHijos(){
+        return 0;
+    }
+    public double descuento(){
+        return this.getSueldoBasico() * this.proporcionDescuento; // codigo repetido -> puedo fusionar clases e implementar TypeObject
+    }
+}
