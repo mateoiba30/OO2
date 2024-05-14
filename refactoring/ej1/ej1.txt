@@ -1,0 +1,5 @@
+1.1 nombres de metodos y parametros -> renombrarlos
+1.2 envidia de atributos -> move method
+1.3 reinventar la rueda -> replace loop with pipeline
+    método largo -> extract method
+    variables temporales -> no necesarias si aplico lo antes mencionado
