@@ -20,4 +20,9 @@ public class GestorNumerosDisponibles {
 	public void cambiarTipoGenerador(GestorStrategy tipoGenerador) {
 		this.tipoGenerador = tipoGenerador;
 	}
+	
+	public boolean agregarNumeroTelefono(String str) {
+		return this.numerosDisponibles.add(str);
+	}
+	
 }

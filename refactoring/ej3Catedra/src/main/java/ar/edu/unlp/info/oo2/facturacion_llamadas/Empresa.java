@@ -11,16 +11,7 @@ public class Empresa {
 	private final double descuentoFis = 0;
 
 	public boolean agregarNumeroTelefono(String str) {
-		boolean encontre = gestor.getNumerosDisponibles().contains(str);
-		if (!encontre) {
-			gestor.getNumerosDisponibles().add(str);
-			encontre= true;
-			return encontre;
-		}
-		else {
-			encontre= false;
-			return encontre;
-		}
+		return this.gestor.agregarNumeroTelefono(str);
 	}
 
 	public String obtenerYOcuparNumeroDisponible() {
