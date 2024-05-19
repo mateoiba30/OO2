@@ -1,0 +1,32 @@
+mal olor: nombre de mensaje no representativo
+
+código donde se presenta:
+
+    dentro de GestorNumerosDisponibles
+        public String obtenerNumeroLibre() {
+            return this.tipoGenerador.obtenerNumeroLibre(this.lineas);
+        }
+
+    dentro de GestorStrategy:
+        public String obtenerNumeroLibre(SortedSet<String> lineas) {
+            String linea;
+            linea = obtenerLinea(lineas);
+            lineas.remove(lineas.last());
+            return linea;
+        }
+
+refactoring: rename method
+
+código final:
+        dentro de GestorNumerosDisponibles
+            public String eliminarYDevolverLinea() {
+                return this.tipoGenerador.obtenerNumeroLibre(this.lineas);
+            }
+
+        dentro de GestorStrategy:
+            public String eliminarYDevolverLinea(SortedSet<String> lineas) {
+                String linea;
+                linea = obtenerLinea(lineas);
+                lineas.remove(lineas.last());
+                return linea;
+            }
