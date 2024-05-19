@@ -39,14 +39,9 @@ public class Empresa {
 		return llamada;
 	}
 
+
 	public double calcularMontoTotalLlamadas(Cliente cliente) {
-		double c = 0;
-		for (Llamada l : cliente.getLlamadas()) {
-			double auxc = 0;
-			auxc += l.precioFinal(cliente);
-			c += auxc;
-		}
-		return c;
+		return cliente.getLlamadas().stream().mapToDouble(llamada -> llamada.precioFinal(cliente)).sum();
 	}
 
 	public int cantidadDeUsuarios() {
