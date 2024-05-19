@@ -1,0 +1,56 @@
+mal olor: código duplicado
+
+código donde se presenta:
+    dentro de la clase LlamadaInternacional:
+        public double calcularCostoLlamada() {
+            return this.getDuracion() * 150 + (this.getDuracion() * 150 * 0.21) + 50;
+        }
+
+    dentro de la clase LlamadaNacional:
+    	public double calcularCostoLlamada() {
+            return this.getDuracion() * 3 + (this.getDuracion() * 3 * 0.21);
+        }
+
+refactoring: form template method
+
+código resultante:
+
+    public class LlamadaInternacional extends Llamada{
+        
+        public double precioPorSegundo() {
+            return 150;
+        }
+        
+        public double precioBase() {
+            return 50;
+        }
+    }
+
+
+    public class LlamadaNacional extends Llamada{
+
+        public double precioPorSegundo() {
+            return 3;
+        }
+        
+        public double precioBase() {
+            return 0;
+        }
+        
+    }
+
+    en la clase Llamada:
+        private final iva = 0.21;
+
+        public double calcularCostoLlamada() {
+            return this.precioDuracion() + this.precioDuracion() * this.iva + this.precioBase();
+        }
+        
+        private double precioDuracion(){
+            return this.duracion * this.precioPorSegundo();
+        }
+        
+        public abstract double precioPorSegundo();
+        
+        public abstract double precioBase();
+        

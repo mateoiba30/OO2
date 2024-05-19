@@ -1,0 +1,36 @@
+mal olor: envidia de atributos
+
+código donde se presenta:
+    dentro de la clase Empresa:
+        public double calcularMontoTotalLlamadas(Cliente cliente) {
+            double c = 0;
+            for (Llamada l : cliente.getLlamadas()) {
+                double auxc = 0;
+                auxc += precioFinal(cliente, l.calcularCostoLlamada());
+                c += auxc;
+            }
+            return c;
+        }
+        
+        private double precioFinal(Cliente cliente, double costo) { //esto se debería hacer en Llamada
+            return costo - costo*cliente.getDescuento();
+        }
+
+refactoring: move method
+
+código resultante:
+    dentro de la clase Empresa:
+        public double calcularMontoTotalLlamadas(Cliente cliente) {
+            double c = 0;
+            for (Llamada l : cliente.getLlamadas()) {
+                double auxc = 0;
+                auxc += l.precioFinal(cliente);
+                c += auxc;
+            }
+            return c;
+        }
+
+    dentro de la clase Llamada:
+        public double precioFinal(Cliente cliente) {
+            return this.calcularCostoLlamada() - this.calcularCostoLlamada()*cliente.getDescuento();
+        }

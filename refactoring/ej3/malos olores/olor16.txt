@@ -1,4 +1,4 @@
-mal olor: switch statement
+malos olores: codigo duplicado, switch statement y envidia de atributos
 
 código donde se presenta:
     dentro de la clase Empresa:
@@ -20,6 +20,28 @@ código donde se presenta:
             }
             clientes.add(var);
             return var;
+        }
+
+        public double calcularMontoTotalLlamadas(Cliente cliente) {
+            double c = 0;
+            for (Llamada l : cliente.getLlamadas()) {
+                double auxc = 0;
+                if (l.getTipoDeLlamada() == "nacional") {
+                    // el precio es de 3 pesos por segundo más IVA sin adicional por establecer la llamada
+                    auxc += l.getDuracion() * 3 + (l.getDuracion() * 3 * 0.21);
+                } else if (l.getTipoDeLlamada() == "internacional") {
+                    // el precio es de 150 pesos por segundo más IVA más 50 pesos por establecer la llamada
+                    auxc += l.getDuracion() * 150 + (l.getDuracion() * 150 * 0.21) + 50;
+                }
+
+                if (cliente.getTipo().equals("fisica")) {
+                    auxc -= auxc*cliente.getDescuento();
+                } else if(cliente.getTipo().equals("juridica")) {
+                    auxc -= auxc*cliente.getDescuento();
+                }
+                c += auxc;
+            }
+            return c;
         }
 
 refactoring: replace switch statement with polimorfism
@@ -48,11 +70,7 @@ código final:
                     auxc += l.getDuracion() * 150 + (l.getDuracion() * 150 * 0.21) + 50;
                 }
 
-                if (cliente instanceof ClienteFisico) {
-                    auxc -= auxc*descuentoFis;
-                } else if(cliente instanceof ClienteJuridico) {
-                    auxc -= auxc*descuentoJur;
-                }
+                auxc -= auxc*descuentoJur;   
                 c += auxc;
             }
             return c;

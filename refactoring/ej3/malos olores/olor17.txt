@@ -11,7 +11,6 @@ código resultante:
         public abstract int getDescuento();
 
     dentro de la clase ClienteJuridico:
-        private final double descuentoJur = 0.15;
         public double getDescuento() {
-            return this.descuentoJur;
+            return 0.15;
         }

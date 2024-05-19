@@ -30,8 +30,10 @@ public class Empresa {
 		return cliente;
 	}
 
-	public Llamada registrarLlamada(Cliente origen, Cliente destino, String t, int duracion) {
-		Llamada llamada = new Llamada(t, origen.getNumeroTelefono(), destino.getNumeroTelefono(), duracion);
+	public Llamada registrarLlamada(Cliente origen, Cliente destino, Llamada llamada, int duracion) {
+		llamada.setOrigen(origen.getNumeroTelefono());
+		llamada.setDestino(destino.getNumeroTelefono());
+		llamada.setDuracion(duracion);
 		llamadas.add(llamada);
 		origen.getLlamadas().add(llamada);
 		return llamada;
@@ -41,19 +43,7 @@ public class Empresa {
 		double c = 0;
 		for (Llamada l : cliente.getLlamadas()) {
 			double auxc = 0;
-			if (l.getTipoDeLlamada() == "nacional") {
-				// el precio es de 3 pesos por segundo más IVA sin adicional por establecer la llamada
-				auxc += l.getDuracion() * 3 + (l.getDuracion() * 3 * 0.21);
-			} else if (l.getTipoDeLlamada() == "internacional") {
-				// el precio es de 150 pesos por segundo más IVA más 50 pesos por establecer la llamada
-				auxc += l.getDuracion() * 150 + (l.getDuracion() * 150 * 0.21) + 50;
-			}
-
-			if (cliente instanceof ClienteFisico) { //codigo duplicado, switch statement, envidia de atributos
-				auxc -= auxc*cliente.getDescuento();
-			} else if(cliente instanceof ClienteJuridico) {
-				auxc -= auxc*cliente.getDescuento();
-			}
+			auxc += l.precioFinal(cliente);
 			c += auxc;
 		}
 		return c;
