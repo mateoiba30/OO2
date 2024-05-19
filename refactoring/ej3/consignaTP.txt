@@ -1,19 +1,18 @@
 X 1) hacer UML inicial
 
-2) Aplicar refactoirngs cambiando el código
+X 2) Aplicar refactoirngs cambiando el código
 	(i) indique el mal olor, 
 	(ii) indique el refactoring que lo corrige, 
 	(iii) aplique el refactoring (modifique el código). 
 	(iv) asegúrese de que los tests provistos corran exitosamente.
 	Si vuelve a encontrar un mal olor, retorne al paso (i).
-	
+
 3) revisar:
 	(i) getters y setters innecesarios
 	(ii) si podemos sacar variables de instancia inncesarias
 	(iii) si nos quedan Data Clases aclarar que es un mal olor que no implica un error
 	(iv) fijarnos en los archivos de malos olores si teníamos que nombrar más de un olor solucionado
 	(v) que quede claro donde está el mal olor
+	(vi) nombres de malos olores y de refactorings
 
 4) hacer el UML final
-
-5) revisar nombres de malos olores y de refactorings
