@@ -1,0 +1,61 @@
+mal olor: codigo duplicado
+
+código donde se presenta:
+    public class StrategyUltimo implements GestorStrategy{
+        public String obtenerNumeroLibre(SortedSet<String> lineas) {
+            String linea;
+            linea = lineas.last();
+            lineas.remove(lineas.last());
+            return linea;
+        }
+    }
+
+    public class StrategyPrimero implements GestorStrategy{
+        public String obtenerNumeroLibre(SortedSet<String> lineas) {
+            String linea;
+            linea = lineas.first();
+            lineas.remove(linea);
+            return linea;
+        }
+    }
+
+    public class StrategyRandom implements GestorStrategy{
+        public String obtenerNumeroLibre(SortedSet<String> lineas) {
+            String linea;
+            linea = new ArrayList<String>(lineas)
+                    .get(new Random().nextInt(lineas.size()));
+            lineas.remove(linea);
+            return linea;
+        }
+    }
+
+refactoring: template method
+
+código final:
+    public abstract class GestorStrategy {
+        public String obtenerNumeroLibre(SortedSet<String> lineas) {
+            String linea;
+            linea = obtenerLinea(lineas);
+            lineas.remove(lineas.last());
+            return linea;
+        } 
+        public abstract String obtenerLinea(SortedSet<String> lineas);
+    }
+
+    public class StrategyUltimo extends GestorStrategy{
+        public String obtenerLinea(SortedSet<String> lineas) {
+            return lineas.last();
+        }
+    }
+
+    public class StrategyPrimero extends GestorStrategy{
+        public String obtenerLinea(SortedSet<String> lineas) {
+            return lineas.first();
+        }
+    }
+
+    public class StrategyRandom extends GestorStrategy{
+        public String obtenerLinea(SortedSet<String> lineas) {
+            return new ArrayList<String>(lineas).get(new Random().nextInt(lineas.size()));
+        }
+    }

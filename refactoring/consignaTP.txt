@@ -1,0 +1,14 @@
+X 1) hacer UML inicial
+
+2) Aplicar refactoirngs:
+	(i) indique el mal olor, 
+	(ii) indique el refactoring que lo corrige, 
+	(iii) aplique el refactoring (modifique el código). 
+	(iv) asegúrese de que los tests provistos corran exitosamente.
+	Si vuelve a encontrar un mal olor, retorne al paso (i).
+
+3) hacer el UML final
+
+4) escribir el código resultante
+
+5) revisar nombres de malos olores y de refactorings

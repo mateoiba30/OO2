@@ -1,0 +1,4 @@
+cliente es una Data Class
+empresa tiene 2 formas de llegar a la lista de llamadas
+en registrarLlamada de empresa no entiendo lo que representa el parámetro t
+empresa -> registrar usuario hay condicionales
