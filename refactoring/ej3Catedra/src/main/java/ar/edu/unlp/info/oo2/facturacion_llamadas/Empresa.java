@@ -7,8 +7,6 @@ public class Empresa {
 	private List<Cliente> clientes = new ArrayList<Cliente>();
 	private List<Llamada> llamadas = new ArrayList<Llamada>();
 	private GestorNumerosDisponibles gestor = new GestorNumerosDisponibles();
-	private final double descuentoJur = 0.15;
-	private final double descuentoFis = 0;
 
 	public boolean agregarNumeroTelefono(String str) {
 		return this.gestor.agregarNumeroTelefono(str);
@@ -22,24 +20,14 @@ public class Empresa {
 		return this.gestor;
 	}
 	
-	public Cliente registrarUsuario(String data, String nombre, String tipo) {
-		Cliente var = new Cliente();
-		if (tipo.equals("fisica")) {
-			var.setNombre(nombre);
-			String tel = this.obtenerYOcuparNumeroDisponible();
-			var.setTipo(tipo);
-			var.setNumeroTelefono(tel);
-			var.setDNI(data);
-		}
-		else if (tipo.equals("juridica")) {
-			String tel = this.obtenerYOcuparNumeroDisponible();
-			var.setNombre(nombre);
-			var.setTipo(tipo);
-			var.setNumeroTelefono(tel);
-			var.setCuit(data);
-		}
-		clientes.add(var);
-		return var;
+	public Cliente registrarUsuario(String data, String nombre, Cliente cliente) {
+		cliente.setNombre(nombre);
+		String tel = this.obtenerYOcuparNumeroDisponible();
+		cliente.setNumeroTelefono(tel);
+		cliente.setData(data);
+		
+		clientes.add(cliente);
+		return cliente;
 	}
 
 	public Llamada registrarLlamada(Cliente origen, Cliente destino, String t, int duracion) {
@@ -61,10 +49,10 @@ public class Empresa {
 				auxc += l.getDuracion() * 150 + (l.getDuracion() * 150 * 0.21) + 50;
 			}
 
-			if (cliente.getTipo() == "fisica") {
-				auxc -= auxc*descuentoFis;
-			} else if(cliente.getTipo() == "juridica") {
-				auxc -= auxc*descuentoJur;
+			if (cliente instanceof ClienteFisico) { //codigo duplicado, switch statement, envidia de atributos
+				auxc -= auxc*cliente.getDescuento();
+			} else if(cliente instanceof ClienteJuridico) {
+				auxc -= auxc*cliente.getDescuento();
 			}
 			c += auxc;
 		}

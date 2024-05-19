@@ -1,0 +1,17 @@
+mal olor: mala asignación de variables
+
+código donde se presenta:
+    dentro de la clase Empresa:
+        private final double descuentoFis = 0;
+
+refactoring: move variable
+
+código resultante:
+    dentro de la clase Cliente:
+        public abstract int getDescuento();
+
+    dentro de la clase ClienteFisico:
+        private final double descuentoFis = 0;
+        public double getDescuento() {
+            return this.descuentoFis;
+        }

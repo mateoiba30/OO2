@@ -1,0 +1,107 @@
+mal olor: switch statement
+
+código donde se presenta:
+    dentro de la clase Empresa:
+        public Cliente registrarUsuario(String data, String nombre, String tipo) {
+            Cliente var = new Cliente();
+            if (tipo.equals("fisica")) {
+                var.setNombre(nombre);
+                String tel = this.obtenerYOcuparNumeroDisponible();
+                var.setTipo(tipo);
+                var.setNumeroTelefono(tel);
+                var.setDNI(data);
+            }
+            else if (tipo.equals("juridica")) {
+                String tel = this.obtenerYOcuparNumeroDisponible();
+                var.setNombre(nombre);
+                var.setTipo(tipo);
+                var.setNumeroTelefono(tel);
+                var.setCuit(data);
+            }
+            clientes.add(var);
+            return var;
+        }
+
+refactoring: replace switch statement with polimorfism
+
+código final:
+    dentro de la clase Empresa:
+        public Cliente registrarUsuario(String data, String nombre, Cliente cliente) {
+            cliente.setNombre(nombre);
+            String tel = this.obtenerYOcuparNumeroDisponible();
+            cliente.setNumeroTelefono(tel);
+            cliente.setData(data);
+            
+            clientes.add(cliente);
+            return cliente;
+        }
+
+        public double calcularMontoTotalLlamadas(Cliente cliente) {
+            double c = 0;
+            for (Llamada l : cliente.getLlamadas()) {
+                double auxc = 0;
+                if (l.getTipoDeLlamada() == "nacional") {
+                    // el precio es de 3 pesos por segundo más IVA sin adicional por establecer la llamada
+                    auxc += l.getDuracion() * 3 + (l.getDuracion() * 3 * 0.21);
+                } else if (l.getTipoDeLlamada() == "internacional") {
+                    // el precio es de 150 pesos por segundo más IVA más 50 pesos por establecer la llamada
+                    auxc += l.getDuracion() * 150 + (l.getDuracion() * 150 * 0.21) + 50;
+                }
+
+                if (cliente instanceof ClienteFisico) {
+                    auxc -= auxc*descuentoFis;
+                } else if(cliente instanceof ClienteJuridico) {
+                    auxc -= auxc*descuentoJur;
+                }
+                c += auxc;
+            }
+            return c;
+        }
+
+    dentro de la clase Cliente:
+        public abstract class Cliente {
+            private List<Llamada> llamadas = new ArrayList<Llamada>();
+            private String tipo;
+            private String nombre;
+            private String numeroTelefono;
+
+            public List<Llamada> getLlamadas(){
+                return this.llamadas;
+            }
+            public String getTipo() {
+                return tipo;
+            }
+            public void setTipo(String tipo) {
+                this.tipo = tipo;
+            }
+            public String getNombre() {
+                return nombre;
+            }
+            public void setNombre(String nombre) {
+                this.nombre = nombre;
+            }
+            public String getNumeroTelefono() {
+                return numeroTelefono;
+            }
+            public void setNumeroTelefono(String numeroTelefono) {
+                this.numeroTelefono = numeroTelefono;
+            }
+            
+            public abstract void setData(String data);
+        }
+
+    creamos nuevas clases:
+        public class ClienteJuridico extends Cliente {
+            private String cuit;
+            
+            public void setData(String data) {
+                this.cuit = data;
+            }
+        }
+
+        public class ClienteFisico extends Cliente {
+            private String dni;
+            public void setData(String data) {
+                this.dni = data;
+            }
+        }

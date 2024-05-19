@@ -3,19 +3,18 @@ package ar.edu.unlp.info.oo2.facturacion_llamadas;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Cliente {
+public abstract class Cliente {
+	
 	private List<Llamada> llamadas = new ArrayList<Llamada>();
 	private String tipo;
 	private String nombre;
 	private String numeroTelefono;
-	private String cuit;
-	private String dni;
 	
+	public abstract double getDescuento();
+
 	public List<Llamada> getLlamadas(){
 		return this.llamadas;
 	}
-	
-
 	public String getTipo() {
 		return tipo;
 	}
@@ -34,16 +33,6 @@ public class Cliente {
 	public void setNumeroTelefono(String numeroTelefono) {
 		this.numeroTelefono = numeroTelefono;
 	}
-	public String getCuit() {
-		return cuit;
-	}
-	public void setCuit(String cuit) {
-		this.cuit = cuit;
-	}
-	public String getDNI() {
-		return dni;
-	}
-	public void setDNI(String dni) {
-		this.dni = dni;
-	}
+	
+	public abstract void setData(String data);
 }
