@@ -54,12 +54,12 @@ class EmpresaTest {
 	@Test
 	void obtenerNumeroLibre() {
 		// por defecto es el ultimo
-		assertEquals("2214444559", this.sistema.obtenerNumeroLibre());
+		assertEquals("2214444559", this.sistema.eliminarYDevolverLinea());
 
 		this.sistema.getGestorNumeros().cambiarTipoGenerador(new StrategyPrimero());
-		assertEquals("2214444554", this.sistema.obtenerNumeroLibre());
+		assertEquals("2214444554", this.sistema.eliminarYDevolverLinea());
 
 		this.sistema.getGestorNumeros().cambiarTipoGenerador(new StrategyRandom());
-		assertNotNull(this.sistema.obtenerNumeroLibre());
+		assertNotNull(this.sistema.eliminarYDevolverLinea());
 	}
 }

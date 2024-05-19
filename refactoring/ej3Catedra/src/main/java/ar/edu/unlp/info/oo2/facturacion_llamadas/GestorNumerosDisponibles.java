@@ -13,8 +13,8 @@ public class GestorNumerosDisponibles {
 		return lineas;
 	}
 
-	public String obtenerNumeroLibre() {
-		return this.tipoGenerador.obtenerNumeroLibre(this.lineas);
+	public String eliminarYDevolverLinea() {
+		return this.tipoGenerador.eliminarYDevolverLinea(this.lineas);
 	}
 
 	public void cambiarTipoGenerador(GestorStrategy valor) {

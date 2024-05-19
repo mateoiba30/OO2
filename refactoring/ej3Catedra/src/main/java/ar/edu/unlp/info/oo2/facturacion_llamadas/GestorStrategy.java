@@ -4,7 +4,7 @@ import java.util.SortedSet;
 
 public abstract class GestorStrategy {
 	
-	public String obtenerNumeroLibre(SortedSet<String> lineas) {
+	public String eliminarYDevolverLinea(SortedSet<String> lineas) {
 		String linea;
 		linea = obtenerLinea(lineas);
 		lineas.remove(lineas.last());

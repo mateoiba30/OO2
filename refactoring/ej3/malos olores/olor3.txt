@@ -15,12 +15,18 @@ código donde se presenta:
             return linea;
         }
 
+    dentro de Empresa:
+    	public String eliminarYDevolverLinea() {
+            return guia.eliminarYDevolverLinea();
+        }
+
+
 refactoring: rename method
 
 código final:
         dentro de GestorNumerosDisponibles
             public String eliminarYDevolverLinea() {
-                return this.tipoGenerador.obtenerNumeroLibre(this.lineas);
+                return this.tipoGenerador.eliminarYDevolverLinea(this.lineas);
             }
 
         dentro de GestorStrategy:
@@ -29,4 +35,42 @@ código final:
                 linea = obtenerLinea(lineas);
                 lineas.remove(lineas.last());
                 return linea;
+            }
+
+        dentro de Empresa:
+            public String eliminarYDevolverLinea() {
+                return guia.eliminarYDevolverLinea();
+            }
+
+            public Cliente registrarUsuario(String data, String nombre, String tipo) {
+                Cliente var = new Cliente();
+                if (tipo.equals("fisica")) {
+                    var.setNombre(nombre);
+                    String tel = this.eliminarYDevolverLinea();
+                    var.setTipo(tipo);
+                    var.setNumeroTelefono(tel);
+                    var.setDNI(data);
+                }
+                else if (tipo.equals("juridica")) {
+                    String tel = this.eliminarYDevolverLinea();
+                    var.setNombre(nombre);
+                    var.setTipo(tipo);
+                    var.setNumeroTelefono(tel);
+                    var.setCuit(data);
+                }
+                clientes.add(var);
+                return var;
+            }
+
+        dentro del test:
+            @Test
+            void obtenerNumeroLibre() {
+                // por defecto es el ultimo
+                assertEquals("2214444559", this.sistema.eliminarYDevolverLinea());
+
+                this.sistema.getGestorNumeros().cambiarTipoGenerador(new StrategyPrimero());
+                assertEquals("2214444554", this.sistema.eliminarYDevolverLinea());
+
+                this.sistema.getGestorNumeros().cambiarTipoGenerador(new StrategyRandom());
+                assertNotNull(this.sistema.eliminarYDevolverLinea());
             }

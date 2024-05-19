@@ -24,21 +24,21 @@ public class Empresa {
 		}
 	}
 
-	public String obtenerNumeroLibre() {
-		return guia.obtenerNumeroLibre();
+	public String eliminarYDevolverLinea() {
+		return guia.eliminarYDevolverLinea();
 	}
 
 	public Cliente registrarUsuario(String data, String nombre, String tipo) {
 		Cliente var = new Cliente();
 		if (tipo.equals("fisica")) {
 			var.setNombre(nombre);
-			String tel = this.obtenerNumeroLibre();
+			String tel = this.eliminarYDevolverLinea();
 			var.setTipo(tipo);
 			var.setNumeroTelefono(tel);
 			var.setDNI(data);
 		}
 		else if (tipo.equals("juridica")) {
-			String tel = this.obtenerNumeroLibre();
+			String tel = this.eliminarYDevolverLinea();
 			var.setNombre(nombre);
 			var.setTipo(tipo);
 			var.setNumeroTelefono(tel);
