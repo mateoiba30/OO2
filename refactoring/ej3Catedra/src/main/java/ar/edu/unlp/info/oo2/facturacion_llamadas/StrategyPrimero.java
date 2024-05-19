@@ -6,7 +6,7 @@ import java.util.SortedSet;
 
 public class StrategyPrimero extends GestorStrategy{
 
-	public String obtenerLinea(SortedSet<String> lineas) {
+	public String obtenerNumero(SortedSet<String> lineas) {
 		return lineas.first();
 	}
 }

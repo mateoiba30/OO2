@@ -1,0 +1,30 @@
+mal olor: nombre de método no representativo 
+
+código donde se presenta:
+    dentro de GestorNumerosDisponibles:
+        public SortedSet<String> getLineas() {
+            return numerosDisponibles;
+        }
+
+refactoring: rename method
+
+código final:
+
+    dentro de GestorNumerosDisponibles:
+        public SortedSet<String> getNumerosDisponibles() {
+            return numerosDisponibles;
+        }
+    
+    dentro de Empresa:
+        public boolean agregarNumeroTelefono(String str) {
+            boolean encontre = guia.getNumerosDisponibles().contains(str);
+            if (!encontre) {
+                guia.getNumerosDisponibles().add(str);
+                encontre= true;
+                return encontre;
+            }
+            else {
+                encontre= false;
+                return encontre;
+            }
+        }

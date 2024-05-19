@@ -17,7 +17,7 @@ public class Llamada {
 		return tipoDeLlamada;
 	}
 
-	public String getRemitente() {
+	public String getDestino() {
 		return destino;
 	}
 

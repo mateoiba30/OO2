@@ -35,27 +35,27 @@ código final:
     public abstract class GestorStrategy {
         public String obtenerNumeroLibre(SortedSet<String> lineas) {
             String linea;
-            linea = obtenerLinea(lineas);
+            linea = obtenerNumeroLibre(lineas);
             lineas.remove(lineas.last());
             return linea;
         } 
-        public abstract String obtenerLinea(SortedSet<String> lineas);
+        public abstract String obtenerNumero(SortedSet<String> lineas);
     }
 
     public class StrategyUltimo extends GestorStrategy{
-        public String obtenerLinea(SortedSet<String> lineas) {
+        public String obtenerNumero(SortedSet<String> lineas) {
             return lineas.last();
         }
     }
 
     public class StrategyPrimero extends GestorStrategy{
-        public String obtenerLinea(SortedSet<String> lineas) {
+        public String obtenerNumero(SortedSet<String> lineas) {
             return lineas.first();
         }
     }
 
     public class StrategyRandom extends GestorStrategy{
-        public String obtenerLinea(SortedSet<String> lineas) {
+        public String obtenerNumero(SortedSet<String> lineas) {
             return new ArrayList<String>(lineas).get(new Random().nextInt(lineas.size()));
         }
     }

@@ -6,15 +6,14 @@ import java.util.List;
 public class Empresa {
 	private List<Cliente> clientes = new ArrayList<Cliente>();
 	private List<Llamada> llamadas = new ArrayList<Llamada>();
-	private GestorNumerosDisponibles guia = new GestorNumerosDisponibles();
-
-	static double descuentoJur = 0.15;
-	static double descuentoFis = 0;
+	private GestorNumerosDisponibles gestor = new GestorNumerosDisponibles();
+	private final double descuentoJur = 0.15;
+	private final double descuentoFis = 0;
 
 	public boolean agregarNumeroTelefono(String str) {
-		boolean encontre = guia.getLineas().contains(str);
+		boolean encontre = gestor.getNumerosDisponibles().contains(str);
 		if (!encontre) {
-			guia.getLineas().add(str);
+			gestor.getNumerosDisponibles().add(str);
 			encontre= true;
 			return encontre;
 		}
@@ -24,21 +23,25 @@ public class Empresa {
 		}
 	}
 
-	public String eliminarYDevolverLinea() {
-		return guia.eliminarYDevolverLinea();
+	public String obtenerYOcuparNumeroDisponible() {
+		return gestor.obtenerYOcuparNumeroDisponible();
 	}
-
+	
+	public GestorNumerosDisponibles getGestorNumeros() {
+		return this.gestor;
+	}
+	
 	public Cliente registrarUsuario(String data, String nombre, String tipo) {
 		Cliente var = new Cliente();
 		if (tipo.equals("fisica")) {
 			var.setNombre(nombre);
-			String tel = this.eliminarYDevolverLinea();
+			String tel = this.obtenerYOcuparNumeroDisponible();
 			var.setTipo(tipo);
 			var.setNumeroTelefono(tel);
 			var.setDNI(data);
 		}
 		else if (tipo.equals("juridica")) {
-			String tel = this.eliminarYDevolverLinea();
+			String tel = this.obtenerYOcuparNumeroDisponible();
 			var.setNombre(nombre);
 			var.setTipo(tipo);
 			var.setNumeroTelefono(tel);
@@ -51,13 +54,13 @@ public class Empresa {
 	public Llamada registrarLlamada(Cliente origen, Cliente destino, String t, int duracion) {
 		Llamada llamada = new Llamada(t, origen.getNumeroTelefono(), destino.getNumeroTelefono(), duracion);
 		llamadas.add(llamada);
-		origen.llamadas.add(llamada);
+		origen.getLlamadas().add(llamada);
 		return llamada;
 	}
 
 	public double calcularMontoTotalLlamadas(Cliente cliente) {
 		double c = 0;
-		for (Llamada l : cliente.llamadas) {
+		for (Llamada l : cliente.getLlamadas()) {
 			double auxc = 0;
 			if (l.getTipoDeLlamada() == "nacional") {
 				// el precio es de 3 pesos por segundo más IVA sin adicional por establecer la llamada
@@ -85,7 +88,5 @@ public class Empresa {
 		return clientes.contains(persona);
 	}
 
-	public GestorNumerosDisponibles getGestorNumeros() {
-		return this.guia;
-	}
+
 }

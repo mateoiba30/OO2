@@ -1,0 +1,23 @@
+mal olor: nombre de variable no representativo
+
+código donde se presenta:
+    dentro de la clase GestorNumerosDisponibles:
+        private SortedSet<String> lineas = new TreeSet<String>();
+
+refactoring: rename variable
+
+código final:
+    dentro de la clase GestorNumerosDisponibles:
+            private SortedSet<String> numerosDisponibles = new TreeSet<String>();
+
+            ...
+
+            private GestorStrategy tipoGenerador = new StrategyUltimo();
+            
+            public SortedSet<String> getLineas() {
+                return numerosDisponibles;
+            }
+
+            public String obtenerYOcuparNumeroLibre() {
+                return this.tipoGenerador.obtenerNumero(this.numerosDisponibles);
+            }

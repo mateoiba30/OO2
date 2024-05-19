@@ -4,12 +4,12 @@ import java.util.SortedSet;
 
 public abstract class GestorStrategy {
 	
-	public String eliminarYDevolverLinea(SortedSet<String> lineas) {
+	public String obtenerYOcuparNumeroLibre(SortedSet<String> lineas) {
 		String linea;
-		linea = obtenerLinea(lineas);
+		linea = obtenerNumero(lineas);
 		lineas.remove(lineas.last());
 		return linea;
 	}
 	
-	public abstract String obtenerLinea(SortedSet<String> lineas);
+	public abstract String obtenerNumero(SortedSet<String> lineas);
 }

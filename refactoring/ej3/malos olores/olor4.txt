@@ -1,0 +1,15 @@
+mal olor: nombre de variable no representativo
+
+código donde se presenta:
+    dentro de GestorNumerosDisponibles:
+        public void cambiarTipoGenerador(GestorStrategy valor) {
+            this.tipoGenerador = valor;
+        }
+
+refactoring: rename variable
+
+código final:
+    dentro de GestorNumerosDisponibles:
+        public void cambiarTipoGenerador(GestorStrategy tipoGenerador) {
+            this.tipoGenerador = tipoGenerador;
+        }

@@ -1,0 +1,46 @@
+mal olor: romper encapsulamiento
+
+código donde se presenta:
+    dentro de la clase Cliente:
+        public List<Llamada> llamadas = new ArrayList<Llamada>();
+
+refactoring: rename variable
+
+código final:
+    dentro de la clase Cliente:
+        private List<Llamada> llamadas = new ArrayList<Llamada>();
+
+        public List<Llamada> getLlamadas(){
+            return this.llamadas;
+        }
+
+    dentro de Empresa:
+        public Llamada registrarLlamada(Cliente origen, Cliente destino, String t, int duracion) {
+            Llamada llamada = new Llamada(t, origen.getNumeroTelefono(), destino.getNumeroTelefono(), duracion);
+            llamadas.add(llamada);
+            origen.getLlamadas().add(llamada);
+            return llamada;
+        }
+
+        public double calcularMontoTotalLlamadas(Cliente cliente) {
+            double c = 0;
+            for (Llamada l : cliente.getLlamadas()) {
+                double auxc = 0;
+                if (l.getTipoDeLlamada() == "nacional") {
+                    // el precio es de 3 pesos por segundo más IVA sin adicional por establecer la llamada
+                    auxc += l.getDuracion() * 3 + (l.getDuracion() * 3 * 0.21);
+                } else if (l.getTipoDeLlamada() == "internacional") {
+                    // el precio es de 150 pesos por segundo más IVA más 50 pesos por establecer la llamada
+                    auxc += l.getDuracion() * 150 + (l.getDuracion() * 150 * 0.21) + 50;
+                }
+
+                if (cliente.getTipo() == "fisica") {
+                    auxc -= auxc*descuentoFis;
+                } else if(cliente.getTipo() == "juridica") {
+                    auxc -= auxc*descuentoJur;
+                }
+                c += auxc;
+            }
+            return c;
+        }
+	
