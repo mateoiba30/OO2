@@ -65,6 +65,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\refactoring\ej3\codigoFinal"/>
 			<item value="C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\refactoring\ej3\codigo"/>
 		</list>
 		<list key="projectNameTemplate">
