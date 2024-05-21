@@ -1,43 +1,21 @@
-mal olor: dead code
+mal olor: reinventar la rueda
 
 código donde se presenta:
+    dentro de la clase Emrpesa:
+        public double calcularMontoTotalLlamadas(Cliente cliente) {
+            double c = 0;
+            for (Llamada l : cliente.getLlamadas()) {
+                double auxc = 0;
+                auxc += l.precioFinal(cliente);
+                c += auxc;
+            }
+            return c;
+        }
 
-    dentro de la clase Cliente:
-        private String tipo;
+refactoring: replace loop with pipeline
 
-        public String getTipo() {
-            return tipo;
+código resultante:
+    dentro de la clase Empresa:
+        public double calcularMontoTotalLlamadas(Cliente cliente) {
+            return cliente.getLlamadas().stream().mapToDouble(llamada -> llamada.precioFinal(cliente)).sum();
         }
-        public void setTipo(String tipo) {
-            this.tipo = tipo;
-        }
-
-refactoring a aplicar: limpiar código
-
-código resultante: 
-
-    public abstract class Cliente {
-        private List<Llamada> llamadas = new ArrayList<Llamada>();
-        private String nombre;
-        private String numeroTelefono;
-        
-        public abstract double getDescuento();
-
-        public List<Llamada> getLlamadas(){
-            return this.llamadas;
-        }
-        
-        public String getNombre() {
-            return nombre;
-        }
-        public void setNombre(String nombre) {
-            this.nombre = nombre;
-        }
-        public String getNumeroTelefono() {
-            return numeroTelefono;
-        }
-        public void setNumeroTelefono(String numeroTelefono) {
-            this.numeroTelefono = numeroTelefono;
-        }
-        public abstract void setData(String data);
-    }

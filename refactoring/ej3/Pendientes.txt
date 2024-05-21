@@ -1,12 +1,3 @@
--> todas las nuevas variables que creo deben ser static final, y es un refacotring de agregar constante
-
--> señalar líneas puntuales donde está el mal olor
-
-preguntar por el TP de refactoring:
-como anotar en UML las variables estáticas -> las subrayo
-
-necesario poner getters, setters, constructores  y la clase de test en los UMLs?-> no, dejarlo comentado
-
 si la asignación de valores a las variables en GestorNumeroDisponibles es un mal olor por no estar en un constructor-> hacer un constructor, es legibilidad (no por mal olor)
 
 hay que documentar los cambios que hacemos para adaptar los test y otras clases al refactoring hecho?-> no está demás

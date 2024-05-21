@@ -643,9 +643,9 @@
 										"$ref": "AAAAAAGPkbF/kOz9xLk="
 									},
 									"font": "Arial;13;0",
-									"left": 440,
+									"left": 438,
 									"top": 497,
-									"width": 65.025390625,
+									"width": 68.2880859375,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -653,7 +653,7 @@
 										"$ref": "AAAAAAGPkbF/kO0BTQ8="
 									},
 									"edgePosition": 1,
-									"text": "-llamadas *"
+									"text": "+llamadas *"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -1009,6 +1009,7 @@
 											"top": 110,
 											"width": 508.62841796875,
 											"height": 13,
+											"underline": true,
 											"text": "~descuentoJur: Real",
 											"horizontalAlignment": 0
 										},
@@ -1026,6 +1027,7 @@
 											"top": 125,
 											"width": 508.62841796875,
 											"height": 13,
+											"underline": true,
 											"text": "~descuentoFis: Real",
 											"horizontalAlignment": 0
 										},
@@ -2500,8 +2502,7 @@
 									"$ref": "AAAAAAGPka9V2+d5q1c="
 								},
 								"navigable": "navigable"
-							},
-							"visibility": "private"
+							}
 						}
 					],
 					"attributes": [
@@ -2843,6 +2844,7 @@
 							},
 							"name": "descuentoJur",
 							"visibility": "package",
+							"isStatic": true,
 							"type": "Real"
 						},
 						{
@@ -2853,6 +2855,7 @@
 							},
 							"name": "descuentoFis",
 							"visibility": "package",
+							"isStatic": true,
 							"type": "Real"
 						},
 						{

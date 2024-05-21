@@ -2,53 +2,51 @@ mal olor: inicialización en varios pasos
 
 código donde se presenta:
     dentro de la clase Empresa:
-        public Llamada registrarLlamada(Cliente origen, Cliente destino, Llamada llamada, int duracion) {
-            llamada.setOrigen(origen.getNumeroTelefono());
-            llamada.setDestino(destino.getNumeroTelefono());
-            llamada.setDuracion(duracion);
-            llamadas.add(llamada);
-            origen.getLlamadas().add(llamada);
-            return llamada;
+        public Cliente registrarUsuario(String data, String nombre, Cliente cliente) {
+            cliente.setNombre(nombre);
+            String tel = this.obtenerYOcuparNumeroDisponible();
+            cliente.setNumeroTelefono(tel);
+            cliente.setData(data);
+            
+            clientes.add(cliente);
+            return cliente;
         }
+    
+    dentro de la clase Cliente:
+        private List<Llamada> llamadas = new ArrayList<Llamada>();
 
 refactoring: crear constructor
 
 código resultante:
 
-    dentro de la clase Llamada:
-        public Llamada(int duracion) {
-            this.origen = "";
-            this.destino = "";
-            this.duracion = duracion;
+    dentro de la clase Cliente:
+        private List<Llamada> llamadas;
+
+        public Cliente(String nombre, String numeroTelefono) {
+            this.nombre = nombre;
+            this.numeroTelefono = numeroTelefono;
+            this.llamadas = new ArrayList<Llamada>();
         }
 
-    dentro de la clase LlamadaInternacional:
-        public LlamadaInternacional(int duracion) {
-            super(duracion);
-        }
-
-    dentro de la clase LlamadaNacional:
-        public LlamadaNacional(int duracion) {
-            super(duracion);
+    dentro de la clase ClienteFisico:
+        public ClienteFisico (String nombre, String numeroTelefono, String dni) {
+            super(nombre, numeroTelefono);
+            this.dni = dni;
         }
     
-    dentro de la clase Empresa:
-        public Llamada registrarLlamada(Cliente origen, Cliente destino, Llamada llamada) {
-            llamada.setOrigen(origen.getNumeroTelefono());
-            llamada.setDestino(destino.getNumeroTelefono());
-            
-            llamadas.add(llamada);
-            origen.getLlamadas().add(llamada);
-            return llamada;
+    dentro de la clase ClienteJuridico:
+        public ClienteJuridico (String nombre, String numeroTelefono, String cuit) {
+            super(nombre, numeroTelefono);
+            this.cuit = cuit;
         }
 
-    dentro del test:
+    dentro de la clase Empresa:
+        dentro de testAgregarUsuario:
+            Cliente nuevaPersona = this.sistema.registrarUsuario(new ClienteFisico("Alan Turing", "2444555"));
+
         dentro de testcalcularMontoTotalLlamadas:
-        	this.sistema.registrarLlamada(emisorPersonaJuridica, remitentePersonaFisica, new LlamadaNacional(10));
-            this.sistema.registrarLlamada(emisorPersonaJuridica, remitentePersonaFisica, new LlamadaInternacional(8) );
-            this.sistema.registrarLlamada(emisorPersonaJuridica, remitentePersonaJuridica, new LlamadaNacional(5));
-            this.sistema.registrarLlamada(emisorPersonaJuridica, remitentePersonaJuridica, new LlamadaInternacional(7) );
-            this.sistema.registrarLlamada(emisorPersonaFisca, remitentePersonaFisica, new LlamadaNacional(15));
-            this.sistema.registrarLlamada(emisorPersonaFisca, remitentePersonaFisica, new LlamadaInternacional(45) );
-            this.sistema.registrarLlamada(emisorPersonaFisca, remitentePersonaJuridica, new LlamadaNacional(13) );
-            this.sistema.registrarLlamada(emisorPersonaFisca, remitentePersonaJuridica, new LlamadaInternacional(17) );
+            Cliente emisorPersonaFisca = sistema.registrarUsuario(new ClienteFisico("Brendan Eich", "11555666"));
+            Cliente remitentePersonaFisica = sistema.registrarUsuario(new ClienteFisico("Doug Lea", "00000001"));
+            Cliente emisorPersonaJuridica = sistema.registrarUsuario(new ClienteJuridico("Nvidia Corp", "17555222"));
+            Cliente remitentePersonaJuridica = sistema.registrarUsuario(new ClienteJuridico("Sun Microsystems", "25765432"));
+        

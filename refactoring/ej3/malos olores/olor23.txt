@@ -1,21 +1,17 @@
-mal olor: reinventar la rueda
+mal olor: número mágico
 
 código donde se presenta:
-    dentro de la clase Emrpesa:
-        public double calcularMontoTotalLlamadas(Cliente cliente) {
-            double c = 0;
-            for (Llamada l : cliente.getLlamadas()) {
-                double auxc = 0;
-                auxc += l.precioFinal(cliente);
-                c += auxc;
-            }
-            return c;
+    en la clase Llamada:
+        public double calcularCostoLlamada() {
+            return this.precioDuracion() + this.precioDuracion() * 0.21 + this.precioBase();
         }
 
-refactoring: replace loop with pipeline
+refactoring: crear constante
 
 código resultante:
-    dentro de la clase Empresa:
-        public double calcularMontoTotalLlamadas(Cliente cliente) {
-            return cliente.getLlamadas().stream().mapToDouble(llamada -> llamada.precioFinal(cliente)).sum();
+    en la clase Llamada:
+        private static final double iva = 0.21;
+
+        public double calcularCostoLlamada() {
+            return this.precioDuracion() + this.precioDuracion() * Llamada.iva + this.precioBase();
         }

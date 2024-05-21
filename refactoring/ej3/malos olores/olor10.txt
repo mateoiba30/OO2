@@ -8,4 +8,4 @@ refactoring: rename variable
 
 código final:
     dentro de la clase Empresa:
-        private final double descuentoJur = 0.15;
+        private static final double descuentoJur = 0.15;

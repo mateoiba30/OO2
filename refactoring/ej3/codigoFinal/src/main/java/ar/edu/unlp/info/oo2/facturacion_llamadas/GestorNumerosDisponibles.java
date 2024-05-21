@@ -6,8 +6,13 @@ import java.util.Random;
 import java.util.SortedSet;
 
 public class GestorNumerosDisponibles {
-	private SortedSet<String> numerosDisponibles = new TreeSet<String>();
-	private GestorStrategy tipoGenerador = new StrategyUltimo();
+	private SortedSet<String> numerosDisponibles;
+	private GestorStrategy tipoGenerador;
+	
+	public GestorNumerosDisponibles() {
+		this.numerosDisponibles  = new TreeSet<String>();
+		this.tipoGenerador = new StrategyUltimo();
+	}
 	
 	public SortedSet<String> getNumerosDisponibles() {
 		return numerosDisponibles;

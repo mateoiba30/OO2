@@ -1,32 +1,28 @@
 mal olor: envidia de atributos
 
 código donde se presenta: 	
-
-    public boolean agregarNumeroTelefono(String str) {
-		boolean encontre = this.gestor.numeroDisponible(str); //gestor.numeroDisponible(str);
-		
-		if (!encontre) {
-			gestor.getNumerosDisponibles().add(str);
-			encontre= true;
-			return encontre;
-		}
-		else {
-			encontre= false;
-			return encontre;
-		}
-	}
+    dentro de la clase GestorNumerosDisponibles:
+        public boolean agregarNumeroTelefono(String str) {
+            boolean encontre = this.gestor.numeroDisponible(str); //mal olor
+            
+            if (!encontre) {
+                gestor.getNumerosDisponibles().add(str);
+                encontre= true;
+                return encontre;
+            }
+            else {
+                encontre= false;
+                return encontre;
+            }
+        }
 	
 refactoring: move method
 
 código final:
-    dentro de la clase Empresa:
-        public boolean agregarNumeroTelefono(String str) {
-            return this.gestor.agregarNumeroTelefono(str);
-        }
 
     dentro de la clase GestorNumerosDisponibles:
         public boolean agregarNumeroTelefono(String str) {
-            boolean encontre = this.numeroDisponible(str); //gestor.numeroDisponible(str);
+            boolean encontre = this.numeroDisponible(str);
             
             if (!encontre) {
                 this.numerosDisponibles.add(str);
@@ -37,4 +33,9 @@ código final:
                 encontre= false;
                 return encontre;
             }
-	}
+	    }
+
+    dentro de la clase Empresa:
+        public boolean agregarNumeroTelefono(String str) {
+            return this.gestor.agregarNumeroTelefono(str);
+        }

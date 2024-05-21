@@ -37,7 +37,7 @@ public abstract class Llamada {
 	}
 	
 	public double calcularCostoLlamada() {
-		return this.precioDuracion() + this.precioDuracion() * this.iva + this.precioBase();
+		return this.precioDuracion() + this.precioDuracion() * Llamada.iva + this.precioBase();
 	}
 	
 	private double precioDuracion(){

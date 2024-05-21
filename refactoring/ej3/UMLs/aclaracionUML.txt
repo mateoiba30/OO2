@@ -1,0 +1,1 @@
+No indicamos los getters, setters y constructores dentro del UML ya que no aportan gran información y nos permite ver con claridad las Data Clases

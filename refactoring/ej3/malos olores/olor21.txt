@@ -12,8 +12,8 @@ código donde se presenta:
             return c;
         }
         
-        private double precioFinal(Cliente cliente, double costo) { //esto se debería hacer en Llamada
-            return costo - costo*cliente.getDescuento();
+        private double precioFinal(Cliente cliente, double costo) {
+            return costo - costo*cliente.getDescuento(); //mal olor, esto se debería hacer en Llamada
         }
 
 refactoring: move method

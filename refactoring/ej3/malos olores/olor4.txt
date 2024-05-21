@@ -1,4 +1,4 @@
-mal olor: nombre de variable no representativo
+mal olor: nombre de parámetro no representativo
 
 código donde se presenta:
     dentro de GestorNumerosDisponibles:
@@ -6,7 +6,7 @@ código donde se presenta:
             this.tipoGenerador = valor;
         }
 
-refactoring: rename variable
+refactoring: renombrar parámetro
 
 código final:
     dentro de GestorNumerosDisponibles:

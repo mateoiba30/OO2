@@ -4,10 +4,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Empresa {
-	private List<Cliente> clientes = new ArrayList<Cliente>();
-	private List<Llamada> llamadas = new ArrayList<Llamada>();
-	private GestorNumerosDisponibles gestor = new GestorNumerosDisponibles();
-
+	private List<Cliente> clientes;
+	private List<Llamada> llamadas;
+	private GestorNumerosDisponibles gestor;
+	
+	public Empresa() {
+		this.clientes = new ArrayList<Cliente>();
+		this.llamadas = new ArrayList<Llamada>();
+		this.gestor = new GestorNumerosDisponibles();
+	}
+	
 	public boolean agregarNumeroTelefono(String str) {
 		return this.gestor.agregarNumeroTelefono(str);
 	}

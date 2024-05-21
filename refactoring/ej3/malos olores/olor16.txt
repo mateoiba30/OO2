@@ -1,4 +1,4 @@
-malos olores: codigo duplicado, switch statement y envidia de atributos
+malos olores: codigo duplicado y switch statement
 
 código donde se presenta:
     dentro de la clase Empresa:

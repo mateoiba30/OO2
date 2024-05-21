@@ -1,69 +1,54 @@
-mal olor: dead code
+mal olor: inicialización en varios pasos
 
 código donde se presenta:
-    dentro de la clase Cliente:
-        public abstract void setData(String data);
-
-    dentro de la clase ClienteFisico:
-        public void setData(String data) {
-            this.dni = data;
+    dentro de la clase Empresa:
+        public Llamada registrarLlamada(Cliente origen, Cliente destino, Llamada llamada, int duracion) {
+            llamada.setOrigen(origen.getNumeroTelefono());
+            llamada.setDestino(destino.getNumeroTelefono());
+            llamada.setDuracion(duracion);
+            llamadas.add(llamada);
+            origen.getLlamadas().add(llamada);
+            return llamada;
         }
 
-    dentro de la clase ClienteJuridico:
-        public void setData(String data) {
-            this.cuit = data;
-        }
-
-refactoring: limpiar código
+refactoring: crear constructor
 
 código resultante:
 
-    public abstract class Cliente {
-        private List<Llamada> llamadas;
-        private String nombre;
-        private String numeroTelefono;
-        public Cliente(String nombre) {
-            this.nombre = nombre;
-            this.numeroTelefono = null;
-            this.llamadas = new ArrayList<Llamada>();
+    dentro de la clase Llamada:
+        public Llamada(int duracion) {
+            this.origen = "";
+            this.destino = "";
+            this.duracion = duracion;
         }
-        public abstract double getDescuento();
-        public List<Llamada> getLlamadas(){
-            return this.llamadas;
-        }
-        public String getNombre() {
-            return nombre;
-        }
-        public void setNombre(String nombre) {
-            this.nombre = nombre;
-        }
-        public String getNumeroTelefono() {
-            return numeroTelefono;
-        }
-        public void setNumeroTelefono(String numeroTelefono) {
-            this.numeroTelefono = numeroTelefono;
-        }
-    }
 
-    public class ClienteFisico extends Cliente {
-        private String dni;
-        public ClienteFisico (String nombre, String dni) {
-            super(nombre);
-            this.dni = dni;
+    dentro de la clase LlamadaInternacional:
+        public LlamadaInternacional(int duracion) {
+            super(duracion);
         }
-        public double getDescuento() {
-            return 0;
-        }
-    }
 
-    public class ClienteJuridico extends Cliente {
-        private String cuit;
-        public ClienteJuridico (String nombre, String cuit) {
-            super(nombre);
-            this.cuit = cuit;
-        }  
-        public double getDescuento() {
-            return 0.15;
+    dentro de la clase LlamadaNacional:
+        public LlamadaNacional(int duracion) {
+            super(duracion);
         }
-}
+    
+    dentro de la clase Empresa:
+        public Llamada registrarLlamada(Cliente origen, Cliente destino, Llamada llamada) {
+            llamada.setOrigen(origen.getNumeroTelefono());
+            llamada.setDestino(destino.getNumeroTelefono());
+            
+            llamadas.add(llamada);
+            origen.getLlamadas().add(llamada);
+            return llamada;
+        }
 
+    dentro del test:
+        dentro de testcalcularMontoTotalLlamadas:
+        	this.sistema.registrarLlamada(emisorPersonaJuridica, remitentePersonaFisica, new LlamadaNacional(10));
+            this.sistema.registrarLlamada(emisorPersonaJuridica, remitentePersonaFisica, new LlamadaInternacional(8) );
+            this.sistema.registrarLlamada(emisorPersonaJuridica, remitentePersonaJuridica, new LlamadaNacional(5));
+            this.sistema.registrarLlamada(emisorPersonaJuridica, remitentePersonaJuridica, new LlamadaInternacional(7) );
+            this.sistema.registrarLlamada(emisorPersonaFisca, remitentePersonaFisica, new LlamadaNacional(15));
+            this.sistema.registrarLlamada(emisorPersonaFisca, remitentePersonaFisica, new LlamadaInternacional(45) );
+            this.sistema.registrarLlamada(emisorPersonaFisca, remitentePersonaJuridica, new LlamadaNacional(13) );
+            this.sistema.registrarLlamada(emisorPersonaFisca, remitentePersonaJuridica, new LlamadaInternacional(17) );
