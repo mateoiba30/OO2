@@ -5,7 +5,7 @@ código donde se presenta:
         public String obtenerNumeroLibre(SortedSet<String> lineas) {
             String linea;
             linea = lineas.last();
-            lineas.remove(lineas.last());
+            lineas.remove(linea);
             return linea;
         }
     }
@@ -39,7 +39,7 @@ código resultante:
 
         public String obtenerNumeroLibre(SortedSet<String> lineas) {
             String linea = obtenerLinea(lineas);
-            lineas.remove(lineas.last());
+            lineas.remove(linea);
             return linea;
         }
     }
@@ -51,7 +51,7 @@ código resultante:
 
         public String obtenerNumeroLibre(SortedSet<String> lineas) {
             String linea = obtenerLinea(lineas);
-            lineas.remove(lineas.last());
+            lineas.remove(linea);
             return linea;
         }
     }
@@ -64,7 +64,7 @@ código resultante:
 
         public String obtenerNumeroLibre(SortedSet<String> lineas) {
             String linea = obtenerLinea(lineas);
-            lineas.remove(lineas.last());
+            lineas.remove(linea);
             return linea;
         }
     }

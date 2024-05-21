@@ -7,7 +7,7 @@ public abstract class GestorStrategy {
 	public String obtenerYOcuparNumeroLibre(SortedSet<String> lineas) {
 		String linea;
 		linea = obtenerNumero(lineas);
-		lineas.remove(lineas.last());
+		lineas.remove(linea);
 		return linea;
 	}
 	

@@ -2,6 +2,7 @@ Integrantes del equipo:
 Ibañez Gutkin, Mateo Agustín 25457/8
 Silva, Facundo 25459/9
 
-Si bien el refactoring apunta a eliminar varias malas prácticas dentro del códgio sin modificar la funcionalidad y cambiando lo menos posible la interfaz, hay refactorings que hemos aplicado los cuales modificaron la interfaz para ganar mucha más legibilidad y erradicar los malos olores dentro del código.
+Si bien el refactoring apunta a eliminar varias malas prácticas dentro del códgio sin modificar la funcionalidad y cambiando lo menos posible la interfaz, hay refactorings que hemos aplicado los cuales modificaron la interfaz para ganar mucha más legibilidad y erradicar los malos olores dentro del código. 
+Podríamos dejar la interfaz vieja para que sea un intermediario con las nuevas interfaces y así no romper código de terceros, donde deberíamos dejar deprecados estos métodos viejos y con malos olores en su interior. Personalmente consideramos mejor el eliminar los métodos viejos y modificar la interfaz, para así contener la menor cantidad de malos olores dentro del código
 
-Los getters que no son usados no los elimino, ya que son métodos que probablemente se requieran en un futuro y no amenazan con la ruptura del encapsulamiento ya que con un getter no se modifican valores 
+Los getters que no son usados no los eliminamos, ya que son métodos que probablemente se requieran en un futuro y no amenazan con la ruptura del encapsulamiento ya que con un getter no se modifican valores. Caso contrario con los setters, los cuales sacamos si no son necesarios para cuidar del encapsulamiento

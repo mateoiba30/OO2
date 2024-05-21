@@ -11,7 +11,7 @@ código donde se presenta:
         public String obtenerNumeroLibre(SortedSet<String> lineas) {
             String linea;
             linea = obtenerLinea(lineas);
-            lineas.remove(lineas.last());
+            lineas.remove(linea);
             return linea;
         }
 
@@ -33,7 +33,7 @@ código final:
             public String obtenerYOcuparNumeroDisponible(SortedSet<String> lineas) {
                 String linea;
                 linea = obtenerLinea(lineas);
-                lineas.remove(lineas.last());
+                lineas.remove(linea);
                 return linea;
             }
 
