@@ -8,7 +8,7 @@ X 2) Aplicar refactoirngs cambiando el código
 	Si vuelve a encontrar un mal olor, retorne al paso (i).
 
 3) revisar:
- () todo el código por arriba a ver si algo me llama la atención
+ 	() todo el código por arriba a ver si algo me llama la atención
 	(i) getters y setters innecesarios
 	(ii) si podemos sacar variables de instancia inncesarias
 	(iii) si nos quedan Data Clases aclarar que es un mal olor que no implica un error

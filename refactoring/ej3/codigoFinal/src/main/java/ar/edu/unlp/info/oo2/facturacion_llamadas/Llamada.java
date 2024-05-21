@@ -1,11 +1,17 @@
 package ar.edu.unlp.info.oo2.facturacion_llamadas;
 
 public abstract class Llamada {
-	private final double iva = 0.21;
+	private static final double iva = 0.21;
 	
 	private String origen;
 	private String destino;
 	private int duracion;
+	
+	public Llamada(int duracion) {
+		this.origen = "";
+		this.destino = "";
+		this.duracion = duracion;
+	}
 	
 	public void setOrigen(String origen) {
 		this.origen = origen;

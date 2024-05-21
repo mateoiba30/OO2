@@ -4,8 +4,9 @@ public class ClienteFisico extends Cliente {
 
 	private String dni;
 	
-	public void setData(String data) {
-		this.dni = data;
+	public ClienteFisico (String nombre, String dni) {
+		super(nombre);
+		this.dni = dni;
 	}
 	
 	public double getDescuento() {

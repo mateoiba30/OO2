@@ -1,0 +1,47 @@
+-> todas las nuevas variables que creo deben ser static final, y es un refacotring de agregar constante
+
+-> señalar líneas puntuales donde está el mal olor
+
+preguntar por el TP de refactoring:
+como anotar en UML las variables estáticas -> las subrayo
+
+necesario poner getters, setters, constructores  y la clase de test en los UMLs?-> no, dejarlo comentado
+
+si la asignación de valores a las variables en GestorNumeroDisponibles es un mal olor por no estar en un constructor-> hacer un constructor, es legibilidad (no por mal olor)
+
+hay que documentar los cambios que hacemos para adaptar los test y otras clases al refactoring hecho?-> no está demás
+
+el mal olor nombre de mensaje no representativo tiene un nombre formal?-> no, como está
+
+es romper el encapsulamiento tener getters o setters que nadie usa?-> no
+
+hace falta señalar malos olores sin solución? como el pasamanos del Strategy, DataClases que no les puedo dar funcionalidades, etc. -> señalarlo
+
+está bien el nombre del refactoring del olor 15?-> sustituir algoritmo, en otro paso elimino el método que me quedabq sin ser llamado aclarando que es un death code
+
+está bien decir switch statement al tener un if-else? -> es lo mismo
+
+está bien en el olor 16 solucionar tantas cosas a la vez, aunque sea con un solo refactoring - > si
+
+el registrarUsuario y registrarLlamada en empresa está bien que inicialicen en varios pasos al cliente y llamada respectivamente? -> no, hacer constructor por legibilidad
+
+->setData() lo tengo que separar en setDni y serCuit en las clases de cliente
+
+si hay olor de números mágicos en las subcalses de Llamada y subcalses de cliente-> no
+
+nombre del refactoring 17 y 18 -> está bien así
+
+pasar todo un objeto cuando necesito un par de sus variables es un mal olor? -> si no es obvio lo que necesito entonces quemande todo el objeto, quien llama no tiene como saber lo que se pide. De todas formas comentarlo
+
+->ver los pasos de teoría para hacer refactorings
+
+3) revisar:
+ 	() todo el código por arriba a ver si algo me llama la atención
+	(i) getters y setters innecesarios
+	(ii) si podemos sacar variables de instancia inncesarias
+	(iii) si nos quedan Data Clases aclarar que es un mal olor que no implica un error
+	(iv) fijarnos en los archivos de malos olores si teníamos que nombrar más de un olor solucionado
+	(v) que quede claro donde está el mal olor
+	(vi) nombres de malos olores y de refactorings
+
+4) hacer el UML final

@@ -20,22 +20,19 @@ public class Empresa {
 		return this.gestor;
 	}
 	
-	public Cliente registrarUsuario(String data, String nombre, Cliente cliente) {
-		cliente.setNombre(nombre);
+	public Cliente registrarUsuario(Cliente cliente) {
 		String tel = this.obtenerYOcuparNumeroDisponible();
-		cliente.setNumeroTelefono(tel);
-		cliente.setData(data);
-		
+		cliente.setNumeroTelefono(tel);	
 		clientes.add(cliente);
 		return cliente;
 	}
 
-	public Llamada registrarLlamada(Cliente origen, Cliente destino, Llamada llamada, int duracion) {
+	public Llamada registrarLlamada(Cliente origen, Cliente destino, Llamada llamada) {
 		llamada.setOrigen(origen.getNumeroTelefono());
 		llamada.setDestino(destino.getNumeroTelefono());
-		llamada.setDuracion(duracion);
+		
 		llamadas.add(llamada);
-		origen.getLlamadas().add(llamada);
+		origen.agregarLlamada(llamada);
 		return llamada;
 	}
 

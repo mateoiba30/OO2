@@ -1,0 +1,27 @@
+mal olor: método largo
+
+código donde se presenta:
+    dentro de la clase Empresa, en el método registrarLlamada:
+        public Llamada registrarLlamada(Cliente origen, Cliente destino, Llamada llamada) {
+            llamada.setOrigen(origen.getNumeroTelefono());
+            llamada.setDestino(destino.getNumeroTelefono());
+            llamadas.add(llamada);
+            origen.getLlamadas().add(llamada); //mal olor
+            return llamada;
+        }
+
+refactoring: extract method
+
+código resultante:
+	public Llamada registrarLlamada(Cliente origen, Cliente destino, Llamada llamada) {
+		llamada.setOrigen(origen.getNumeroTelefono());
+		llamada.setDestino(destino.getNumeroTelefono());
+		
+		llamadas.add(llamada);
+		this.agregarLlamada(origen, llamada);
+		return llamada;
+	}
+	
+	public void agregarLlamada(Cliente origen, Llamada llamada) {
+		origen.getLlamadas().add(llamada);
+	}
