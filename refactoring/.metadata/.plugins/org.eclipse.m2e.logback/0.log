@@ -1035,3 +1035,5 @@ Caused by: java.lang.Exception: File not found: C:\Users\Mateo\Documents\1 uni\2
 2024-05-21 12:26:03,425 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\refactoring\ej3\codigoFinal\src\test\resources
 2024-05-21 12:29:15,875 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2024-05-21 12:29:15,876 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\refactoring\ej3\codigoFinal\src\main\resources
+2024-05-21 12:29:15,877 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-05-21 12:29:15,878 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mateo\Documents\1 uni\2024\cuatri1\oo2\refactoring\ej3\codigoFinal\src\test\resources
