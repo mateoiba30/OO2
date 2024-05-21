@@ -1243,3 +1243,11 @@ java.lang.NullPointerException: Cannot invoke "org.eclipse.jface.text.ITextViewe
 
 !ENTRY org.eclipse.m2e.logback.appender 4 0 2024-05-21 11:42:32.602
 !MESSAGE Failed to find a compatible VM for environment id 'JavaSE-11', falling back to workspace default
+
+!ENTRY org.eclipse.core.resources 2 2 2024-05-21 14:54:18.416
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2024-05-21 14:54:18.416
+!MESSAGE The project description file (.project) for 'ej3Catedra' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2024-05-21 14:54:50.053
+!MESSAGE Failed to find a compatible VM for environment id 'JavaSE-11', falling back to workspace default

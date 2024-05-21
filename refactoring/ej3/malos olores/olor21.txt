@@ -31,6 +31,6 @@ código resultante:
         }
 
     dentro de la clase Llamada:
-        public double precioFinal(Cliente cliente) {
+        public double precioFinal(Cliente cliente) { // no considero un mal olor pasar todo el Cliente, ya que no es obvio que solo se va a necesitar la variable del descuento del cliente
             return this.calcularCostoLlamada() - this.calcularCostoLlamada()*cliente.getDescuento();
         }

@@ -1,0 +1,52 @@
+mal olor: switch statement
+
+código donde se presenta:
+    dentro de la clase GestorNumerosDisponibles:
+        public String obtenerNumeroLibre() {
+            String linea;
+            switch (tipoGenerador) {
+                case "ultimo":
+                    return this.tipoGenerador.ultimaLinea();
+                case "primero":
+                    return this.tipoGenerador.primerLinea();
+                case "random":
+                    return this.tipoGenerador.lineaRandom();
+            }
+            return null;
+        }
+        
+refactoring: replace switch statement with polimorfism
+
+código resultante:
+
+    public interface GestorStrategy {
+        public String obtenerNumeroLibre(SortedSet<String> lineas);
+    }
+
+    public class StrategyUltimo implements GestorStrategy{
+        public String obtenerNumeroLibre(SortedSet<String> lineas) {
+            String linea;
+            linea = lineas.last();
+            lineas.remove(linea);
+            return linea;
+        }
+    }
+
+    public class StrategyPrimero implements GestorStrategy{
+        public String obtenerNumeroLibre(SortedSet<String> lineas) {
+            String linea;
+            linea = lineas.first();
+            lineas.remove(linea);
+            return linea;
+        }
+    }
+    
+    public class StrategyRandom implements GestorStrategy{
+        public String obtenerNumeroLibre(SortedSet<String> lineas) {
+            String linea;
+            linea = new ArrayList<String>(lineas)
+                    .get(new Random().nextInt(lineas.size()));
+            lineas.remove(linea);
+            return linea;
+        }
+    }

@@ -1,0 +1,43 @@
+mal olor: métodos largos
+
+código donde se presenta:
+    dentro de la clase LlamadaInternacional:
+        public double calcularCostoLlamada() {
+            return this.getDuracion() * 150 + (this.getDuracion() * 150 * 0.21) + 50;
+        }
+
+    dentro de la clase LlamadaNacional:
+    	public double calcularCostoLlamada() {
+            return this.getDuracion() * 3 + (this.getDuracion() * 3 * 0.21);
+        }
+
+refactoring: extract method
+
+código resultante:
+    dentro de la clase LlamadaInternacional:
+        public double calcularCostoLlamada() {
+                return this.precioDuracion() + this.precioDuracion() * 0.21 + this.precioBase();
+            }        
+            private double precioDuracion(){
+                return this.getDuracion() * this.precioPorSegundo();
+            }        
+            public double precioPorSegundo(){
+                return 150;
+            }     
+            public abstract double precioBase(){
+                return 50;
+            }
+
+    dentro de la clase LlamadaNacional:
+        public double calcularCostoLlamada() {
+                return this.precioDuracion() + this.precioDuracion() * 0.21 + this.precioBase();
+            }        
+            private double precioDuracion(){
+                return this.getDuracion() * this.precioPorSegundo();
+            }        
+            public double precioPorSegundo(){
+                return 3;
+            }     
+            public abstract double precioBase(){
+                return 0;
+            }

@@ -1,0 +1,66 @@
+mal olor: codigo repetido:
+
+código donde se presenta:
+        dentro del GestorNumerosDisponibles:
+            public String obtenerNumeroLibre() {
+                String linea;
+                switch (tipoGenerador) {
+                    case "ultimo":
+                        linea = lineas.last();
+                        lineas.remove(linea);
+                        return linea;
+                    case "primero":
+                        linea = lineas.first();
+                        lineas.remove(linea);
+                        return linea;
+                    case "random":
+                        linea = new ArrayList<String>(lineas)
+                                .get(new Random().nextInt(lineas.size()));
+                        lineas.remove(linea);
+                        return linea;
+                }
+                return null;
+            }
+
+
+refactoring: move method
+
+código resultante:
+    dentro de la clase GestorNumerosDisponibles:
+        private GestorStrategy tipoGenerador;
+        
+        public String obtenerNumeroLibre() {
+            String linea;
+            switch (tipoGenerador) {
+                case "ultimo":
+                    return this.tipoGenerador.ultimaLinea();
+                case "primero":
+                    return this.tipoGenerador.primerLinea();
+                case "random":
+                    return this.tipoGenerador.lineaRandom();
+            }
+            return null;
+        }
+
+    creo clase de GestorStrategy:
+        public class GestorStrategy{
+
+            public String ultimaLinea(){
+                linea = lineas.last();
+                lineas.remove(linea);
+                return linea;
+            }
+
+            public String primerLinea(){
+                linea = lineas.first();
+                lineas.remove(linea);
+                return linea;
+            }
+
+            public String lineaRandom(){
+                linea = new ArrayList<String>(lineas)
+                        .get(new Random().nextInt(lineas.size()));
+                lineas.remove(linea);
+                return linea;
+            }
+        }

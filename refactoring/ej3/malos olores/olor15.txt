@@ -20,10 +20,14 @@ código donde se presenta:
             }
         }
 	
-refactoring: replace sentences with method
+refactoring: sustituir algoritmo
 
 código final:
     dentro de la clase de GestorNumerosDisponibles:
+        public boolean numeroDisponible(String str) {
+            return this.numerosDisponibles.contains(str);
+        }
+
         public boolean agregarNumeroTelefono(String str) {
             return this.numerosDisponibles.add(str);
         }

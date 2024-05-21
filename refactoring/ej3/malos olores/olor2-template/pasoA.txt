@@ -1,4 +1,4 @@
-mal olor: codigo duplicado
+mal olor: métodos largos
 
 código donde se presenta:
     public class StrategyUltimo implements GestorStrategy{
@@ -29,33 +29,42 @@ código donde se presenta:
         }
     }
 
-refactoring: template method
+refactoring: extract method
 
-código final:
-    public abstract class GestorStrategy {
-        public String obtenerNumeroLibre(SortedSet<String> lineas) {
-            String linea;
-            linea = obtenerNumeroLibre(lineas);
-            lineas.remove(lineas.last());
-            return linea;
-        } 
-        public abstract String obtenerNumero(SortedSet<String> lineas);
-    }
-
-    public class StrategyUltimo extends GestorStrategy{
-        public String obtenerNumero(SortedSet<String> lineas) {
+código resultante:
+    public class StrategyUltimo implements GestorStrategy{
+        public obtenerLinea(SortedSet<String> lineas){
             return lineas.last();
         }
-    }
 
-    public class StrategyPrimero extends GestorStrategy{
-        public String obtenerNumero(SortedSet<String> lineas) {
-            return lineas.first();
+        public String obtenerNumeroLibre(SortedSet<String> lineas) {
+            String linea = obtenerLinea(lineas);
+            lineas.remove(lineas.last());
+            return linea;
         }
     }
 
-    public class StrategyRandom extends GestorStrategy{
-        public String obtenerNumero(SortedSet<String> lineas) {
-            return new ArrayList<String>(lineas).get(new Random().nextInt(lineas.size()));
+    public class StrategyPrimero implements GestorStrategy{
+        public obtenerLinea(SortedSet<String> lineas){
+            return lineas.first();
+        }
+
+        public String obtenerNumeroLibre(SortedSet<String> lineas) {
+            String linea = obtenerLinea(lineas);
+            lineas.remove(lineas.last());
+            return linea;
+        }
+    }
+
+    public class StrategyRandom implements GestorStrategy{
+        public obtenerLinea(SortedSet<String> lineas){
+            return new ArrayList<String>(lineas)
+                    .get(new Random().nextInt(lineas.size()));
+        }
+
+        public String obtenerNumeroLibre(SortedSet<String> lineas) {
+            String linea = obtenerLinea(lineas);
+            lineas.remove(lineas.last());
+            return linea;
         }
     }
