@@ -13,6 +13,16 @@ código donde se presenta:
 refactoring: replace switch statement with polimorfism
 
 código resultante:
+    creo la clase LlamadaInternacional:
+        public double calcularCostoLlamada(){
+            return this.getDuracion() * 150 + this.getDuracion() * 150 * 0.21 + 50;
+        }
+
+    creo la clase LlamadaNacional:
+        public double calcularCostoLlamada(){
+            return this.getDuracion() * 3 + this.getDuracion() * 3 * 0.21;
+        }
+
     dentro de la clase Empresa:
         public Llamada registrarLlamada(Cliente origen, Cliente destino, Llamada llamada, int duracion) {
             llamada.setOrigen(origen.getNumeroTelefono());

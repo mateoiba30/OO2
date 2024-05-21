@@ -11,7 +11,7 @@ refactoring: move method
 código final:
     dentro de la clase Empresa:
         public boolean agregarNumeroTelefono(String str) {
-            boolean encontre = this.gestor.numeroDisponible(str); //gestor.numeroDisponible(str);
+            boolean encontre = this.gestor.numeroDisponible(str);
             
             if (!encontre) {
                 gestor.getNumerosDisponibles().add(str);
