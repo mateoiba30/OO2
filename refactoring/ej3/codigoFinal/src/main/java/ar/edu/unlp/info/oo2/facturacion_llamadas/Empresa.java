@@ -5,12 +5,10 @@ import java.util.List;
 
 public class Empresa {
 	private List<Cliente> clientes;
-	private List<Llamada> llamadas;
 	private GestorNumerosDisponibles gestor;
 	
 	public Empresa() {
 		this.clientes = new ArrayList<Cliente>();
-		this.llamadas = new ArrayList<Llamada>();
 		this.gestor = new GestorNumerosDisponibles();
 	}
 	
@@ -33,15 +31,20 @@ public class Empresa {
 		return cliente;
 	}
 
-	public Llamada registrarLlamada(Cliente origen, Cliente destino, Llamada llamada) {
-		llamada.setOrigen(origen.getNumeroTelefono());
-		llamada.setDestino(destino.getNumeroTelefono());
-		
-		llamadas.add(llamada);
-		origen.agregarLlamada(llamada);
-		return llamada;
+	public Llamada registrarLlamadaNacional(Cliente origen, Cliente destino, int duracion) {
+		Llamada llamada = new LlamadaNacional(origen.getNumeroTelefono(), destino.getNumeroTelefono(), duracion);
+		return guardarYDevolverLlamada(origen, llamada);
 	}
 
+	public Llamada registrarLlamadaInternacional(Cliente origen, Cliente destino, int duracion) {
+		Llamada llamada = new LlamadaInternacional(origen.getNumeroTelefono(), destino.getNumeroTelefono(), duracion);
+		return guardarYDevolverLlamada(origen, llamada);
+	}
+	
+	private Llamada guardarYDevolverLlamada(Cliente cliente, Llamada llamada) {
+		cliente.agregarLlamada(llamada);
+		return llamada;
+	}
 
 	public double calcularMontoTotalLlamadas(Cliente cliente) {
 		return cliente.getLlamadas().stream().mapToDouble(llamada -> llamada.precioFinal(cliente)).sum();
@@ -54,6 +57,4 @@ public class Empresa {
 	public boolean existeUsuario(Cliente persona) {
 		return clientes.contains(persona);
 	}
-
-
 }

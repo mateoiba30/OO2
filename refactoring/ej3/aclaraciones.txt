@@ -1,0 +1,7 @@
+Integrantes del equipo:
+Ibañez Gutkin, Mateo Agustín 25457/8
+Silva, Facundo 25459/9
+
+Si bien el refactoring apunta a eliminar varias malas prácticas dentro del códgio sin modificar la funcionalidad y cambiando lo menos posible la interfaz, hay refactorings que hemos aplicado los cuales modificaron la interfaz para ganar mucha más legibilidad y erradicar los malos olores dentro del código.
+
+Los getters que no son usados no los elimino, ya que son métodos que probablemente se requieran en un futuro y no amenazan con la ruptura del encapsulamiento ya que con un getter no se modifican valores 

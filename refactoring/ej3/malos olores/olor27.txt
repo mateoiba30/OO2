@@ -11,44 +11,47 @@ código donde se presenta:
             return llamada;
         }
 
-refactoring: crear constructor
+refactoring: crear constructores
 
 código resultante:
 
     dentro de la clase Llamada:
-        public Llamada(int duracion) {
-            this.origen = "";
-            this.destino = "";
+        public Llamada(String origen, String destino, int duracion) {
+            this.origen = origen;
+            this.destino = destino;
             this.duracion = duracion;
         }
 
     dentro de la clase LlamadaInternacional:
-        public LlamadaInternacional(int duracion) {
-            super(duracion);
+        public LlamadaInternacional(String origen, String destino, int duracion) {
+            super(origen, destino, duracion);
         }
 
     dentro de la clase LlamadaNacional:
-        public LlamadaNacional(int duracion) {
-            super(duracion);
+        public LlamadaNacional(String origen, String destino, int duracion) {
+            super(origen, destino, duracion);
         }
     
     dentro de la clase Empresa:
-        public Llamada registrarLlamada(Cliente origen, Cliente destino, Llamada llamada) {
-            llamada.setOrigen(origen.getNumeroTelefono());
-            llamada.setDestino(destino.getNumeroTelefono());
-            
-            llamadas.add(llamada);
-            origen.getLlamadas().add(llamada);
+        public Llamada registrarLlamadaNacional(Cliente origen, Cliente destino, int duracion) {
+            Llamada llamada = new LlamadaNacional(origen.getNumeroTelefono(), destino.getNumeroTelefono(), duracion);
+            origen.agregarLlamada(llamada);
+            return llamada;
+        }
+
+        public Llamada registrarLlamadaInternacional(Cliente origen, Cliente destino, int duracion) {
+            Llamada llamada = new LlamadaInternacional(origen.getNumeroTelefono(), destino.getNumeroTelefono(), duracion);
+            origen.agregarLlamada(llamada);
             return llamada;
         }
 
     dentro del test:
         dentro de testcalcularMontoTotalLlamadas:
-        	this.sistema.registrarLlamada(emisorPersonaJuridica, remitentePersonaFisica, new LlamadaNacional(10));
-            this.sistema.registrarLlamada(emisorPersonaJuridica, remitentePersonaFisica, new LlamadaInternacional(8) );
-            this.sistema.registrarLlamada(emisorPersonaJuridica, remitentePersonaJuridica, new LlamadaNacional(5));
-            this.sistema.registrarLlamada(emisorPersonaJuridica, remitentePersonaJuridica, new LlamadaInternacional(7) );
-            this.sistema.registrarLlamada(emisorPersonaFisca, remitentePersonaFisica, new LlamadaNacional(15));
-            this.sistema.registrarLlamada(emisorPersonaFisca, remitentePersonaFisica, new LlamadaInternacional(45) );
-            this.sistema.registrarLlamada(emisorPersonaFisca, remitentePersonaJuridica, new LlamadaNacional(13) );
-            this.sistema.registrarLlamada(emisorPersonaFisca, remitentePersonaJuridica, new LlamadaInternacional(17) );
+            this.sistema.registrarLlamadaNacional(emisorPersonaJuridica, remitentePersonaFisica, 10);
+            this.sistema.registrarLlamadaInternacional(emisorPersonaJuridica, remitentePersonaFisica, 8);
+            this.sistema.registrarLlamadaNacional(emisorPersonaJuridica, remitentePersonaJuridica, 5);
+            this.sistema.registrarLlamadaInternacional(emisorPersonaJuridica, remitentePersonaJuridica, 7);
+            this.sistema.registrarLlamadaNacional(emisorPersonaFisca, remitentePersonaFisica, 15);
+            this.sistema.registrarLlamadaInternacional(emisorPersonaFisca, remitentePersonaFisica, 45);
+            this.sistema.registrarLlamadaNacional(emisorPersonaFisca, remitentePersonaJuridica, 13);
+            this.sistema.registrarLlamadaInternacional(emisorPersonaFisca, remitentePersonaJuridica, 17);

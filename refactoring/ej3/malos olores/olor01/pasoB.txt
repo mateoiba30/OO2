@@ -2,17 +2,38 @@ mal olor: switch statement
 
 código donde se presenta:
     dentro de la clase GestorNumerosDisponibles:
+        private GestorStrategy tipoGenerador;
+
         public String obtenerNumeroLibre() {
             String linea;
             switch (tipoGenerador) {
                 case "ultimo":
-                    return this.tipoGenerador.ultimaLinea();
+                    return this.ultimaLinea(); //esta acción se la llevo a StrategyUltimo
                 case "primero":
-                    return this.tipoGenerador.primerLinea();
+                    return this.primerLinea(); //esta acción se la llevo a StrategyPrimero
                 case "random":
-                    return this.tipoGenerador.lineaRandom();
+                    return this.lineaRandom(); //esta acción se la llevo a StrategyRandom
             }
             return null;
+        }
+
+        public String ultimaLinea(){
+            linea = lineas.last();
+            lineas.remove(linea);
+            return linea;
+        }
+
+        public String primerLinea(){
+            linea = lineas.first();
+            lineas.remove(linea);
+            return linea;
+        }
+
+        public String lineaRandom(){
+            linea = new ArrayList<String>(lineas)
+                    .get(new Random().nextInt(lineas.size()));
+            lineas.remove(linea);
+            return linea;
         }
         
 refactoring: replace switch statement with polimorfism

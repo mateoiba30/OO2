@@ -7,21 +7,12 @@ public abstract class Llamada {
 	private String destino;
 	private int duracion;
 	
-	public Llamada(int duracion) {
-		this.origen = "";
-		this.destino = "";
-		this.duracion = duracion;
-	}
-	
-	public void setOrigen(String origen) {
+	public Llamada(String origen, String destino, int duracion) {
 		this.origen = origen;
-	}
-	public void setDestino(String destino) {
 		this.destino = destino;
-	}
-	public void setDuracion(int duracion) {
 		this.duracion = duracion;
 	}
+
 	public String getDestino() {
 		return destino;
 	}

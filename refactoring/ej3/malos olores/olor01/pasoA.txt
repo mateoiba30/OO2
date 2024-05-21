@@ -1,4 +1,4 @@
-mal olor: codigo repetido:
+mal olor: método largo
 
 código donde se presenta:
         dentro del GestorNumerosDisponibles:
@@ -23,7 +23,7 @@ código donde se presenta:
             }
 
 
-refactoring: move method
+refactoring: extract method
 
 código resultante:
     dentro de la clase GestorNumerosDisponibles:
@@ -33,34 +33,30 @@ código resultante:
             String linea;
             switch (tipoGenerador) {
                 case "ultimo":
-                    return this.tipoGenerador.ultimaLinea();
+                    return this.ultimaLinea();
                 case "primero":
-                    return this.tipoGenerador.primerLinea();
+                    return this.primerLinea();
                 case "random":
-                    return this.tipoGenerador.lineaRandom();
+                    return this.lineaRandom();
             }
             return null;
         }
 
-    creo clase de GestorStrategy:
-        public class GestorStrategy{
+        public String ultimaLinea(){
+            linea = lineas.last();
+            lineas.remove(linea);
+            return linea;
+        }
 
-            public String ultimaLinea(){
-                linea = lineas.last();
-                lineas.remove(linea);
-                return linea;
-            }
+        public String primerLinea(){
+            linea = lineas.first();
+            lineas.remove(linea);
+            return linea;
+        }
 
-            public String primerLinea(){
-                linea = lineas.first();
-                lineas.remove(linea);
-                return linea;
-            }
-
-            public String lineaRandom(){
-                linea = new ArrayList<String>(lineas)
-                        .get(new Random().nextInt(lineas.size()));
-                lineas.remove(linea);
-                return linea;
-            }
+        public String lineaRandom(){
+            linea = new ArrayList<String>(lineas)
+                    .get(new Random().nextInt(lineas.size()));
+            lineas.remove(linea);
+            return linea;
         }
