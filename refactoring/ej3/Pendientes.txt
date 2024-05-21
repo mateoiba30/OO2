@@ -1,6 +1,3 @@
-->ver los pasos de teoría para hacer refactorings (más que nada agrupar los refactorings relacionados para ver si conforman un mayor refactoring)
--> gestorStrategy debe ser interfaz
-
 3) revisar:
  	X () todo el código por arriba a ver si algo me llama la atención
 	? (i) getters y setters innecesarios
