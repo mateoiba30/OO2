@@ -3,7 +3,7 @@ mal olor: código repetido y switch statement
 código donde se presenta:
     dentro del GestorNumerosDisponibles:
 
-    	public String obtenerNumeroLibre() {
+    public String obtenerNumeroLibre() {
 		String linea;
 		switch (tipoGenerador) {
 			case "ultimo":
