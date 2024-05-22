@@ -1,2 +1,0 @@
-4) hacer el UML final
-5) entregar con extensión para que coloree el código

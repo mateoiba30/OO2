@@ -4,6 +4,8 @@ Silva, Facundo 25459/9
 
 leer malos olores en orden numérico
 
+No indicamos los getters, setters y constructores dentro del UML ya que no aportan gran información y nos permite ver con claridad las Data Clases
+
 los malos olores X y Xb no están relacionados, los que están en una misma carpeta de cierta forma lo están
 
 Si bien el refactoring apunta a eliminar varias malas prácticas dentro del códgio sin modificar la funcionalidad y cambiando lo menos posible la interfaz, hay refactorings que hemos aplicado los cuales modificaron la interfaz para ganar mucha más legibilidad y erradicar los malos olores dentro del código. 
