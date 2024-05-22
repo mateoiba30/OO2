@@ -1,0 +1,76 @@
+mal olor: nombre de mensaje no representativo
+
+código donde se presenta:
+
+    dentro de GestorNumerosDisponibles
+        public String obtenerNumeroLibre() {
+            return this.tipoGenerador.obtenerNumeroLibre(this.lineas);
+        }
+
+    dentro de GestorStrategy:
+        public String obtenerNumeroLibre(SortedSet<String> lineas) {
+            String linea;
+            linea = obtenerLinea(lineas);
+            lineas.remove(linea);
+            return linea;
+        }
+
+    dentro de Empresa:
+    	public String eliminarYDevolverLinea() {
+            return guia.eliminarYDevolverLinea();
+        }
+
+
+refactoring: rename method
+
+código final:
+        dentro de GestorNumerosDisponibles
+            public String obtenerYOcuparNumeroDisponible() {
+                return this.tipoGenerador.obtenerYOcuparNumeroDisponible(this.lineas);
+            }
+
+        dentro de GestorStrategy:
+            public String obtenerYOcuparNumeroDisponible(SortedSet<String> lineas) {
+                String linea;
+                linea = obtenerLinea(lineas);
+                lineas.remove(linea);
+                return linea;
+            }
+
+        dentro de Empresa:
+            public String obtenerYOcuparNumeroDisponible() {
+                return guia.obtenerYOcuparNumeroDisponible();
+            }
+
+            public Cliente registrarUsuario(String data, String nombre, String tipo) {
+                Cliente var = new Cliente();
+                if (tipo.equals("fisica")) {
+                    var.setNombre(nombre);
+                    String tel = this.obtenerYOcuparNumeroDisponible();
+                    var.setTipo(tipo);
+                    var.setNumeroTelefono(tel);
+                    var.setDNI(data);
+                }
+                else if (tipo.equals("juridica")) {
+                    String tel = this.obtenerYOcuparNumeroDisponible();
+                    var.setNombre(nombre);
+                    var.setTipo(tipo);
+                    var.setNumeroTelefono(tel);
+                    var.setCuit(data);
+                }
+                clientes.add(var);
+                return var;
+            }
+
+        dentro del test:
+            @Test
+            void obtenerNumeroLibre() {
+                // por defecto es el ultimo
+                assertEquals("2214444559", this.sistema.obtenerYOcuparNumeroDisponible());
+
+                this.sistema.getGestorNumeros().cambiarTipoGenerador(new StrategyPrimero());
+                assertEquals("2214444554", this.sistema.obtenerYOcuparNumeroDisponible());
+
+                this.sistema.getGestorNumeros().cambiarTipoGenerador(new StrategyRandom());
+                assertNotNull(this.sistema.obtenerYOcuparNumeroDisponible());
+            }

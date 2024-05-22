@@ -1,0 +1,30 @@
+mal olor: envidia de atributos
+
+código donde se presenta:
+    dentro de la clase Empresa:
+        public boolean numeroDisponible(String str) {
+            return gestor.getNumerosDisponibles().contains(str);
+        }
+
+refactoring: move method
+
+código final:
+    dentro de la clase Empresa:
+        public boolean agregarNumeroTelefono(String str) {
+            boolean encontre = this.gestor.numeroDisponible(str);
+            
+            if (!encontre) {
+                gestor.getNumerosDisponibles().add(str);
+                encontre= true;
+                return encontre;
+            }
+            else {
+                encontre= false;
+                return encontre;
+            }
+        }
+
+    dentro de la clase GestorNumerosDisponibles:
+        public boolean numeroDisponible(String str) {
+            return this.numerosDisponibles.contains(str);
+        }

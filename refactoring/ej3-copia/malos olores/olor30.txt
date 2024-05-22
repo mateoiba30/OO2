@@ -1,0 +1,34 @@
+mal olor: envidia de atributos
+
+código donde se presenta:
+    dentro de la clase Empresa:
+    	public Llamada registrarLlamada(Cliente origen, Cliente destino, Llamada llamada) {
+            llamada.setOrigen(origen.getNumeroTelefono());
+            llamada.setDestino(destino.getNumeroTelefono());
+            
+            llamadas.add(llamada);
+            this.agregarLlamada(origen, llamada);
+            return llamada;
+        }
+
+        public void agregarLlamada(Cliente origen, Llamada llamada) {
+            origen.getLlamadas().add(llamada); //mal olor
+        }
+
+refactoring: move method
+
+código resultante:
+    dentro de la clase Cliente:
+        public void agregarLlamada(Llamada llamada) {
+            this.llamadas.add(llamada);
+        }
+
+    dentro de la clase Empresa:
+        public Llamada registrarLlamada(Cliente origen, Cliente destino, Llamada llamada) {
+            llamada.setOrigen(origen.getNumeroTelefono());
+            llamada.setDestino(destino.getNumeroTelefono());
+            
+            llamadas.add(llamada);
+            origen.agregarLlamada(llamada);
+            return llamada;
+        }

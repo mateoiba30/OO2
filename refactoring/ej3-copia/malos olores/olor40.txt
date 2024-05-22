@@ -1,0 +1,19 @@
+mal olor: Spaghetti Code
+
+código donde se presenta:
+    public class StrategyRandom extends GestorStrategy{
+        public String obtenerNumero(SortedSet<String> lineas) {
+            return new ArrayList<String>(lineas).get(new Random().nextInt(lineas.size()));
+        }
+    }
+//hemos tardado un poco de tiempo en entender el siguiente código, por lo cual creemos que es conveniente mejorar su legibilidad
+
+refactoring: crear variable temporal
+
+código resultante:
+public class StrategyRandom extends GestorStrategy{
+	public String obtenerNumero(SortedSet<String> lineas) {
+		int posicionRandom = new Random().nextInt(lineas.size());
+		return new ArrayList<String>(lineas).get(posicionRandom);
+	}
+}

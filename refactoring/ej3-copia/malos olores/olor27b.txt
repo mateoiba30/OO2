@@ -1,0 +1,34 @@
+mal olor: código repetido
+
+código donde se presenta:
+    dentro de la clase Empresa:
+        public Llamada registrarLlamadaNacional(Cliente origen, Cliente destino, int duracion) {
+            Llamada llamada = new LlamadaNacional(origen.getNumeroTelefono(), destino.getNumeroTelefono(), duracion);
+            origen.agregarLlamada(llamada);
+            return llamada;
+        }
+
+        public Llamada registrarLlamadaInternacional(Cliente origen, Cliente destino, int duracion) {
+            Llamada llamada = new LlamadaInternacional(origen.getNumeroTelefono(), destino.getNumeroTelefono(), duracion);
+            origen.agregarLlamada(llamada);
+            return llamada;
+        }
+
+refactoring: extract method
+
+código resultante:
+    dentro de la clase Empresa:
+        public Llamada registrarLlamadaNacional(Cliente origen, Cliente destino, int duracion) {
+            Llamada llamada = new LlamadaNacional(origen.getNumeroTelefono(), destino.getNumeroTelefono(), duracion);
+            return guardarYDevolverLlamada(origen, llamada);
+        }
+
+        public Llamada registrarLlamadaInternacional(Cliente origen, Cliente destino, int duracion) {
+            Llamada llamada = new LlamadaInternacional(origen.getNumeroTelefono(), destino.getNumeroTelefono(), duracion);
+            return guardarYDevolverLlamada(origen, llamada);
+        }
+        
+        private Llamada guardarYDevolverLlamada(Cliente cliente, Llamada llamada) {
+            cliente.agregarLlamada(llamada);
+            return llamada;
+        }

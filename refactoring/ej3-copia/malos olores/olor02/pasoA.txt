@@ -1,0 +1,70 @@
+mal olor: métodos largos
+
+código donde se presenta:
+    public class StrategyUltimo implements GestorStrategy{
+        public String obtenerNumeroLibre(SortedSet<String> lineas) {
+            String linea;
+            linea = lineas.last();
+            lineas.remove(linea);
+            return linea;
+        }
+    }
+
+    public class StrategyPrimero implements GestorStrategy{
+        public String obtenerNumeroLibre(SortedSet<String> lineas) {
+            String linea;
+            linea = lineas.first();
+            lineas.remove(linea);
+            return linea;
+        }
+    }
+
+    public class StrategyRandom implements GestorStrategy{
+        public String obtenerNumeroLibre(SortedSet<String> lineas) {
+            String linea;
+            linea = new ArrayList<String>(lineas)
+                    .get(new Random().nextInt(lineas.size()));
+            lineas.remove(linea);
+            return linea;
+        }
+    }
+
+refactoring: extract method
+
+código resultante:
+    public class StrategyUltimo implements GestorStrategy{
+        public obtenerLinea(SortedSet<String> lineas){
+            return lineas.last();
+        }
+
+        public String obtenerNumeroLibre(SortedSet<String> lineas) {
+            String linea = obtenerLinea(lineas);
+            lineas.remove(linea);
+            return linea;
+        }
+    }
+
+    public class StrategyPrimero implements GestorStrategy{
+        public obtenerLinea(SortedSet<String> lineas){
+            return lineas.first();
+        }
+
+        public String obtenerNumeroLibre(SortedSet<String> lineas) {
+            String linea = obtenerLinea(lineas);
+            lineas.remove(linea);
+            return linea;
+        }
+    }
+
+    public class StrategyRandom implements GestorStrategy{
+        public obtenerLinea(SortedSet<String> lineas){
+            return new ArrayList<String>(lineas)
+                    .get(new Random().nextInt(lineas.size()));
+        }
+
+        public String obtenerNumeroLibre(SortedSet<String> lineas) {
+            String linea = obtenerLinea(lineas);
+            lineas.remove(linea);
+            return linea;
+        }
+    }

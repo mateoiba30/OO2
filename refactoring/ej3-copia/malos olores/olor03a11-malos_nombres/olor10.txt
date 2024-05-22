@@ -1,0 +1,11 @@
+mal olor: romper el encapsulamiento
+
+código donde se presenta: 
+    dentro de la clase Empresa:
+        static double descuentoJur = 0.15;
+
+refactoring: rename variable
+
+código final:
+    dentro de la clase Empresa:
+        private static final double descuentoJur = 0.15;

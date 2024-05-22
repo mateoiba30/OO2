@@ -1,0 +1,21 @@
+mal olor: reinventar la rueda
+
+código donde se presenta:
+    dentro de la clase Emrpesa:
+        public double calcularMontoTotalLlamadas(Cliente cliente) {
+            double c = 0;
+            for (Llamada l : cliente.getLlamadas()) {
+                double auxc = 0;
+                auxc += l.precioFinal(cliente);
+                c += auxc;
+            }
+            return c;
+        }
+
+refactoring: replace loop with pipeline
+
+código resultante:
+    dentro de la clase Empresa:
+        public double calcularMontoTotalLlamadas(Cliente cliente) {
+            return cliente.getLlamadas().stream().mapToDouble(llamada -> llamada.precioFinal(cliente)).sum();
+        }

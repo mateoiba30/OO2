@@ -1,0 +1,72 @@
+mal olor: código repetido
+
+código donde se presenta:
+    public class StrategyUltimo implements GestorStrategy{
+        public obtenerLinea(SortedSet<String> lineas){
+            return lineas.last();
+        }
+
+        public String obtenerNumeroLibre(SortedSet<String> lineas) {
+            String linea = obtenerLinea(lineas);
+            lineas.remove(linea);
+            return linea;
+        }
+    }
+
+    public class StrategyPrimero implements GestorStrategy{
+        public obtenerLinea(SortedSet<String> lineas){
+            return lineas.first();
+        }
+
+        public String obtenerNumeroLibre(SortedSet<String> lineas) {
+            String linea = obtenerLinea(lineas);
+            lineas.remove(linea);
+            return linea;
+        }
+    }
+
+    public class StrategyRandom implements GestorStrategy{
+        public obtenerLinea(SortedSet<String> lineas){
+            return new ArrayList<String>(lineas)
+                    .get(new Random().nextInt(lineas.size()));
+        }
+
+        public String obtenerNumeroLibre(SortedSet<String> lineas) {
+            String linea = obtenerLinea(lineas);
+            lineas.remove(linea);
+            return linea;
+        }
+    }
+
+refactoring: pull up method
+
+código resultante:
+
+    dentro de la clase GestorStrategy:
+        public String obtenerNumeroLibre(SortedSet<String> lineas) {
+            String linea;
+            linea = obtenerLinea(lineas);
+            lineas.remove(linea);
+            return linea;
+        }
+
+        public abstract String obtenerLinea(SortedSet<String> lineas);
+
+    public class StrategyUltimo implements GestorStrategy{
+        public obtenerLinea(SortedSet<String> lineas){
+            return lineas.last();
+        }
+    }
+
+    public class StrategyPrimero implements GestorStrategy{
+        public obtenerLinea(SortedSet<String> lineas){
+            return lineas.first();
+        }
+    }
+
+    public class StrategyRandom implements GestorStrategy{
+        public obtenerLinea(SortedSet<String> lineas){
+            return new ArrayList<String>(lineas)
+                    .get(new Random().nextInt(lineas.size()));
+        }
+    }

@@ -1,0 +1,17 @@
+mal olor: número mágico
+
+código donde se presenta:
+    en la clase Llamada:
+        public double calcularCostoLlamada() {
+            return this.precioDuracion() + this.precioDuracion() * 0.21 + this.precioBase();
+        }
+
+refactoring: crear constante
+
+código resultante:
+    en la clase Llamada:
+        private static final double iva = 0.21;
+
+        public double calcularCostoLlamada() {
+            return this.precioDuracion() + this.precioDuracion() * Llamada.iva + this.precioBase();
+        }

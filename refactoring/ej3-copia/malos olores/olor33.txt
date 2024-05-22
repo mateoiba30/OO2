@@ -1,0 +1,60 @@
+mal olor: dead code
+
+código donde se presenta:
+    dentro de la clase Empresa:
+        private List<Llamada> llamadas;
+
+//no la necesitamos directamente, todas las operaciones y búsquedas de llamadas se hacen en el método calcularMontoTotalLlamadas pasando por cada cliente y luego por la lista de llamadas de cada cliente
+
+refactoring: limpiar código
+
+código resultante:
+    public class Empresa {
+        private List<Cliente> clientes;
+        private GestorNumerosDisponibles gestor;
+        
+        public Empresa() {
+            this.clientes = new ArrayList<Cliente>();
+            this.gestor = new GestorNumerosDisponibles();
+        }
+        
+        public boolean agregarNumeroTelefono(String str) {
+            return this.gestor.agregarNumeroTelefono(str);
+        }
+
+        public String obtenerYOcuparNumeroDisponible() {
+            return gestor.obtenerYOcuparNumeroDisponible();
+        }
+        
+        public GestorNumerosDisponibles getGestorNumeros() {
+            return this.gestor;
+        }
+        
+        public Cliente registrarUsuario(Cliente cliente) {
+            String tel = this.obtenerYOcuparNumeroDisponible();
+            cliente.setNumeroTelefono(tel);	
+            clientes.add(cliente);
+            return cliente;
+        }
+
+        public Llamada registrarLlamada(Cliente origen, Cliente destino, Llamada llamada) {
+            llamada.setOrigen(origen.getNumeroTelefono());
+            llamada.setDestino(destino.getNumeroTelefono());
+            
+            origen.agregarLlamada(llamada);
+            return llamada;
+        }
+
+
+        public double calcularMontoTotalLlamadas(Cliente cliente) {
+            return cliente.getLlamadas().stream().mapToDouble(llamada -> llamada.precioFinal(cliente)).sum();
+        }
+
+        public int cantidadDeUsuarios() {
+            return clientes.size();
+        }
+
+        public boolean existeUsuario(Cliente persona) {
+            return clientes.contains(persona);
+        }
+    }

@@ -1,0 +1,69 @@
+mal olor: switch statement
+
+código donde se presenta:
+    dentro de la clase Empresa, en el método calcularMontoTotalLlamadas:
+        if (l.getTipoDeLlamada() == "nacional") {
+				// el precio es de 3 pesos por segundo más IVA sin adicional por establecer la llamada
+				auxc += l.getDuracion() * 3 + (l.getDuracion() * 3 * 0.21);
+			} else if (l.getTipoDeLlamada() == "internacional") {
+				// el precio es de 150 pesos por segundo más IVA más 50 pesos por establecer la llamada
+				auxc += l.getDuracion() * 150 + (l.getDuracion() * 150 * 0.21) + 50;
+			}
+
+refactoring: replace switch statement with polimorfism
+
+código resultante:
+    creo la clase LlamadaInternacional:
+        public double calcularCostoLlamada(){
+            return this.getDuracion() * 150 + this.getDuracion() * 150 * 0.21 + 50;
+        }
+
+    creo la clase LlamadaNacional:
+        public double calcularCostoLlamada(){
+            return this.getDuracion() * 3 + this.getDuracion() * 3 * 0.21;
+        }
+
+    dentro de la clase Empresa:
+        public Llamada registrarLlamada(Cliente origen, Cliente destino, Llamada llamada, int duracion) {
+            llamada.setOrigen(origen.getNumeroTelefono());
+            llamada.setDestino(destino.getNumeroTelefono());
+            llamada.setDuracion(duracion);
+            llamadas.add(llamada);
+            origen.getLlamadas().add(llamada);
+            return llamada;
+        }
+
+        public double calcularMontoTotalLlamadas(Cliente cliente) {
+            double c = 0;
+            for (Llamada l : cliente.getLlamadas()) {
+                double auxc = 0;
+                auxc += l.calcularCostoLlamada();
+        
+                auxc -= auxc*cliente.getDescuento();//c = c + aux - cliente.getDescuento(auxc);
+                c += auxc;
+            }
+            return c;
+        }
+
+    dentro del test:
+        @Test
+        void testcalcularMontoTotalLlamadas() {
+            Cliente emisorPersonaFisca = sistema.registrarUsuario("11555666", "Brendan Eich" , new ClienteFisico());
+            Cliente remitentePersonaFisica = sistema.registrarUsuario("00000001", "Doug Lea" , new ClienteFisico());
+            Cliente emisorPersonaJuridica = sistema.registrarUsuario("17555222", "Nvidia Corp" , new ClienteJuridico());
+            Cliente remitentePersonaJuridica = sistema.registrarUsuario("25765432", "Sun Microsystems" , new ClienteJuridico());
+
+            this.sistema.registrarLlamada(emisorPersonaJuridica, remitentePersonaFisica, new LlamadaNacional(), 10);
+            this.sistema.registrarLlamada(emisorPersonaJuridica, remitentePersonaFisica, new LlamadaInternacional(), 8);
+            this.sistema.registrarLlamada(emisorPersonaJuridica, remitentePersonaJuridica, new LlamadaNacional(), 5);
+            this.sistema.registrarLlamada(emisorPersonaJuridica, remitentePersonaJuridica, new LlamadaInternacional(), 7);
+            this.sistema.registrarLlamada(emisorPersonaFisca, remitentePersonaFisica, new LlamadaNacional(), 15);
+            this.sistema.registrarLlamada(emisorPersonaFisca, remitentePersonaFisica, new LlamadaInternacional(), 45);
+            this.sistema.registrarLlamada(emisorPersonaFisca, remitentePersonaJuridica, new LlamadaNacional(), 13);
+            this.sistema.registrarLlamada(emisorPersonaFisca, remitentePersonaJuridica, new LlamadaInternacional(), 17);
+
+            assertEquals(11454.64, this.sistema.calcularMontoTotalLlamadas(emisorPersonaFisca), 0.01);
+            assertEquals(2445.40, this.sistema.calcularMontoTotalLlamadas(emisorPersonaJuridica), 0.01);
+            assertEquals(0, this.sistema.calcularMontoTotalLlamadas(remitentePersonaFisica));
+            assertEquals(0, this.sistema.calcularMontoTotalLlamadas(remitentePersonaJuridica));
+        }

@@ -1,0 +1,43 @@
+mal olor: dead code
+
+código donde se presenta:
+
+    dentro de la clase Cliente:
+        private String tipo;
+
+        public String getTipo() {
+            return tipo;
+        }
+        public void setTipo(String tipo) {
+            this.tipo = tipo;
+        }
+
+refactoring a aplicar: limpiar código
+
+código resultante: 
+
+    public abstract class Cliente {
+        private List<Llamada> llamadas = new ArrayList<Llamada>();
+        private String nombre;
+        private String numeroTelefono;
+        
+        public abstract double getDescuento();
+
+        public List<Llamada> getLlamadas(){
+            return this.llamadas;
+        }
+        
+        public String getNombre() {
+            return nombre;
+        }
+        public void setNombre(String nombre) {
+            this.nombre = nombre;
+        }
+        public String getNumeroTelefono() {
+            return numeroTelefono;
+        }
+        public void setNumeroTelefono(String numeroTelefono) {
+            this.numeroTelefono = numeroTelefono;
+        }
+        public abstract void setData(String data);
+    }
