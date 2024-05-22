@@ -26,8 +26,8 @@ public class GestorNumerosDisponibles {
 		this.tipoGenerador = tipoGenerador;
 	}
 	
-	public boolean agregarNumeroTelefono(String str) {
-		return this.numerosDisponibles.add(str);
+	public boolean agregarNumeroTelefono(String numeroTelefono) {
+		return this.numerosDisponibles.add(numeroTelefono);
 	}
 	
 }

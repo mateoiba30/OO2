@@ -12,8 +12,8 @@ public class Empresa {
 		this.gestor = new GestorNumerosDisponibles();
 	}
 	
-	public boolean agregarNumeroTelefono(String str) {
-		return this.gestor.agregarNumeroTelefono(str);
+	public boolean agregarNumeroTelefono(String numeroTelefono) {
+		return this.gestor.agregarNumeroTelefono(numeroTelefono);
 	}
 
 	public String obtenerYOcuparNumeroDisponible() {

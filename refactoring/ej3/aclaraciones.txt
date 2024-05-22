@@ -2,6 +2,10 @@ Integrantes del equipo:
 Ibañez Gutkin, Mateo Agustín 25457/8
 Silva, Facundo 25459/9
 
+leer malos olores en orden numérico
+
+los malos olores X y Xb no están relacionados, los que están en una misma carpeta de cierta forma lo están
+
 Si bien el refactoring apunta a eliminar varias malas prácticas dentro del códgio sin modificar la funcionalidad y cambiando lo menos posible la interfaz, hay refactorings que hemos aplicado los cuales modificaron la interfaz para ganar mucha más legibilidad y erradicar los malos olores dentro del código. 
 Podríamos dejar la interfaz vieja para que sea un intermediario con las nuevas interfaces y así no romper código de terceros, donde deberíamos dejar deprecados estos métodos viejos y con malos olores en su interior. Personalmente consideramos mejor el eliminar los métodos viejos y modificar la interfaz, para así contener la menor cantidad de malos olores dentro del código
 
