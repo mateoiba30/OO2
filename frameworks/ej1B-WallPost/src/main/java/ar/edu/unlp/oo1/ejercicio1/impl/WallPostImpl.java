@@ -16,30 +16,17 @@ public class WallPostImpl implements WallPost {
 	private String text;
 	private int likes;
 	private boolean isFeatured;
-	private Logger postsLogger;
 
-	public WallPostImpl() throws SecurityException, IOException{
+	public WallPostImpl(){
 		this.text = "Undefined post";
-		this.initializeLogger();
 		this.analizeLikes();
 	}
 
-	public WallPostImpl(String text, int likes, boolean isFeaured) throws SecurityException, IOException {
+	public WallPostImpl(String text, int likes, boolean isFeaured){
 		this.text = text;
 		this.likes = likes;
 		this.isFeatured = isFeaured;
-		this.initializeLogger();
 		this.analizeLikes();
-	}
-	
-	private void initializeLogger()  throws SecurityException, IOException {
-		this.postsLogger = Logger.getLogger("cantidadLikes");
-		this.postsLogger.setLevel(Level.WARNING);//este es el level del logger, luego indico el level del handler
-		Handler fileHandler = new FileHandler("cantidadLikes");//no indicar que es .txt, eso ya es automático
-		//fileHandler.setFormatter(new ShoutingSimpleFormatter());
-		//fileHandler.setFormatter(new JSONFormatter());
-		fileHandler.setFormatter(new SecretSimpleFormatter(Arrays.asList("inicio", "dislike")));
-		this.postsLogger.addHandler(fileHandler);
 	}
 
 	@Override
@@ -74,10 +61,10 @@ public class WallPostImpl implements WallPost {
 	
 	private void analizeLikes() {
 		if (likes == 0)
-			this.postsLogger.log(Level.WARNING, "no hay likes");
+			Logger.getLogger("postsLogger").warning("no hay likes");
 		else
 			if (likes == 10)
-				this.postsLogger.log(Level.WARNING, "llegaste a 10 likes, felicitaciones!");
+				Logger.getLogger("postsLogger").warning("llegaste a 10 likes, felicitaciones!");
 	}
 
 	@Override

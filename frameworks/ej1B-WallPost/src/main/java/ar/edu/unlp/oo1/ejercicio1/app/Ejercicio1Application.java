@@ -14,29 +14,31 @@ import ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI;
 import ar.edu.unlp.oo1.ejercicio1.logging.JSONFormatter;
 import ar.edu.unlp.oo1.ejercicio1.logging.SecretSimpleFormatter;
 import ar.edu.unlp.oo1.ejercicio1.logging.ShoutingSimpleFormatter;
+import java.util.logging.*;
+import ar.edu.unlp.oo1.ejercicio1.logging.SecretHandler;
 
 public class Ejercicio1Application {
 
 	public static void main(String[] args) throws SecurityException, IOException {
 		
-		Logger postsLogger = Logger.getLogger("start");
-		postsLogger.setLevel(Level.INFO);//este es el level del logger, luego indico el level del handler
-		Handler fileHandler = new FileHandler("start");//no indicar que es .txt, eso ya es automático
+		Logger postsLogger = Logger.getLogger("postsLogger");
+		postsLogger.setUseParentHandlers(false);
+		
+		
+		
+		Handler fileHandler = new FileHandler("output");//no indicar que es .txt, eso ya es automático
+		fileHandler.setFormatter(new JSONFormatter());
 		//fileHandler.setFormatter(new ShoutingSimpleFormatter());
-		//fileHandler.setFormatter(new JSONFormatter());
-		fileHandler.setFormatter(new SecretSimpleFormatter(Arrays.asList("inicio", "dislike")));
-		fileHandler.setLevel(Level.INFO);
-		postsLogger.addHandler(fileHandler);
-		postsLogger.log(Level.INFO, "inicio de la aplicación");
+		//postsLogger.addHandler(fileHandler);
+		
+		Handler secureHandler = new SecretHandler(fileHandler, Arrays.asList("inicio", "dislike"));
+		postsLogger.addHandler(secureHandler);
+				
+		postsLogger.info("inicio de la aplicación");
 		
 		SwingUtilities.invokeLater(new Runnable() {
 			public void run() {
-				try {
-					new WallPostUI();
-				} catch (SecurityException | IOException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
+				new WallPostUI();
 			}
 		});
 	}

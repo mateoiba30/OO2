@@ -1,0 +1,52 @@
+May 28, 2024 7:21:53 PM ar.edu.unlp.oo1.ejercicio1.app.Ejercicio1Application main
+INFO: inicio de la aplicación
+May 28, 2024 7:21:54 PM ar.edu.unlp.oo1.ejercicio1.impl.WallPostImpl analizeLikes
+WARNING: no hay likes
+May 28, 2024 7:21:56 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$0
+INFO: like
+May 28, 2024 7:21:56 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$0
+INFO: like
+May 28, 2024 7:21:56 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$0
+INFO: like
+May 28, 2024 7:21:56 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$0
+INFO: like
+May 28, 2024 7:21:56 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$0
+INFO: like
+May 28, 2024 7:21:56 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$0
+INFO: like
+May 28, 2024 7:21:57 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$0
+INFO: like
+May 28, 2024 7:21:57 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$0
+INFO: like
+May 28, 2024 7:21:57 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$0
+INFO: like
+May 28, 2024 7:21:57 PM ar.edu.unlp.oo1.ejercicio1.impl.WallPostImpl analizeLikes
+WARNING: llegaste a 10 likes, felicitaciones!
+May 28, 2024 7:21:57 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$0
+INFO: like
+May 28, 2024 7:21:58 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$1
+INFO: dislike
+May 28, 2024 7:21:58 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$1
+INFO: dislike
+May 28, 2024 7:21:58 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$1
+INFO: dislike
+May 28, 2024 7:21:58 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$1
+INFO: dislike
+May 28, 2024 7:21:58 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$1
+INFO: dislike
+May 28, 2024 7:21:59 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$1
+INFO: dislike
+May 28, 2024 7:21:59 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$1
+INFO: dislike
+May 28, 2024 7:21:59 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$1
+INFO: dislike
+May 28, 2024 7:21:59 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$1
+INFO: dislike
+May 28, 2024 7:21:59 PM ar.edu.unlp.oo1.ejercicio1.impl.WallPostImpl analizeLikes
+WARNING: no hay likes
+May 28, 2024 7:21:59 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$1
+INFO: dislike
+May 28, 2024 7:21:59 PM ar.edu.unlp.oo1.ejercicio1.impl.WallPostImpl analizeLikes
+WARNING: no hay likes
+May 28, 2024 7:21:59 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$1
+INFO: dislike

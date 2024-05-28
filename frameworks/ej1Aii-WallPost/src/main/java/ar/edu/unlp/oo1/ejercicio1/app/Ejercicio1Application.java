@@ -15,22 +15,17 @@ public class Ejercicio1Application {
 
 	public static void main(String[] args) throws SecurityException, IOException {
 		
-		Logger postsLogger = Logger.getLogger("start");
-		postsLogger.setLevel(Level.INFO);//este es el level del logger, luego indico el level del handler
-		Handler fileHandler = new FileHandler("start");//no indicar que es .txt, eso ya es automático
+		Logger postsLogger = Logger.getLogger("postsLogger"); //Logger postsLoggerHijo = Logger.getLogger("start.hijo"); //este hereda el comportamiento del padre
+        postsLogger.setUseParentHandlers(false);
+        Handler fileHandler = new FileHandler("outputLogs");//no indicar que es .txt, eso ya es automático
 		fileHandler.setFormatter(new SimpleFormatter());
-		fileHandler.setLevel(Level.INFO);
 		postsLogger.addHandler(fileHandler);
-		postsLogger.log(Level.INFO, "inicio de la aplicación");
+		
+		postsLogger.info("inicio de la aplicación");
 		
 		SwingUtilities.invokeLater(new Runnable() {
 			public void run() {
-				try {
-					new WallPostUI();
-				} catch (SecurityException | IOException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
+				new WallPostUI();
 			}
 		});
 	}

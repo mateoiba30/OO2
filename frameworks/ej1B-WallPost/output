@@ -1,0 +1,49 @@
+{ "message": "May 28, 2024 7:55:16 PM ar.edu.unlp.oo1.ejercicio1.app.Ejercicio1Application main
+INFO:  *** de la aplicación
+", "level": "INFO" }{ "message": "May 28, 2024 7:55:16 PM ar.edu.unlp.oo1.ejercicio1.impl.WallPostImpl analizeLikes
+WARNING:  no hay likes
+", "level": "WARNING" }{ "message": "May 28, 2024 7:55:18 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$0
+INFO:  like
+", "level": "INFO" }{ "message": "May 28, 2024 7:55:18 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$0
+INFO:  like
+", "level": "INFO" }{ "message": "May 28, 2024 7:55:18 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$0
+INFO:  like
+", "level": "INFO" }{ "message": "May 28, 2024 7:55:18 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$0
+INFO:  like
+", "level": "INFO" }{ "message": "May 28, 2024 7:55:19 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$0
+INFO:  like
+", "level": "INFO" }{ "message": "May 28, 2024 7:55:19 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$0
+INFO:  like
+", "level": "INFO" }{ "message": "May 28, 2024 7:55:19 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$0
+INFO:  like
+", "level": "INFO" }{ "message": "May 28, 2024 7:55:19 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$0
+INFO:  like
+", "level": "INFO" }{ "message": "May 28, 2024 7:55:19 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$0
+INFO:  like
+", "level": "INFO" }{ "message": "May 28, 2024 7:55:19 PM ar.edu.unlp.oo1.ejercicio1.impl.WallPostImpl analizeLikes
+WARNING:  llegaste a 10 likes, felicitaciones!
+", "level": "WARNING" }{ "message": "May 28, 2024 7:55:19 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$0
+INFO:  like
+", "level": "INFO" }{ "message": "May 28, 2024 7:55:20 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$1
+INFO:  ***
+", "level": "INFO" }{ "message": "May 28, 2024 7:55:20 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$1
+INFO:  ***
+", "level": "INFO" }{ "message": "May 28, 2024 7:55:21 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$1
+INFO:  ***
+", "level": "INFO" }{ "message": "May 28, 2024 7:55:21 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$1
+INFO:  ***
+", "level": "INFO" }{ "message": "May 28, 2024 7:55:21 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$1
+INFO:  ***
+", "level": "INFO" }{ "message": "May 28, 2024 7:55:21 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$1
+INFO:  ***
+", "level": "INFO" }{ "message": "May 28, 2024 7:55:21 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$1
+INFO:  ***
+", "level": "INFO" }{ "message": "May 28, 2024 7:55:21 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$1
+INFO:  ***
+", "level": "INFO" }{ "message": "May 28, 2024 7:55:21 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$1
+INFO:  ***
+", "level": "INFO" }{ "message": "May 28, 2024 7:55:22 PM ar.edu.unlp.oo1.ejercicio1.impl.WallPostImpl analizeLikes
+WARNING:  no hay likes
+", "level": "WARNING" }{ "message": "May 28, 2024 7:55:22 PM ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$1
+INFO:  ***
+", "level": "INFO" }

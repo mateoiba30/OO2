@@ -34,9 +34,8 @@ public class WallPostUI {
   private JButton like; 
   private JButton dislike; 
   private JFrame window;
-  private Logger postsLogger;
 
-  public WallPostUI() throws SecurityException, IOException {
+  public WallPostUI(){
     this.wallPost = new WallPostImpl();
     this.textArea = new JTextArea();
     this.featuredLabelTitle = new JLabel("Featured");
@@ -49,17 +48,7 @@ public class WallPostUI {
     this.setUpWindow();
     this.wireComponents();
     this.window.setVisible(true);
-    this.initializeLogger();
   }
-	  
-	private void initializeLogger()  throws SecurityException, IOException {
-		this.postsLogger = Logger.getLogger("wallpostUI");
-		this.postsLogger.setLevel(Level.INFO);//este es el level del logger, luego indico el level del handler
-		Handler fileHandler = new FileHandler("mylogUI");//no indicar que es .txt, eso ya es automático
-		fileHandler.setFormatter(new SimpleFormatter());
-		fileHandler.setLevel(Level.INFO);
-		this.postsLogger.addHandler(fileHandler);
-	}
   
   private void setUpWindow() {
     JPanel pane = new JPanel();
@@ -101,16 +90,17 @@ public class WallPostUI {
     this.like.addActionListener( e -> {
       this.wallPost.like();
       this.likesLabel.setText(String.valueOf(this.wallPost.getLikes()));
-      this.postsLogger.log(Level.INFO, "like");
+      Logger.getLogger("postsLogger").info("like");
     });
     
     this.dislike.addActionListener( e -> {
       this.wallPost.dislike();
       this.likesLabel.setText(String.valueOf(this.wallPost.getLikes()));
-      this.postsLogger.log(Level.INFO, "dislike");
+      Logger.getLogger("postsLogger").info("dislike");
     });
     
     this.featuredCheckbox.addActionListener(e -> {
+      Logger.getLogger("postsLogger").info("cambio de verificacion");
       this.wallPost.toggleFeatured();
     });
     
@@ -118,16 +108,19 @@ public class WallPostUI {
       
       @Override
       public void removeUpdate(DocumentEvent e) {
+    	Logger.getLogger("postsLogger").info("remuevo texto");
         wallPost.setText(textArea.getText());
       }
       
       @Override
       public void insertUpdate(DocumentEvent e) {
+    	Logger.getLogger("postsLogger").info("inserta texto");
         wallPost.setText(textArea.getText());
       }
       
       @Override
       public void changedUpdate(DocumentEvent e) {
+    	Logger.getLogger("postsLogger").info("actualiza texto");
         wallPost.setText(textArea.getText());
       }
     });
