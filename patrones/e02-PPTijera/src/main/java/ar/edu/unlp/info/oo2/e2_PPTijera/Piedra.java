@@ -17,4 +17,5 @@ public class Piedra extends Jugada{
 	public String jugar(Spock spock) {
 		return "pierde jugador 1";
 	}
+	
 }
