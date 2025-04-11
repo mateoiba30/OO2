@@ -1,4 +1,4 @@
 *.class
 *.pdf
 *.PNG
-/.metadata/
+.metadata/
