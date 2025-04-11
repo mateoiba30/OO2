@@ -1,9 +1,0 @@
-mal olor: dead code
-
-código donde se presenta:
-    dentro de la clase GestorNumerosDisponibles:    
-        public void cambiarTipoGenerador(GestorStrategy tipoGenerador) {
-            this.tipoGenerador = tipoGenerador;
-        }
-
-refactoring: ninguno, ya que considero que se puede llegar a usar en un futuro cercano para elegir la estrategia que quiera, tal cual como indica el patrón del strategy
