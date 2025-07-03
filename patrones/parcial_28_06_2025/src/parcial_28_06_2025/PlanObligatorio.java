@@ -2,6 +2,10 @@ package parcial_28_06_2025;
 
 public class PlanObligatorio extends PlanMedico {
 	
+	public PlanObligatorio(LocalDate fechaContratacion) {
+		super(fechaContratacion);
+	}
+	
 	protected double montoFijo(Afiliado afiliado) {
 		return 15000;
 	}

@@ -2,6 +2,10 @@ package parcial_28_06_2025;
 
 public class PlanPremium extends PlanMedico {
 	
+	public PlanPremium(LocalDate fechaContratacion) {
+		super(fechaContratacion);
+	}
+	
 	protected double montoFijo(Afiliado afiliado) {
 		return 33000 - afiliado.getDescuento();
 	}

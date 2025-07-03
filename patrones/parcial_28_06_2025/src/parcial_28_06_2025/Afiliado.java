@@ -9,12 +9,27 @@ public class Afiliado {
 	private LocalDate fechaNacimiento;
 	private Coseguro coseguro;
 	
-	public double calcularMonto() {
-		this.plan.calcularMonto(this);
+	public Afiliado(PlanMedico plan, List<PlanMedico> previos, String nombre, int familiaresACargo, double salario, LocalDate fechaNacimiento, Coseguro coseguro) {
+		this.plan = plan;
+		this.previos = previos;
+		this.nombre = nombre;
+		this.familiaresACargo = familiaresACargo;
+		this.salario = salario;
+		this.fechaNacimiento = fechaNacimiento;
+		this.coseguro = coseguro;
+	}
+	
+	public void setCoseguro(Coseguro coseguro) {
+		this.coseguro = coseguro;
 	}
 	
 	public void setPlanMedico(PlanMedico plan) {
+		this.previos.add(this.plan);
 		this.plan = plan;
+	}
+	
+	public double calcularMonto() {
+		this.plan.calcularMonto(this);
 	}
 	
 	public double getDescuento() {

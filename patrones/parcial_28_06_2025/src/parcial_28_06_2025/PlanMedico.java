@@ -3,6 +3,10 @@ package parcial_28_06_2025;
 public abstract class PlanMedico {
 	private LocalDate fechaContratacion;
 	
+	public PlanMedico(LocalDate fechaContratacion) {
+		this.fechaContratacion = fechaContratacion;
+	}
+	
 	public LocalDate getFechaContratacion() {
 		return this.fechaContratacion;
 	}
